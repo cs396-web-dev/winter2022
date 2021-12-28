@@ -1,0 +1,45 @@
+
+/**********************************************************/
+/* Hint 1: Layout the Grid and assign boxes to grid-areas */
+/**********************************************************/
+body * {
+    width: 100%;
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    font-family: 'Arial';
+ }
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr;
+    grid-template-areas:
+       "a . b b"
+       "c d e f"
+       "g g g f";
+    min-height: 100vh;
+ }
+ article, aside, section, main {
+    border: solid 1px #000;
+ }
+ 
+ .menu1 {
+    grid-area: a;
+ }
+ 
+ .menu2 {
+    grid-area: b;
+    color: #444;
+ }
+ 
+ .card1 { grid-area: c; }
+ .card2 { grid-area: d; }
+ .card3 { grid-area: e; }
+ 
+ main { 
+    grid-area: g;
+ }
+ aside { 
+    grid-area: f;
+ }

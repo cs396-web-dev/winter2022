@@ -1,0 +1,16 @@
+/* * {
+    box-sizing: border-box;
+}
+body {
+   margin: 0px;
+} */
+
+
+
+@media only screen and (max-width: 1000px) {
+    /* tablet styles here */
+}
+
+@media only screen and (max-width: 600px) {
+   /* phone styles here */
+}

@@ -1,0 +1,15 @@
+{
+  "name": "lecture05",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "populate": "node ./config/populateDB.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.13",
+    "mongoose-id-validator": "^0.6.0"
+  }
+}

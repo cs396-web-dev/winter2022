@@ -1,0 +1,27 @@
+EXCLUDED = [
+    # 'assignments',
+    'demos',
+    'exams',
+    'build',
+    'administrative'
+    'tutorials',
+    'build.sh',
+    'zip_it.py',
+    'build_navigator.py',
+    'notebook-to-script.py',
+    'my_token.py',
+    # 'index.html',
+    # 'index.md',
+    'drafts',
+    '_drafts',
+    'solutions',
+    'cpd.db',
+    '__pycache__',
+    '.ipynb_checkpoints',
+    '.DS_Store',
+    'node_modules',
+    # 'images',
+    '_site',
+    '.vscode',
+    '.env'
+]

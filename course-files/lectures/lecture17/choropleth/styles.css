@@ -1,0 +1,29 @@
+* { box-sizing: border-box;}
+body { 
+    margin: 0; 
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+#my_dataviz {
+    width: 100vw;
+    height: 80vh;
+    border: solid 1px #000;
+}
+#detail {
+    height: 20vh;
+    border: solid 1px #000;
+    padding: 10px;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 4px 6px;
+    background: #FFFFFF;
+    color: #313639;
+    border: 1px solid #999;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.9rem;
+}

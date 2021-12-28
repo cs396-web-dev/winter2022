@@ -1,0 +1,71 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "CS396: Winter 2022"
+subtitle: "Intro to Web Development"
+email: vanwars@northwestern.edu
+baseurl: "/winter2022"
+term_start_date: "2022-01-02"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+campuswire_url: https://campuswire.com/p/G2A23DBD7
+
+timezone: "America/Chicago"
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_id_prefix: webdev_
+theme: minima
+plugins:
+  - jekyll-feed
+# exclude: [course-files]
+exclude: 
+  - "*node_modules*"
+  - "*drafts*"
+  - "course-files/lectures/lecture*/*"
+  - "course-files/assignments/hw*/*"
+  - "collections/assignments/drafts/*"
+  - "course-files/labs/lab08/*"
+#  - "course-files/labs/lab0*/*"
+#   - _assignments/draft
+#   - course-files/administrative
+#   - course-files/build
+#   - course-files/exams
+#   - course-files/homework/drafts
+#   - course-files/tutorials/drafts
+#   - course-files/lectures/drafts
+#   - course-files/practice_exams/drafts
+#   - course-files/projects/drafts
+
+collections:
+  assignments:
+    output: true
+    sort_by: ordering
+    permalink: /assignments/:name
+  lectures:
+    output: true
+    sort_by: lecture_date
+    permalink: /lectures/:name
+
+collections_dir: pages
+
+sass:
+  style: compact
+  sass_dir: _sass
+
+deadline_reminder: true
+
+

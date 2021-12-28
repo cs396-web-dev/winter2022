@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node chat-server.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "ws": "^7.4.3"
+  }
+}

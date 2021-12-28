@@ -1,0 +1,19 @@
+{
+    "artists": [
+        { "_id": "60737ac5f3481bbee0bb07f0", "name": "Beyonce", "genres": [ "dance pop", "pop", "post-teen pop", "r&b" ], "spotify_id": "6vWDO969PvNqNYHIOW5v0m", "image_url": "https://i.scdn.co/image/ad8b0e5a18a5a443a2678768bd73f59833941abc"},
+        { "_id": "6073ac25ffec85d71174aafb", "name": "Thelma Houston", "genres": [ "disco", "diva house", "motown", "post-disco" ], "spotify_id": "3sgUnR8TF35euWEV07RPyO", "image_url": "https://i.scdn.co/image/17f5192dd639be50c173f0cfbbb57ef5f16dfe58"},
+        { "_id": "60737a44690fbabe460e1a06", "name": "BTS", "genres": [ "k-pop", "k-pop boy group" ], "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX", "image_url": "https://i.scdn.co/image/8ef1003d0cab2411ebc066ae9e50c01dceaf4e6c"},
+        { "_id": "6073a9adc21f9ed50ba3044c", "name": "The Beatles", "genres" : [ "beatlesque", "british invasion", "classic rock", "merseybeat", "psychedelic rock", "rock" ], "spotify_id": "3WrFJ7ztbogyGnTHbHJFl2", "image_url": "https://i.scdn.co/image/6b2a709752ef9c7aaf0d270344157f6cd2e0f1a7"},
+        { "_id": "6073aa72429967d5be7d3372", "name": "Boston", "genres" : [ "album rock", "art rock", "classic rock", "country rock", "hard rock", "mellow gold", "rock", "soft rock" ], "spotify_id": "29kkCKKGXheHuoO829FxWK", "image_url": "https://i.scdn.co/image/91457d2e1cd0e38d1b0af68699aeb85416dd4ab8"},
+        { "_id": "6073ac25ffec85d71174aaff", "name": "Depeche Mode", "genres" : [ "dance rock", "new romantic", "new wave", "permanent wave", "synthpop" ], "spotify_id": "762310PdDnwsDxAQxzQkfX", "image_url": "https://i.scdn.co/image/2ec1d1c7a48df4244f0ba708eafd28b7afa6166b"}
+    ], 
+    "tracks": [
+        { "_id": "6073aef52fb2abd938a2ccd7", "name": "Don't Leave Me This Way", "spotify_id": "2rBBhFXtuMoGuwYTSDpAdF", "artist_id": "6073ac25ffec85d71174aafb" },
+        { "_id": "6073b1958a7056dba1c043c0", "name": "Enjoy the Silence - Single Mix", "spotify_id": "1YwNlWLf8auhazSQUDQLFU", "preview_url": "https://p.scdn.co/mp3-preview/0abeb731f0e86fa6b47d156e049ea6906e4e449d?cid=9697a3a271d24deea38f8b7fbfa0e13c", "artist_id": "6073ac25ffec85d71174aaff" },
+        { "_id": "6073b380b4bc50dc8ebc4060", "name": "Crazy In Love (feat. Jay-Z)", "spotify_id": "5IVuqXILoxVWvWEPm82Jxr", "artist_id": "60737ac5f3481bbee0bb07f0", "preview_url": "https://p.scdn.co/mp3-preview/ce8ace0ec425840416be78db07cf50dd331eed4f?cid=9697a3a271d24deea38f8b7fbfa0e13c" },
+        { "_id": "6073b4f7df8bfddd5913c081", "name": "Peace of Mind", "spotify_id": "1GqlvSEtMx5xbGptxOTTyk", "artist_id": "6073aa72429967d5be7d3372", "preview_url": "https://p.scdn.co/mp3-preview/7ea00cefb82b042c644cf5447a0d78f2d7546fd7?cid=9697a3a271d24deea38f8b7fbfa0e13c" },
+        { "_id": "6073b4f7df8bfddd5913c082", "name": "More Than a Feeling", "spotify_id": "1QEEqeFIZktqIpPI4jSVSF", "artist_id": "6073aa72429967d5be7d3372", "preview_url": "https://p.scdn.co/mp3-preview/97aaefeb43d0e2368526778487c7097607d5d78d?cid=9697a3a271d24deea38f8b7fbfa0e13c" },
+        { "_id": "6073b67bfeabe5de2b248c44", "name": "Here Comes The Sun - Remastered 2009", "spotify_id": "6dGnYIeXmHdcikdzNNDMm2", "artist_id": "6073a9adc21f9ed50ba3044c" },
+        { "_id": "6073b67bfeabe5de2b248c45", "name": "Spring Day", "spotify_id": "0WNGsQ1oAuHzNTk8jivBKW", "artist_id": "60737a44690fbabe460e1a06", "preview_url": "https://p.scdn.co/mp3-preview/013456e3b8d400c5ec20e58014f7747db16fcdfd?cid=9697a3a271d24deea38f8b7fbfa0e13c" }
+    ]
+}

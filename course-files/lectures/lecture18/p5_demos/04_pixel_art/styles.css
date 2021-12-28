@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 10vh;
+    background: #EEE;
+    padding: 20px;
+}
+
+header h1 {
+    margin-top: 0px;
+}
+
+#section1 {
+    height: 90vh;
+    cursor: url('pencil.png'), auto;	;
+}

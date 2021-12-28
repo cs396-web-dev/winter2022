@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Update Existing Artist</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Update Existing Artist</h1>
+        </header>
+        <main>
+            <form>
+                <input type="hidden" id="_id" value="60737ac5f3481bbee0bb07f0">
+                <div class="input-section">
+                    <label for="title">Name</label>
+                    <input type="text" id="name" value="Beyonce" placeholder="Name of artist">
+                </div>
+                <div class="input-section">
+                    <label for="genres">Genres</label>
+                    <input type="text" id="genres" value="dance pop, pop, post-teen pop, r&b" placeholder="List of genres (comma-separated)">
+                </div>
+                <div class="input-section">
+                    <label for="spotify_id">Spotify ID</label>
+                    <input type="text" id="spotify_id" value="6vWDO969PvNqNYHIOW5v0m" placeholder="Spotify ID">
+                </div>
+                <div class="input-section">
+                    <label for="image_url">Image</label>
+                    <input type="text" id="image_url" value="https://i.scdn.co/image/ad8b0e5a18a5a443a2678768bd73f59833941abc" placeholder="Image Address">
+                </div>
+                <button class="btn btn-main" id="save" type="submit">Save</button>
+            </form>
+        </main>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>

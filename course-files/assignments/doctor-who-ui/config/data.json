@@ -1,0 +1,713 @@
+{
+    "doctors": [
+        {
+            "seasons": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "_id": "6075029f746e3f38a5f0e947",
+            "name": "William Hartnell",
+            "doc_id": "d1",
+            "image_url": "https://pbs.twimg.com/media/D_s5kdTXsAE97Hm?format=jpg&name=medium",
+            "ordering": 1
+        },
+        {
+            "seasons": [
+                4,
+                5,
+                6
+            ],
+            "_id": "6075029f746e3f38a5f0e948",
+            "name": "Patrick Troughton",
+            "doc_id": "d2",
+            "image_url": "https://pbs.twimg.com/media/D_s5kdQX4AULATA?format=jpg&name=medium",
+            "ordering": 2
+        },
+        {
+            "seasons": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "_id": "6075029f746e3f38a5f0e949",
+            "name": "Jon Pertwee",
+            "doc_id": "d3",
+            "image_url": "https://pbs.twimg.com/media/D_s5kdSWsAIQbmN?format=jpg&name=medium",
+            "ordering": 3
+        },
+        {
+            "seasons": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "_id": "6075029f746e3f38a5f0e94a",
+            "name": "Tom Baker",
+            "doc_id": "d4",
+            "image_url": "https://pbs.twimg.com/media/D_s5kdTXsAA0SGw?format=jpg&name=medium",
+            "ordering": 4
+        },
+        {
+            "seasons": [
+                19,
+                20,
+                21
+            ],
+            "_id": "6075029f746e3f38a5f0e94b",
+            "name": "Peter Davison",
+            "doc_id": "d5",
+            "image_url": "https://pbs.twimg.com/media/D_s5mM7W4AoJpsW?format=jpg&name=medium",
+            "ordering": 5
+        },
+        {
+            "seasons": [
+                22,
+                23
+            ],
+            "_id": "6075029f746e3f38a5f0e94c",
+            "name": "Colin Baker",
+            "doc_id": "d6",
+            "image_url": "https://pbs.twimg.com/media/D_s5mRuXkAAlrtC?format=jpg&name=medium",
+            "ordering": 6
+        },
+        {
+            "seasons": [
+                24,
+                25,
+                26
+            ],
+            "_id": "6075029f746e3f38a5f0e94d",
+            "name": "Sylvester McCoy",
+            "doc_id": "d7",
+            "image_url": "https://pbs.twimg.com/media/D_s5mSTXkAEa3o4?format=jpg&name=medium",
+            "ordering": 7
+        },
+        {
+            "seasons": [],
+            "_id": "6075029f746e3f38a5f0e94e",
+            "name": "Paul McGann",
+            "doc_id": "d8",
+            "image_url": "https://pbs.twimg.com/media/D_s5mV7W4AMdaLK?format=jpg&name=medium",
+            "ordering": 8
+        },
+        {
+            "seasons": [
+                27
+            ],
+            "_id": "6075029f746e3f38a5f0e94f",
+            "name": "Christopher Eccelson",
+            "doc_id": "d9",
+            "image_url": "https://pbs.twimg.com/media/D_s5oYbW4AAemMs?format=jpg&name=medium",
+            "ordering": 9
+        },
+        {
+            "seasons": [
+                28,
+                29,
+                30
+            ],
+            "_id": "6075029f746e3f38a5f0e950",
+            "name": "David Tennant",
+            "doc_id": "d10",
+            "image_url": "https://pbs.twimg.com/media/D_s5oR9WwAA90lh?format=jpg&name=medium",
+            "ordering": 10
+        },
+        {
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "6075029f746e3f38a5f0e951",
+            "name": "Matt Smith",
+            "doc_id": "d11",
+            "image_url": "https://pbs.twimg.com/media/D_s5oQhXUAAHMCM?format=jpg&name=medium",
+            "ordering": 11
+        },
+        {
+            "seasons": [
+                34,
+                35,
+                36
+            ],
+            "_id": "6075029f746e3f38a5f0e952",
+            "name": "Peter Capaldi",
+            "doc_id": "d12",
+            "image_url": "https://pbs.twimg.com/media/D_s5pCLXkAAuN4z?format=jpg&name=medium",
+            "ordering": 12
+        },
+        {
+            "seasons": [
+                37,
+                38,
+                39
+            ],
+            "_id": "6075029f746e3f38a5f0e953",
+            "name": "Jodie Whittaker",
+            "image_url": "https://pbs.twimg.com/media/D_s5pGOXYAEZToY?format=jpg&name=medium",
+            "ordering": 13
+        }
+    ],
+    "companions": [
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e954",
+            "alive": true,
+            "character": "Susan Foreman",
+            "name": "Carole Ann Ford",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/20/Susan_Foreman.jpg",
+            "ordering": 1
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4
+            ],
+            "_id": "607502a0746e3f38a5f0e957",
+            "alive": true,
+            "character": "Polly",
+            "name": "Anneke Wills",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Polly_%28Doctor_Who%29.jpg",
+            "ordering": 2
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4
+            ],
+            "_id": "607502a0746e3f38a5f0e958",
+            "alive": true,
+            "character": "Ben Jackson",
+            "name": "Michael Craze",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/28/Ben_Jackson.jpg",
+            "ordering": 3
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                12,
+                13
+            ],
+            "_id": "607502a0746e3f38a5f0e95d",
+            "alive": true,
+            "character": "Harry Sullivan",
+            "name": "Ian Merter",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Harry_Sullivan.jpg",
+            "ordering": 4
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e955",
+            "alive": true,
+            "character": "Barbara Wright",
+            "name": "Jacqueline Hill",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/c/c5/Barbara_Wright.jpg",
+            "ordering": 5
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e948"
+            ],
+            "seasons": [
+                4,
+                5,
+                6
+            ],
+            "_id": "607502a0746e3f38a5f0e959",
+            "alive": true,
+            "character": "Jamie McCrimmon",
+            "name": "Frazer Hines",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/27/Jamie_mccrimmon_from_tomb.jpg",
+            "ordering": 6
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949"
+            ],
+            "seasons": [
+                7
+            ],
+            "_id": "607502a0746e3f38a5f0e95a",
+            "alive": true,
+            "character": "Liz Shaw",
+            "name": "Caroline John",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/9/94/Liz_Shaw.jpg",
+            "ordering": 7
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949"
+            ],
+            "seasons": [
+                8,
+                9,
+                10
+            ],
+            "_id": "607502a0746e3f38a5f0e95b",
+            "alive": true,
+            "character": "Jo Grant",
+            "name": "Katy Manning",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e2/Jo_Grant.jpg",
+            "ordering": 8
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e949",
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                11,
+                12,
+                13,
+                14
+            ],
+            "_id": "607502a0746e3f38a5f0e95c",
+            "alive": true,
+            "character": "Sarah Jane Smith",
+            "name": "Elisabeth Sladen",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Sarah_Jane_Smith_2006.jpg",
+            "ordering": 9
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e947"
+            ],
+            "seasons": [
+                1,
+                2
+            ],
+            "_id": "607502a0746e3f38a5f0e956",
+            "alive": true,
+            "character": "Ian Chesterton",
+            "name": "William Russell",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Ian_Chesterton.jpg",
+            "ordering": 10
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                14,
+                15
+            ],
+            "_id": "607502a0746e3f38a5f0e95e",
+            "alive": true,
+            "character": "Leela",
+            "name": "Louise Jameson",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/0/07/Leela_from_Doctor_Who.jpg",
+            "ordering": 11
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19
+            ],
+            "_id": "607502a0746e3f38a5f0e960",
+            "alive": false,
+            "character": "Adric",
+            "name": "Matthew Waterhouse",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Adric.jpg",
+            "ordering": 12
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a"
+            ],
+            "seasons": [
+                15,
+                16,
+                17,
+                18
+            ],
+            "_id": "607502a0746e3f38a5f0e95f",
+            "alive": false,
+            "character": "K-9",
+            "name": "John Leeson",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/2d/K-9.jpg",
+            "ordering": 13
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19,
+                20
+            ],
+            "_id": "607502a0746e3f38a5f0e961",
+            "alive": true,
+            "character": "Nyssa",
+            "name": "Sarah Sutton",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/7/78/Nyssaoftrakenfairyskirt.jpg",
+            "ordering": 14
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94d"
+            ],
+            "seasons": [
+                24,
+                25,
+                26
+            ],
+            "_id": "607502a0746e3f38a5f0e966",
+            "alive": true,
+            "character": "Ace",
+            "name": "Sophie Aldred",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/e/ef/Ace_%28Doctor_Who%29.jpg",
+            "ordering": 15
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94c",
+                "6075029f746e3f38a5f0e94d"
+            ],
+            "seasons": [
+                23,
+                24
+            ],
+            "_id": "607502a0746e3f38a5f0e965",
+            "alive": true,
+            "character": "Mel Bush",
+            "name": "Bonnie Langford",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Melanie_Bush.jpg",
+            "ordering": 16
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94a",
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                18,
+                19,
+                20,
+                21
+            ],
+            "_id": "607502a0746e3f38a5f0e962",
+            "alive": true,
+            "character": "Tegan Jovanka",
+            "name": "Janet Fielding",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/0/08/Tegan_Jovanka.jpg",
+            "ordering": 17
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94b"
+            ],
+            "seasons": [
+                20,
+                21
+            ],
+            "_id": "607502a0746e3f38a5f0e963",
+            "alive": true,
+            "character": "Vislor Turlough",
+            "name": "Mark Strickson",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Turlough.jpg",
+            "ordering": 18
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94b",
+                "6075029f746e3f38a5f0e94c"
+            ],
+            "seasons": [
+                21,
+                22,
+                23
+            ],
+            "_id": "607502a0746e3f38a5f0e964",
+            "alive": true,
+            "character": "Peri Brown",
+            "name": "Nicola Bryant",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e8/Peri_Brown.jpg",
+            "ordering": 19
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94e"
+            ],
+            "seasons": [],
+            "_id": "607502a0746e3f38a5f0e967",
+            "alive": true,
+            "character": "Grace Holloway",
+            "name": "Daphne Ashbrook",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Grace_Holloway.jpg",
+            "ordering": 20
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94f",
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                27,
+                28,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e968",
+            "alive": true,
+            "character": "Rose Tyler",
+            "name": "Billie Piper",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/7/74/Rose_Tyler.jpg",
+            "ordering": 21
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94f",
+                "6075029f746e3f38a5f0e950",
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                27,
+                29,
+                30,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e96a",
+            "alive": true,
+            "character": "Captain Jack Harkness",
+            "name": "John Barrowman",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Jack_Harkness.jpg",
+            "ordering": 22
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e94f"
+            ],
+            "seasons": [
+                27
+            ],
+            "_id": "607502a0746e3f38a5f0e969",
+            "alive": true,
+            "character": "Adam Mitchell",
+            "name": "Bruno Langley",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/6/62/Adam_Mitchell_%28Doctor_Who%29.jpg",
+            "ordering": 23
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                28,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96b",
+            "alive": true,
+            "character": "Mickey Smith",
+            "name": "Noel Clarke",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Mickey_Smith.jpg",
+            "ordering": 24
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                29,
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96d",
+            "alive": true,
+            "character": "Martha Jones",
+            "name": "Freema Agyeman",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Martha_Jones.jpg",
+            "ordering": 25
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e950"
+            ],
+            "seasons": [
+                30
+            ],
+            "_id": "607502a0746e3f38a5f0e96c",
+            "alive": true,
+            "character": "Donna Noble",
+            "name": "Catherine Tate",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/d/dd/Donna_Noble.jpg",
+            "ordering": 26
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951"
+            ],
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "607502a0746e3f38a5f0e96e",
+            "alive": false,
+            "character": "Amy Pond",
+            "name": "Karen Gillan",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Amy_Pond_Doctor_Who.png",
+            "ordering": 27
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951",
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                33,
+                34,
+                35
+            ],
+            "_id": "607502a0746e3f38a5f0e971",
+            "alive": false,
+            "character": "Clara Oswald",
+            "name": "Jenna Coleman",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/3/37/Clara_Oswald.jpg",
+            "ordering": 28
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951"
+            ],
+            "seasons": [
+                31,
+                32,
+                33
+            ],
+            "_id": "607502a0746e3f38a5f0e96f",
+            "alive": false,
+            "character": "Rory Williams",
+            "name": "Arthur Davill",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/3/30/Rory_Williams_Doctor_Who.png",
+            "ordering": 29
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e951",
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                32,
+                35
+            ],
+            "_id": "607502a0746e3f38a5f0e970",
+            "alive": true,
+            "character": "River Song",
+            "name": "Alex Kingston",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/River_Song_Doctor_Who.png",
+            "ordering": 30
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                36
+            ],
+            "_id": "607502a0746e3f38a5f0e972",
+            "alive": true,
+            "character": "Nardole",
+            "name": "Matt Lucas",
+            "image_url": "https://ichef.bbci.co.uk/images/ic/896xn/p04zmzxv.jpg",
+            "ordering": 31
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e952"
+            ],
+            "seasons": [
+                36
+            ],
+            "_id": "607502a0746e3f38a5f0e973",
+            "alive": false,
+            "character": "Bill Potts",
+            "name": "Pearl Mackie",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pearl_Mackie_by_Gage_Skidmore.jpg/440px-Pearl_Mackie_by_Gage_Skidmore.jpg",
+            "ordering": 32
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e974",
+            "alive": true,
+            "character": "Graham O'Brien",
+            "name": "Bradley Walsh",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Graham_O%27Brien.jpg",
+            "ordering": 33
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38
+            ],
+            "_id": "607502a0746e3f38a5f0e975",
+            "alive": true,
+            "character": "Ryan Sinclair",
+            "name": "Tosin Cole",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Ryan_Sinclair.jpg",
+            "ordering": 34
+        },
+        {
+            "doctors": [
+                "6075029f746e3f38a5f0e953"
+            ],
+            "seasons": [
+                37,
+                38,
+                39
+            ],
+            "_id": "607502a0746e3f38a5f0e976",
+            "alive": true,
+            "character": "Yasmin Khan",
+            "name": "Mandip Gill",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Yasmin_Khan_%28Doctor_Who%29.jpg",
+            "ordering": 35
+        }
+    ],
+    "favoriteDoctors": [
+        { "doctor" : "6075029f746e3f38a5f0e94a" },
+        { "doctor" : "6075029f746e3f38a5f0e94f" }
+    ],
+    "favoriteCompanions": [
+        { "companion" : "607502a0746e3f38a5f0e95c" },
+        { "companion" : "607502a0746e3f38a5f0e966" }
+    ]
+}

@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+header a, header span {
+    margin-left: 10px;
+}
+header span {
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    align-self: flex-start;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+#tasks div {
+    display: grid;
+    grid-template-columns: 50px auto;
+    margin-bottom: 10px;
+}
+
+#tasks div p {
+    margin: 0px;
+}
+
+pre {
+    background: #F0F0F0;
+    padding: 10px;
+}
+
+.error-panel {
+    display: none;background: rgba(161, 51, 51, 0.342);
+    color: rgb(160, 6, 6);
+    padding: 5px;
+    border-radius: 5px;
+}

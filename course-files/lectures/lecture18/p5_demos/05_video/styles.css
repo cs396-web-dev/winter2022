@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 20vh;
+    background: #EEE;
+    padding: 20px;
+    border: solid 1px #000;
+}
+
+header h1 {
+    margin-top: 0px;
+}
+
+#section1 {
+    height: 80vh;
+    border: solid 1px #000;
+}

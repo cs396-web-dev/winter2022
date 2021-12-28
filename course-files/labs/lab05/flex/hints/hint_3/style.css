@@ -1,0 +1,91 @@
+/*************************/
+/* Miscellaneous Styling */
+/*************************/
+
+* {
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0px;
+   padding: 5px;
+   font-family: Arial;
+}
+
+/***********************/
+/* Your Code Goes Here */
+/***********************/
+
+p, span, i {
+   margin: 3px 0px 0px 0px;
+   font-size: 0.9em;
+}
+
+.container-1 {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container-1 > section {
+   display: flex;
+   flex: 0 0 33.33%;
+   min-height: 120px;
+}
+
+.container-1 > section div {
+   border: solid 1px #CCC;
+   width: 100%;
+   margin: 15px;
+}
+
+.container-1 > section p {
+   margin: 8px 0px 25px 8px;
+   font-weight: 600;
+}
+
+.container-1 > section img {
+   width: 100%;
+}
+
+.container-2 {
+   display: flex;
+   flex-direction: column;
+   border-bottom: solid 1px #CCC;
+}
+.container-2 > section {
+   display: flex;
+   padding: 2px;
+   border-top: solid 1px #CCC;
+   border-left: solid 1px #CCC;
+   border-right: solid 1px #CCC;
+   align-items: center;
+   justify-content: space-between;
+}
+.container-2 div {
+    display: flex;
+    align-items: center;
+}
+.container-2 span, .container-2 p, .container-2 i, .container-2 img {
+   margin-right: 5px;
+}
+
+.fas, span {
+   color: #999;
+   cursor: pointer;
+}
+.fas:hover {
+   color: #6B9E71;
+}
+
+
+
+/*************************/
+/* Mobile Styles Go Here */
+/*************************/
+@media screen and (max-width: 1000px) {
+   /* Tablet rules go here */
+}
+
+@media screen and (max-width: 500px) {
+   /* Mobile rules go here */
+}

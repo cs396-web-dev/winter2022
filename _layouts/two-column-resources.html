@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="two-column">
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M445JR4"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <div class="container">
+        {% include header.html %}
+        {% include navigation.html %}
+        <main>
+            <aside>
+                {% include siblings.html %}
+            </aside>
+            <article>
+                <h1>
+                    {% if page.parent %}
+                        <a href="../">{{ page.parent }}</a> > {{page.nav_order}}.
+                    {% endif %}
+                    {{ page.title }}
+                </h1>
+                <!-- {% include page_title.html %}  -->
+                {% if page.show_outline %}
+                    <div class="outline">
+                        {% include toc.html html=content ordered=true %}
+                    </div>
+                {% endif %}
+                {{ content }}
+                
+            </article>  
+        </main>
+        {% include scripts.html %}
+        <!-- <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
+        <script>
+
+            const updateAsideHeight = (updateType) => {
+                const windowHeight = document.documentElement.clientHeight;
+                let newHeight = windowHeight - 168 + document.documentElement.scrollTop;
+                if (updateType === 'slimmed') {
+                    newHeight = windowHeight - 50;
+                }
+                //console.log('newHeight ', newHeight);
+                document.querySelector('aside').style.height = newHeight + 'px';    
+            };
+
+            const updateTop = () => {
+                console.log('toggled...');
+                for (link of document.querySelectorAll('li a')) {
+                    if (link.classList.contains('active')) {
+                        const pos = Math.abs(link.offsetTop - link.clientTop);
+                        //console.log(pos);
+                        document.querySelector('aside').scrollTop = pos;
+                        break;
+                    }
+                } 
+            };
+            updateTop();
+            // Listen for the event.
+            document.querySelector('aside').addEventListener(
+                'slimmed', 
+                () => { 
+                    updateAsideHeight('slimmed'); 
+                    updateTop();
+                }, 
+                false
+            );
+            document.querySelector('aside').addEventListener(
+                'expanded', 
+                () => { 
+                    updateAsideHeight('expanded'); 
+                    updateTop();
+                }, 
+                false
+            );
+
+        </script> -->
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="two-column">
+        {% include header.html %}
+        {% include navigation.html %}
+        {% capture schedule_simple %}{% include schedule-simple.html %}{% endcapture %}
+        {% assign all_content = schedule_simple | append: content %}
+        <main>
+            <aside>
+                {% include toc.html html=all_content class='side-menu' ordered=true %}
+            </aside>
+            <article>
+                {% include page_title.html %} 
+
+                <table>
+                    <tbody>
+                      <tr>
+                        <td><strong>Course</strong></td>
+                        <td>{{ page.course }}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Professor</strong></td>
+                        <td>{{ page.professor }}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Peer Mentor</strong></td>
+                        <td>{{ page.ta }}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Class Time</strong></td>
+                        <td>{{ page.class_time }}</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Class Location</strong></td>
+                        <td>{{ page.class_location }}</td>
+                      </tr>
+                    </tbody>
+                </table>
+
+                {% if page.include_covid_statement %}
+                    <blockquote class="blockquote-no-margin">
+                        <h2 id="learning-during-covid-19">Learning During COVID-19</h2>
+                        <p>The COVID-19 pandemic is still ongoing and will present new, unexpected challenges to our class and to our community at Northwestern. I want to acknowledge that things are difficult for many of us on multiple fronts. Some thoughts:</p>
+                        <ol>
+                        <li>Your health and well-being is always top priority. Please communicate with me if you have something going on so that we can figure out a path forward together.</li>
+                        <li>There are numerous resources at Northwestern that are in place to support stuednts with extenuating circumstances (e.g. CAPS, talking to your academic advisor, talking to the dean of students, etc.). I can help you navigate these paths if you need help.</li>
+                        </ol>
+                    </blockquote>
+                {% endif %}
+
+                {{ schedule_simple }}
+                                
+                {{ content }}
+
+            </article>  
+        </main>
+
+        {% include footer.html %}
+        {% include scripts.html %}
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
+    </body>
+</html>

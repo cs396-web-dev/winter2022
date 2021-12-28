@@ -1,0 +1,66 @@
+/****************************************************************/
+/* Hint 3: Add first media query and reposition the grid layout */
+/****************************************************************/
+body * {
+   width: 100%;
+   box-sizing: border-box;
+   font-family: 'Arial';
+}
+body {
+   margin: 0;
+}
+.container {
+   color: white;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 5fr 5fr;
+   grid-template-areas:
+      "a . b b"
+      "c d e f"
+      "g g g f";
+   min-height: 100vh;
+}
+article, aside, section, main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: solid 1px #000;
+}
+
+.menu1 {
+   grid-area: a;
+   background: #de0a7e;
+}
+
+.menu2 {
+   grid-area: b;
+   background: yellow;
+   color: #444;
+}
+
+article {  background: #00a4cf; }
+.card1 { grid-area: c; }
+.card2 { grid-area: d; }
+.card3 { grid-area: e; }
+
+main { 
+   grid-area: g;
+   background: #00a4cf;
+}
+aside { 
+   grid-area: f;
+   background: #36353a;
+}
+
+@media (max-width: 900px) {
+   .container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1.5fr 2fr 5fr 5fr 5fr;
+      grid-template-areas:
+         "a b"
+         "f f"
+         "c d"
+         "e e"
+         "g g";
+   }
+}

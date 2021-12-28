@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic|Dekko|Amatic+SC);
+
+
+body, p {
+  background: white;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header, main {
+  margin: 2rem;
+}
+
+/* Swatches */
+.swatchgrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swatchgrid.colors li {
+  width: 20%;
+  height: 100px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.swatchgrid.textures li {
+  width: 33%;
+  box-sizing: border-box;
+  height: 200px;
+  margin: auto;
+}
+
+
+.color-swatch-1 {
+  background: #528797;
+}
+
+.color-swatch-2 {
+  background: #51bd8c;
+}
+
+.color-swatch-3 {
+  background: #208f5a;
+}
+
+.color-swatch-4 {
+  background: #002c29;
+}
+
+.color-swatch-5 {
+  background: #003c44;
+}
+
+
+.texture-swatch-1 {
+    /* you can make patterns with CSS (or use images) */
+    background-color:#208F5A;
+    background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 10px 10px, 10px 10px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.texture-swatch-2 {
+    background: 
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #003C44;
+    background-size:75px 100px;
+}
+
+.texture-swatch-3 {
+  background:
+    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #FBF5F3 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+    radial-gradient(at 100% 100%,     rgba(96, 16, 48, 0) 9px, #FBF5F3 10px, rgba(96, 16, 48, 0) 11px),
+    #51BD8C;
+    background-size: 20px 20px;
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font:  4em/1 "Amatic SC", cursive;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding-right: .75em;
+}
+h2 {
+    font: 1.3em "Open Sans", sans-serif;
+}
+  
+h3 {
+  font: 500 2.4em/1.25 "Amatic SC", cursive;
+  color: #4e4e4e;
+}
+
+h4 {
+  font: italic 1.5em/1.25 "Open Sans", serif;
+  color: #4e4e4e;
+}
+
+p, .body-copy {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  color: #222;
+  margin-bottom: 1em;
+}
+.body-copy strong {
+  font-weight: 600;
+}
+.body-copy em {
+  font-style: italic;
+}
+
+/* Values: Can your colors and fonts communicate a value? */
+.adjectives p {
+  margin-top: 10px;
+  font-family: "Open Sans", serif;
+}
+.adjective-1 {
+  color: #528797;
+}
+
+.adjective-2 {
+  color: #208F5A;
+}
+
+.adjective-3 {
+  color: #002C29;
+}
+
+
+/* Buttons */
+.button-1, .button-2 {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.button-1 {
+  background: #208F5A;
+  text-align: center;
+  text-decoration: none;
+  font: bold 0.9em "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #e7faf1;
+  text-transform: uppercase;
+  text-shadow: 0px -1px 0px #125033;
+  transition: all .2s ease;
+}
+.button-1:hover {
+  background: #125033;
+}
+
+.button-2 {
+  background: #003C44;
+  text-align: center;
+  text-decoration: none;
+  font: 0.9em "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  color: #8ddae4;
+  text-transform: uppercase;
+  text-shadow: 0px -1px 0px black;
+  transition: all .2s ease;
+}
+
+.button-2:hover {
+  background: black;
+}

@@ -1,0 +1,12 @@
+.container {
+   display: grid;
+/* grid-template-columns: ???;
+   grid-template-rows: ???;
+   grid-template-areas: ???; 
+*/
+   min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+   /* tablet layout here */
+}

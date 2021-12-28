@@ -1,0 +1,40 @@
+/*************************/
+/* Miscellaneous Styling */
+/*************************/
+
+* {
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0px;
+   padding: 5px;
+   font-size: 1.2em;
+   font-weight: bold;
+   font-family: Arial;
+}
+
+/***********************/
+/* Your Code Goes Here */
+/***********************/
+
+.container-1,
+.container-2,
+section {
+   /* adding borders for debugging */
+   border: solid 1px #000;
+}
+
+.container-1 {
+   /*TODO*/
+}
+.container-1 > section {
+   /*TODO*/
+}
+
+.container-2 {
+   /*TODO*/
+}
+.container-1 > section {
+   /*TODO*/
+}

@@ -1,0 +1,39 @@
+<li>
+    
+    {% if item.author or item.authors %}
+        {{ item.author }}{{ item.authors }}
+    {% endif %}
+    {% if item.date %}
+        ({{ item.date }}).
+    {% endif %}
+    {% assign last_char = item.title | strip | slice: -1 %}
+    {% if item.url %}
+        {% if item.video_url == False %}
+            <a href="{{ item.url }}" {% if item.internal != 1 %}target="_blank"{% endif %}>{{ item.title }}</a>{% if last_char != "?" %}.{% endif %}
+        {% else %}
+            {{ item.title }}{% if last_char != "?" %}.{% endif %}
+        {% endif %}
+    {% else %}
+        {{ item.title }}{% if last_char != "?" %}.{% endif %}
+    {% endif %}
+    
+    {% if item.source %}
+        <em>{{ item.source }}.</em>
+    {% endif %}
+    {% if item.video_url %}
+        <br>
+        <a href="{{ item.url }}" target="_blank">reading</a> &bull;
+        <a href="{{ item.video_url }}" target="_blank">video</a> 
+    {% endif %}
+    {% if item.notes %}
+        <br>{{ item.notes }}</em>
+    {% endif %}
+    {% if item.sections %}
+        <br>Please review the following sections:
+        <ul class="compact">
+            <li>
+                {{ item.sections | join: "</li><li>" }}
+            </li>
+        </ul>
+    {% endif %}
+</li>

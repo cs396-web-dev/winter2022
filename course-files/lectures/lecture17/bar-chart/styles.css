@@ -1,0 +1,30 @@
+* { box-sizing: border-box;}
+body { 
+    margin: 30px; 
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 4px 6px;
+    background: #FFFFFF;
+    color: #313639;
+    border: 1px solid #999;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.9rem;
+}

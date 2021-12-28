@@ -1,0 +1,6 @@
+{
+    "name": "lecture06",
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
+}

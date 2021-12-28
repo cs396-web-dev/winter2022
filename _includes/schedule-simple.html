@@ -1,0 +1,146 @@
+
+{% assign everything = site.assignments | concat: site.lectures %}
+{% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
+<h2 id="schedule">Weekly Topics</h2> 
+<p>Note that the schedule is dynamic and subject to change.</p>
+<table class="schedule-simple">
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th></th>
+            <th>Topic</th>
+            <th>Due</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+    {% assign last_week = 0 %}
+    {% for date in dates %}
+        {% assign lecture = site.lectures | where: 'due_date', date | last %}
+        <!-- Calculate the Week -->
+        {% assign dateStart = site.term_start_date | date: '%s' %}
+        {% assign lectureDate = date | date: '%s' %}
+        {% assign diffSeconds = lectureDate | minus: dateStart %}
+        {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+        {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+        
+        {% comment %}
+        {% if week != last_week %}
+            {% if week == 1 %}
+                <h2>Part I: Ethics and Values in Individual & Social Processes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Week</th>
+                            <th></th>
+                            <th>Topic</th>
+                            <th>Due</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                {% endif %}
+            
+            {% if week == 6 %}
+                </tbody></table>
+                <h2>Part II: Ethics and Computer-Mediated Systems</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Week</th>
+                            <th></th>
+                            <th>Topic</th>
+                            <th>Due</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                {% endif %}
+        {% endif %}
+        {% endcomment %}
+        <tr>
+            <th>
+            {% if week != last_week %}
+                Week {{week}}
+            {% endif %}
+            <span class="due-date">
+                {{ date | date: "%m/%d/%y" }}
+            </span>
+            </th>
+            {% if lecture %}
+                <!-- If lecture -->
+                <td> 
+                    {% if lecture.type != 'tutorial' %}
+                        {{ date | date: "%a, %m/%d" }}
+                    {% else %}
+                        Tutorial<br>
+                        (during assigned day/time)
+                    {% endif %} 
+                </td>
+                <td>
+                    {% assign className = 'lec' %}
+                    {% assign prefix = None %}
+                    {% if lecture.num  %}
+                        {% assign prefix = "Meeting " | append: lecture.num %}
+                    {% endif %} 
+                    {% if lecture.type == 'tutorial' %}
+                        {% assign className = 'lab' %}
+                        {% assign prefix = "Tutorial " | append: lecture.num %}
+                    {% endif %} 
+                    {% if lecture.type == 'review' or lecture.type == 'exam' %}
+                        {% assign prefix = lecture.title %}
+                    {% endif %}
+                    {% if lecture.draft == 1 and prefix %}
+                        {{ lecture.title }}
+                    {% elsif prefix %} 
+                        <a href="{{site.baseurl}}{{lecture.url}}">{{ lecture.title }}</a>
+                    {% endif %}
+
+                    {% comment %}
+                        {% assign page = lecture %}
+                        {% include page_readings.html %} 
+                        {% if lecture.type == 'tutorial' or lecture.type == 'lecture' %}
+                            <strong>{{ lecture.title }}</strong>
+                        {% endif %}
+                        {% if lecture.details.first %}
+                            <ul>
+                                <li>
+                                    {{ lecture.details | join: "</li><li>" }}
+                                </li>
+                            </ul>
+                        {% else %}
+                            <p>{{ lecture.details }}</p>
+                        {% endif %}
+                    {% endcomment %}
+                </td>
+            {% else %}
+                <!-- If no lecture -->
+                <td>{{ date | date: "%a, %m/%d" }}</td>
+                <td></td>
+            {% endif %}
+            <td>
+                {% assign assignments = site.assignments | where: 'due_date', date %}
+                {% for assignment in assignments %}
+                    {% assign className = 'pj' %}
+                    {% if assignment.type == 'homework' %}
+                        {% assign className = 'hw' %}
+                    {% endif %}
+                    {% if assignment.type == 'lab' %}
+                        {% assign className = 'lab' %}
+                    {% endif %}
+                    {% if assignment.type == 'extra credit' %}
+                        {% assign className = 'ec' %}
+                    {% endif %}
+                    
+                    {% if assignment.draft == 1 %}
+                        {{ assignment.title }}
+                    {% else %} 
+                        <a href="{{site.baseurl}}{{assignment.url}}">
+                            {{ assignment.title }}
+                        </a>
+                    {% endif %} 
+                {% endfor %}
+            </td>
+        </tr>
+        {% assign last_week = week %}
+    {% endfor %}
+    </tbody>
+</table>

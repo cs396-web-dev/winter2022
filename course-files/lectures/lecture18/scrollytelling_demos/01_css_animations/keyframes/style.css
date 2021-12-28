@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Open+Sans");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+body {
+   font-family: "Open Sans", sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   height: 100vh;
+}
+
+.fa-circle {
+   color: #FF3300;
+   position: absolute;
+   top: calc(100vh - 40px);
+   right: calc(50vw - 50px); 
+   font-size: 200px;
+   /* animation-fill-mode: forwards; */
+}
+
+.fa-cloud {
+   position: absolute;
+}
+#cloud1 {
+   color: #DDD;
+   top: 20px;
+   left: -150px;
+   font-size: 120px;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite; 
+   animation-name: moveCloudRight;
+   animation-delay: 1s;
+   animation-duration: 12s;
+}
+
+#cloud2 {
+   color: #EEE;
+   top: 0px;
+   right: -100px;
+   font-size: 60px;
+   animation-name: moveCloudLeft;
+   animation-delay: 5s;
+   animation-duration: 10s;
+}
+
+@keyframes moveCloudRight {
+   from { left: -150px;}
+   to { left: calc(100vw + 100px); }
+}

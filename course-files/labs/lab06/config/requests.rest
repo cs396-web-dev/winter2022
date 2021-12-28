@@ -1,0 +1,22 @@
+GET http://localhost:8081/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDkxZjU2YzMzYzhiZTg5MjY3NDMyNTgiLCJ1c2VybmFtZSI6Imd3ZW5kb2x5bl9hbmt1bmRpbmciLCJpYXQiOjE2MjAxODcwODQsImV4cCI6MTYyMDE4NzA5OX0.r7AkJeBPzCMxwT3t2a1js2eBHDMoOVASke6LHrQpL90
+
+
+###
+
+POST http://localhost:8081/login
+Content-Type: application/json
+
+{
+    "username": "gwendolyn_ankunding",
+    "password": "loan"
+}
+
+# ###
+
+# POST http://localhost:8081/token
+# Content-Type: application/json
+
+# {
+#     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDkxZjU2YzMzYzhiZTg5MjY3NDMyNTgiLCJ1c2VybmFtZSI6Imd3ZW5kb2x5bl9hbmt1bmRpbmciLCJpYXQiOjE2MjAxODY0OTJ9.M4E-ixutOpVQ9JvtA92M0PPTJ7fvez4TIiEpnUugWvQ"
+# }

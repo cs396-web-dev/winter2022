@@ -1,0 +1,95 @@
+---
+layout: two-column
+show_outline: 1
+show_schedule: 1
+---
+
+{% if page.exercise_url %}
+    <a class="nu-button" href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">
+        Exercise Files <i class="fas fa-download"></i>
+    </a>
+{% endif %}
+
+{{content}}
+
+
+{% if page.slides %}
+    <h2 id="slides">Slides</h2>  
+    {% assign num = num | plus: 1 %}
+
+    <ul>
+    {% for slide in page.slides %}
+        <li>
+            <a href="{{slide.url}}" target="_blank">{{slide.title}}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if page.videos %}
+<h2 id="videos">Lecture Video(s)</h2>
+{% assign num = num | plus: 1 %}
+    {% if page.videos.size == 1 %}
+        {% assign video = page.videos.first %}
+        <ul>
+            <li>
+                <a class="{{ className }}" href="{{video.url}}" target="_blank">{{video.title}}</a>
+                ({{video.duration}})
+                {% if video.notes %}<br>{{video.notes}}{% endif %}
+            </li>
+        </ul>
+    {% else %}
+        <table class="medium module">
+            <thead>
+                <tr>
+                    <th>Link</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% assign vnum = 1 %}
+            {% for video in page.videos %}
+                {% assign className = "recorded" %}
+                {% assign type = "pre-recorded" %}
+                {% if video.live %}
+                    {% assign className = "live" %}
+                    {% assign type = "lecture" %}
+                {% endif %}
+                <tr>
+                    <td>
+                        <a class="{{ className }}" href="{{video.url}}" target="_blank">
+                            Video {{vnum}} <i class="fa fa-link"></i>
+                        </a>
+                    </td>
+                    <td>
+                        {{video.title}}
+                    </td>
+                    <td>
+                        {{ type }}
+                    </td>
+                    <td>
+                        {{ video.duration }}
+                    </td>
+                </tr>
+                {% assign vnum = vnum | plus: 1 %}
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endif %}
+
+{% if page.readings %}
+    <h2 id="readings">Readings</h2>
+    {% include page_readings.html %} 
+    {% assign num = num | plus: 1 %}
+{% endif %}
+
+
+{% if page.include_page %}
+    {% capture my_include %}{% include_relative {{ page.include_page }} %}{% endcapture %}
+    {{ my_include | markdownify }}
+{% endif %}
+
+

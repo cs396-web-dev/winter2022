@@ -1,0 +1,229 @@
+table {
+    border-top: solid 1px #444;
+    border-bottom: solid 1px #444;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+
+    td, th {
+        font-size: 0.9em;
+        line-height: 1.5em;
+        margin-top: 5px;
+        vertical-align: top;
+        ul, ol {
+            margin-bottom: 0px;
+            li {
+                line-height: 1.5em;
+                font-size: 1em;
+            }
+        }
+    }
+    td {
+        font-family: "Akkurat Pro Light";
+        strong, i, a.lec, a.hw, a.pj {
+            font-family: 'Akkurat Pro Regular';
+        }
+    }
+
+    td:first-child, th:first-child {
+        min-width: 80px;
+    }
+
+    thead tr:first-child {
+        th, td {
+            border-bottom: solid 1px #444;
+        }
+    }
+    tfoot tr:first-child {
+        th, td {
+            border-top: solid 1px #444;
+        }
+    }
+    tr:last-child {
+        td, th {
+            border-bottom-width: 0px;
+        }
+    }
+
+    td, th {
+        border-bottom: dotted 1px #999;
+        padding: 8px;
+    }
+    th {
+        font-weight: 500;
+        min-width: 60px;
+        text-align: left;
+    }
+}
+
+table.overview {
+    border-top: dotted 1px #CCC;
+    border-bottom: dotted 1px #CCC;
+    thead tr:first-child {
+        th, td {
+            border-bottom: dotted 1px #CCC;
+            width: 33%;
+        }
+    }
+}
+
+table.schedule-simple {
+    border-width: 0px;
+    th, td {
+        border-width: 0px;
+        padding: 4px;
+        &:nth-child(1) {
+            width: 60px;
+        }
+        &:nth-child(2) {
+            width: 100px;
+        }
+    }
+    tr {
+        &:last-child {
+            border-bottom: solid 1px #000;
+        }
+    }
+}
+table.rubric-short {
+    td:nth-child(1), th:nth-child(1) {
+        width: 40px;
+        min-width: 40px;
+        max-width: 40px;
+    }
+    td:nth-child(2), th:nth-child(2) {
+        width: 80px;
+    }
+    ul {
+        margin: 0px;
+    }
+}
+
+table.rubric {
+    td:nth-child(1), th:nth-child(1) {
+        min-width: 160px;
+    }
+    ul {
+        margin: 0px;
+    }
+}
+
+.assignments {
+    td:nth-child(1), th:nth-child(1) {
+        width: 60px !important;
+        font-weight: 500;
+    }
+}
+
+.schedule, .tutorials {
+    td:nth-child(2), th:nth-child(2) {
+        min-width: 80px;
+    }
+    td:nth-child(2), th:nth-child(2) {
+        min-width: 100px;
+    }
+    td:nth-child(3), th:nth-child(3) {
+        min-width: 310px;
+    }
+    td:last-child, th:last-child {
+        max-width: 180px;
+        min-width: 100px;
+    }
+}
+.schedule, .tutorials {
+    td:nth-child(3), th:nth-child(3) {
+        min-width: 280px;
+    }
+}
+.schedule {
+    h2 {
+        border-bottom-width: 0px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 05px;
+        // text-align: center;
+    }
+    // td.unit-header, th.unit-header {
+    //     border-bottom: solid 1px #DDD;
+    //     // text-align: center;
+    // }
+}
+
+.readings {
+    table {
+        thead {
+            tr:last-child {
+                border-bottom: solid 1px #000;
+                th {
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        tbody {
+            tr:last-child {
+                border-bottom: dotted 1px #999;
+            }
+        }
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+
+        h3, h4 {
+            margin: 0px 0px 0px 0px;
+        }
+        h4 {
+            color: #222;
+            font-size: 1.0em;
+            font-family: 'Akkurat Pro Regular';
+        }
+        th, td {
+            padding: 18px 0px 18px 0px;
+            font-size: 0.9rem;
+            li, p, span, strong, em {
+                font-size: 0.9rem;
+            }
+        }
+        td:nth-child(1) {
+            min-width: 80px;
+            max-width: 80px;
+            width: 80px;
+        }
+        td:nth-child(2) {
+            min-width: 100px;
+            max-width: 100px;
+            width: 100px;
+        }
+        td:nth-child(3), th:nth-child(3) {
+        //     min-width: 220px;
+        //     max-width: 220px;
+        //     width: 220px;
+        //     margin-right: 10px;
+            ul {
+                margin-top: 10px;
+            }
+        }
+        // td:nth-child(4), th:nth-child(4) {
+        //     padding-right: 50px;
+        // }
+        td:nth-child(4), th:nth-child(4) {
+            min-width: 140px;
+            max-width: 140px;
+            width: 140px;
+        }
+    }
+}
+
+table.xsmall {
+    width: 250px !important;
+}
+table.small {
+    width: 400px !important;
+}
+table.medium {
+    width: 600px !important;
+
+    &.module {
+        td:nth-child(2) {
+            max-width: 320px;
+        }
+    }
+}
