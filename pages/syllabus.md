@@ -5,11 +5,11 @@ permalink: /syllabus/
 ---
 
 |--|--|
-| **Term** | Spring, 2021 |
+| **Term** | Winter, 2022 |
 | **Course** | CS 396: Intro to Web Development |
 | **Professor** | Sarah Van Wart |
-| **Lecture Time** | M, W 2-2:50PM |
-| **Lecture Location** | Online |
+| **Lecture Time** | M, W 12:30-1:50PM |
+| **Lecture Location** | Online, then LR2 |
 
 ## About the Course
 What does it take to build a website from scratch? How do designers create beautiful and functional interfaces? How do websites send, store, and leverage different kinds of data? This course aims to answer these questions by giving students exposure to the technologies and strategies used by professional web developers in industry. Throughout the quarter, students will learn how to build a “full-stack” application, to be deployed on a live web server.
@@ -44,12 +44,7 @@ The quarter will culminate in an open-ended project that demonstrates your knowl
 
 
 ## Course Staff
-* Sanath Angalakudati (sanath@u.northwestern.edu)
-* Kieran Bondy (kieranbondy2021@u.northwestern.edu)
-* Richard Lam (richardlam2024@u.northwestern.edu)
-* Linus Okoth (linusokoth2023@u.northwestern.edu)
-* Seoyeon Park (seoyeon@u.northwestern.edu)
-* Emily Weintraub (emilyweintraub2021@u.northwestern.edu)
+TBD
 
 ### Office Hours
 Consider office hours as an extension of the class, and we want you to rely on them to get the help you need for assignments. We expect that everyone will need to attend office hours from time to time throughout the quarter. Many students opt to go every week. Office hours will be posted on the course's [Google Calendar](https://calendar.google.com/calendar/u/0?cid=aDg5bnY4ZjlpZ3ZtcmNyb25wdGV0ZG51dGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
