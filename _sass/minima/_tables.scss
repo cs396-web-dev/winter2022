@@ -71,13 +71,13 @@ table.schedule-simple {
     border-width: 0px;
     th, td {
         border-width: 0px;
-        padding: 4px;
+        padding: 2px;
         &:nth-child(1) {
             width: 60px;
         }
-        &:nth-child(2) {
-            width: 100px;
-        }
+        // &:nth-child(2) {
+        //     width: 100px;
+        // }
     }
     tr {
         &:last-child {

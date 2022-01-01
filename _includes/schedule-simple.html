@@ -1,5 +1,6 @@
+{% assign all_assignments = site.assignments | where: 'type', 'lab' %}
 
-{% assign everything = site.assignments | concat: site.lectures %}
+{% assign everything = all_assignments | concat: site.lectures %}
 {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
 <h2 id="schedule">Weekly Topics</h2> 
 <p>Note that the schedule is dynamic and subject to change.</p>
@@ -9,7 +10,6 @@
             <th>Week</th>
             <th></th>
             <th>Topic</th>
-            <th>Due</th>
         </tr>
     </thead>
     <tbody>
@@ -24,39 +24,7 @@
         {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
         {% assign week = diffDays | divided_by: 7 | plus: 1 %}
         
-        {% comment %}
-        {% if week != last_week %}
-            {% if week == 1 %}
-                <h2>Part I: Ethics and Values in Individual & Social Processes</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Week</th>
-                            <th></th>
-                            <th>Topic</th>
-                            <th>Due</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                {% endif %}
-            
-            {% if week == 6 %}
-                </tbody></table>
-                <h2>Part II: Ethics and Computer-Mediated Systems</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Week</th>
-                            <th></th>
-                            <th>Topic</th>
-                            <th>Due</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                {% endif %}
-        {% endif %}
-        {% endcomment %}
-        <tr>
+        <tr {% if week != last_week and week != 1 %}style="border-top:solid 1px #CCC;"{% endif %}>
             <th>
             {% if week != last_week %}
                 Week {{week}}
@@ -65,16 +33,17 @@
                 {{ date | date: "%m/%d/%y" }}
             </span>
             </th>
+
+            <!-- If lecture -->
+            <td> 
+                {% if lecture.type != 'tutorial' %}
+                    {{ date | date: "%a, %m/%d" }}
+                {% else %}
+                    Tutorial<br>
+                    (during assigned day/time)
+                {% endif %} 
+            </td>
             {% if lecture %}
-                <!-- If lecture -->
-                <td> 
-                    {% if lecture.type != 'tutorial' %}
-                        {{ date | date: "%a, %m/%d" }}
-                    {% else %}
-                        Tutorial<br>
-                        (during assigned day/time)
-                    {% endif %} 
-                </td>
                 <td>
                     {% assign className = 'lec' %}
                     {% assign prefix = None %}
@@ -93,31 +62,11 @@
                     {% elsif prefix %} 
                         <a href="{{site.baseurl}}{{lecture.url}}">{{ lecture.title }}</a>
                     {% endif %}
-
-                    {% comment %}
-                        {% assign page = lecture %}
-                        {% include page_readings.html %} 
-                        {% if lecture.type == 'tutorial' or lecture.type == 'lecture' %}
-                            <strong>{{ lecture.title }}</strong>
-                        {% endif %}
-                        {% if lecture.details.first %}
-                            <ul>
-                                <li>
-                                    {{ lecture.details | join: "</li><li>" }}
-                                </li>
-                            </ul>
-                        {% else %}
-                            <p>{{ lecture.details }}</p>
-                        {% endif %}
-                    {% endcomment %}
                 </td>
             {% else %}
+                <td>
                 <!-- If no lecture -->
-                <td>{{ date | date: "%a, %m/%d" }}</td>
-                <td></td>
-            {% endif %}
-            <td>
-                {% assign assignments = site.assignments | where: 'due_date', date %}
+                {% assign assignments = all_assignments | where: 'due_date', date %}
                 {% for assignment in assignments %}
                     {% assign className = 'pj' %}
                     {% if assignment.type == 'homework' %}
@@ -131,14 +80,15 @@
                     {% endif %}
                     
                     {% if assignment.draft == 1 %}
-                        {{ assignment.title }}
+                        {{ assignment.abbreviation }}: {{ assignment.title }}
                     {% else %} 
                         <a href="{{site.baseurl}}{{assignment.url}}">
                             {{ assignment.title }}
                         </a>
                     {% endif %} 
                 {% endfor %}
-            </td>
+                </td>
+            {% endif %}
         </tr>
         {% assign last_week = week %}
     {% endfor %}
