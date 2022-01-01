@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Introduction to JavaScript
+title: Intro to Design with Accessibility in Mind (Guest Lecture)
 type: lecture
 draft: 1
 show_schedule: 1
@@ -8,6 +8,6 @@ num: 2
 due_date: 2022-01-05
 ---
 
-TBD
+Guest lecture by Victoria Chávez. 
 
 
