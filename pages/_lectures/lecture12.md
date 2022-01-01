@@ -1,6 +1,6 @@
 ---
 layout: module
-title: User Authentication using JSON Web Tokens
+title: Third-Party JavaScript Libraries
 type: lecture
 draft: 1
 show_schedule: 1

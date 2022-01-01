@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to CSS & Layouts
+title: Intro to JavaScript-DOM Interactions
 type: lecture
 draft: 1
 show_schedule: 1

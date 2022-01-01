@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Templates and Event Handlers"
+title: Building REST API Endpoints
 type: lecture
 draft: 1
 show_schedule: 1

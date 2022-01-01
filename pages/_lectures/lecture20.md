@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Third-Party Cookies, Web Trackers, and Surveillance
+title: TBD
 type: lecture
 draft: 1
 show_schedule: 1

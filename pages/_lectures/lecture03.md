@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to HTML & CSS Selectors
+title: Intro to HTML & CSS
 type: lecture
 draft: 1
 show_schedule: 1

@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to React
+title: "Authentication: Other Methods"
 type: lecture
 draft: 1
 show_schedule: 1

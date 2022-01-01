@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Using the fetch API
+title: Intro to JavaScript (Language Rules)
 type: lecture
 draft: 1
 show_schedule: 1

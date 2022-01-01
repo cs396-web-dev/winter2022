@@ -1,6 +1,6 @@
 ---
 layout: module
-title: React Wrap-Up; DataVis Libraries
+title: React
 type: lecture
 draft: 1
 show_schedule: 1

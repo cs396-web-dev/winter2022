@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Alternative Inputs / Outputs
+title: React (Continued)
 type: lecture
 draft: 1
 show_schedule: 1

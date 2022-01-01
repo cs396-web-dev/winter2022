@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Integrating MongoDB with your REST API
+title: Database Primer; Flask Models
 type: lecture
 draft: 1
 show_schedule: 1

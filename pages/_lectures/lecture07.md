@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Intro to Client-Side Web Programming"
+title: Intro to HTTP; Intro to REST
 type: lecture
 draft: 1
 show_schedule: 1

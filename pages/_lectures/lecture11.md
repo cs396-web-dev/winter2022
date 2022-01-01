@@ -1,6 +1,6 @@
 ---
 layout: module
-title: User Interface Design
+title: Client-side templating & the Fetch API
 type: lecture
 draft: 1
 show_schedule: 1

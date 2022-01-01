@@ -1,6 +1,6 @@
 ---
 layout: module
-title: P2P Architecture and Web Sockets
+title: "Authentication: JWTs"
 type: lecture
 draft: 1
 show_schedule: 1
