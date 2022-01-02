@@ -99,6 +99,22 @@ table.rubric-short {
     }
 }
 
+table.git {
+    td:nth-child(1), th:nth-child(1) {
+        min-width: auto;
+        width: auto;
+        max-width: auto;
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        width: 240px;
+    }
+
+    code.highlighter-rouge {
+        font-size: 1.2em;
+    }
+}
+
 table.rubric {
     td:nth-child(1), th:nth-child(1) {
         min-width: 160px;

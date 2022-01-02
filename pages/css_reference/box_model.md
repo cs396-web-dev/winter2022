@@ -14,11 +14,26 @@ Every element in web design is a rectangular box. The box model refers to some o
 
 ```css
 .page-section {
-    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
-    border: dotted 1px #CCC;    
-    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
-    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
-    width: 50vh;                // vh stands for viewport height, vw stands for viewport width
+    box-sizing: border-box;
+    border: dotted 1px #CCC; 
+    width: 50vh;
+    height: 50vh;   
+    padding: 10px;
+    /*
+    Alternative syntax:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    margin: 10px;
+    /*
+    Alternative syntax:
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
 }
 ```
 

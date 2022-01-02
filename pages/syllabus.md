@@ -12,7 +12,7 @@ include_covid_statement: true
 
 > {:.callout}
 > ### Acknowledgements
-> <a href="https://github.com/cooperbarth" target="_blank">Cooper Barth</a>, <a href="https://github.com/Ajuogaaz" target="_blank">Linus Okoth</a>, Victoria Chávez, and Sarah Van Wart each designed / developed different parts of this this course, including building the homeworks, labs, and figuring out the scope of the course.
+> <a href="https://github.com/cooperbarth" target="_blank">Cooper Barth</a>, <a href="https://github.com/Ajuogaaz" target="_blank">Linus Okoth</a>, <a href="https://www.linkedin.com/in/vickiebananas/" target="_blank">Victoria Chávez</a>, and Sarah Van Wart each designed / developed different parts of this this course, including building the homeworks, labs, and figuring out the scope of the course.
 
 ## Learning Goals
 1. Learning how to design and develop a simple ‘full-stack’ web application (including interacting with a database, building a web server, implementing user authentication, and designing/building a front-end client).

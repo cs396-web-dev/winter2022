@@ -83,7 +83,7 @@
                         {{ assignment.abbreviation }}: {{ assignment.title }}
                     {% else %} 
                         <a href="{{site.baseurl}}{{assignment.url}}">
-                            {{ assignment.title }}
+                            {{ assignment.abbreviation }}: {{ assignment.title }}
                         </a>
                     {% endif %} 
                 {% endfor %}
