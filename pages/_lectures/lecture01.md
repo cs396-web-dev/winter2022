@@ -11,11 +11,11 @@ due_date: 2022-01-03
 #      title: Recorded Lecture Video
 #      live: 1
 #      duration: ""
-# slides:
-#    - url: https://docs.google.com/presentation/d/1MUskB2uWN9_Z3hVIyK_PqyUq4Pi070n9s8VOiZu8M4U/edit?usp=sharing
-#      title: Intro to the Course
-#    - url: https://docs.google.com/presentation/d/1CMIx-ZnwbjqKJZKeDD3hVb9TMJFFc9ck3GhGqEDkKlU/edit?usp=sharing
-#      title: Intro to Web Architecture
+slides:
+   - url: https://docs.google.com/presentation/d/1MUskB2uWN9_Z3hVIyK_PqyUq4Pi070n9s8VOiZu8M4U/edit?usp=sharing
+     title: Intro to the Course
+   - url: https://docs.google.com/presentation/d/1CMIx-ZnwbjqKJZKeDD3hVb9TMJFFc9ck3GhGqEDkKlU/edit?usp=sharing
+     title: Intro to Web Architecture
 readings:
    - url: https://www.vox.com/2014/6/16/18076282/the-internet
      title: The Internet Explained

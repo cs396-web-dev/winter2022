@@ -41,7 +41,7 @@ The quarter will culminate in an open-ended project that demonstrates your knowl
 
 | Name | Email | Github Handle | 
 |--|--|--| 
-| Jayhyun Chang | JayhyunChang2022@u.northwestern.edu | | 
+| Jenny (Jayhyun) Chang | JayhyunChang2022@u.northwestern.edu | | 
 | Rohith Jayaraman | rohithjayaraman2021@u.northwestern.edu | | 
 | Richard Lam | richardlam2024@u.northwestern.edu | |  
 | Linus Okoth | linusokoth2023@u.northwestern.edu | |
