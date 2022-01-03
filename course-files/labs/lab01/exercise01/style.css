@@ -6,16 +6,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-    width: 350px;
-    margin: 10px;
-    border: solid 1px #CCC;
-    padding-bottom: 20px;
-}
-section h2, section p, section button {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-section img {
-    width: 100%;
-}
+/*
+Add some style blocks below this line to style the card.
+*/

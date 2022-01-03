@@ -7,6 +7,8 @@ permalink: /css-reference/media-queries/
 linkedin_learning: 1
 ---
 
+Media queries allow you to create CSS rules that depend on the specific conditions. In the context of making responsive websites, media queries can be configured so that different contextual style rules can be applied, depending on the width of your device.
+
 ## Recommended LinkedIn Learning videos
 
 {:.medium}

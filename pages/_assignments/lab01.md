@@ -59,7 +59,7 @@ In your web browser, navigate to GitHub and create a new **public** repository c
 #### On your laptop
 On your computer, create a folder called `webdev-labs` (create it somewhere that you can find it later). Next, download `lab01.zip` (below), unzip it, and move your `lab01` folder inside of your `webdev-labs` folder. 
 
-<a class="nu-button" href="/spring2021/course-files/assignments/lab01.zip">lab01.zip<i class="fas fa-download" aria-hidden="true"></i></a>
+<a class="nu-button" href="/winter2022/course-files/labs/lab01.zip">lab01.zip<i class="fas fa-download" aria-hidden="true"></i></a>
 
 When you're done, pen your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (in order):
 
@@ -77,19 +77,21 @@ When you're done, pen your command line (on your local computer), navigate to yo
 To continue saving and tracking your changes using git / GitHub, repeat steps 3, 4, 5, and 7 as needed.
 
 ## 4. HTML & CSS Introduction
-Some intro sentence..
+Once you've set up your git repository, try the following three HTML / CSS Exercises.
 
 ### Exercise 1: Box Model Practice
+1. Open the `lab01/exercise01` folder.
+1. Open `index.html` and uncomment the stylesheet link. 
+    * Note that in order for a stylesheet to be applied to an HTML file, you have to explicitly link to it in the `<head></head>` section.
 1. Change out the photo to another photo that you find on the Internet.
     * Hint: [image reference](/winter2022/html-reference/images/)
-1. Link your stylesheet to your HTML file inside of the `<head></head>` tag.
-1. Use the box model to make your card look like the one shown below:
-    * Hint: [box model reference](/winter2022/css-reference/box-model/):
+1. Make your card look like the one shown below by using various selectors:
+    * Hint: [box model reference](/winter2022/css-reference/box-model/)
 
 <img class="small" src="/winter2022/assets/images/labs/lab01/card.png" />
 
 ### Exercise 2: Layout Practice
-Using any layout technique you can think of, please create the following screens for desktop, tablet, and mobile (pictured below). To do this:
+Using any approach you want, please create the following screens for desktop, tablet, and mobile (pictured below). To do this:
 
 1. You will need to use media queries, which have been set up for you in the `exercise02/style.css` file.
     * Hint: [media queries reference](/winter2022/css-reference/media-queries/)
@@ -114,7 +116,9 @@ Using any layout technique you can think of, please create the following screens
 If you have time, please experiment with one or more of the following enhancements:
 1. Try changing the font of the Card header (H2 tag) to use a Google Font.
     * Hint: Give <a href="https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/" target="_blank">this tutorial</a> a shot (or find one you like better)
-2. Change out one of the images for an embedded video (from YouTube of Vimeo).
+1. Change out one of the images for an embedded video (from YouTube of Vimeo).
+    * Hint: [Embedding media](/winter2022/html-reference/media-tags/)
+1. Try modifying your HTML and CSS files however you want. 
 
 ## 5. What to Turn In
 Note: if you weren't able to complete all three of the exercises in the time alotted, that's fine. This was just a warm-up and you are being assessed on evidence of a good-faith effort. The most important thing is that you set up your GitHub
@@ -137,4 +141,4 @@ Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox.
 ### 3. Answer the following question
 Below the link to your repo, please answer the following question:
 
-YYY (ask Victoria)
+*Something about accessibility* (ask Victoria)
