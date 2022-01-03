@@ -61,7 +61,7 @@ On your computer, create a folder called `webdev-labs` (create it somewhere that
 
 <a class="nu-button" href="/winter2022/course-files/labs/lab01.zip">lab01.zip<i class="fas fa-download" aria-hidden="true"></i></a>
 
-When you're done, pen your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (one at a time, in the order shown):
+When you're done, open your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (one at a time, in the order shown):
 
 ```shell
 git init
