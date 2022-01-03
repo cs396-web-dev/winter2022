@@ -4,6 +4,7 @@ title: Flexbox
 parent: CSS Resources
 nav_order: 7
 permalink: /css-reference/flexbox/
+linkedin_learning: 1
 ---
 
 

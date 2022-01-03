@@ -4,6 +4,7 @@ title: Image Tags
 nav_order: 4
 parent: HTML Resources
 permalink: /html-reference/images/
+linkedin_learning: 1
 ---
 
 > **Overview Resources**

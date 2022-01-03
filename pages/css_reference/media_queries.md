@@ -4,6 +4,7 @@ title: Media Queries
 parent: CSS Resources
 nav_order: 9
 permalink: /css-reference/media-queries/
+linkedin_learning: 1
 ---
 
 ## Recommended LinkedIn Learning videos

@@ -4,6 +4,7 @@ title: Semantic Tags
 nav_order: 7
 parent: HTML Resources
 permalink: /html-reference/semantic-tags/
+linkedin_learning: 1
 ---
 
 > **Reference Videos & Readings**

@@ -26,6 +26,13 @@
                         {% include toc.html html=content ordered=true %}
                     </div>
                 {% endif %}
+
+                {% if page.linkedin_learning %}
+                    <a class="nu-button" href="https://www.linkedin.com/checkpoint/enterprise/login/75814418?application=learning" target="_blank">
+                        Login to LinkedIn Learning via Northwestern
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                {% endif %}
                 {{ content }}
                 
             </article>  

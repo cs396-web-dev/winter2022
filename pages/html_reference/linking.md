@@ -4,6 +4,7 @@ title: Hyperlinks
 nav_order: 3
 parent: HTML Resources
 permalink: /html-reference/links/
+linkedin_learning: 1
 ---
 
 > **Overview Resources**

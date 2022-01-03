@@ -4,6 +4,7 @@ title: Text & Fonts
 parent: CSS Resources
 nav_order: 4
 permalink: /css-reference/fonts/
+linkedin_learning: 1
 ---
 
 ## Font & icon resources

@@ -5,6 +5,7 @@ nav_order: 1
 show_outline: true
 parent: HTML Resources
 permalink: /html-reference/rules-of-thumb/
+linkedin_learning: 1
 ---
 
 > **References**:

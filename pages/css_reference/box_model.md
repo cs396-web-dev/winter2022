@@ -4,6 +4,7 @@ title: The Box Model
 parent: CSS Resources
 nav_order: 5
 permalink: /css-reference/box-model/
+linkedin_learning: 1
 ---
 
 Every element in web design is a rectangular box. The box model refers to some of the properties that control the layout of these boxes (width, height, margin, padding, border, and box-sizing). The <a href="https://css-tricks.com/the-css-box-model/" target="_blank">CSS Tricks</a> website has a nice description of it.

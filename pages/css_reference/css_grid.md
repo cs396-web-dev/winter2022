@@ -4,6 +4,7 @@ title: CSS Grid
 parent: CSS Resources
 nav_order: 8
 permalink: /css-reference/css-grid/
+linkedin_learning: 1
 ---
 
 

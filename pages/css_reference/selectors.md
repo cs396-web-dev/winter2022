@@ -4,9 +4,12 @@ title: Selectors
 parent: CSS Resources
 nav_order: 2
 permalink: /css-reference/selectors/
+linkedin_learning: 1
 ---
 
 ## Recommended Resources
+
+In order to apply styling to one or more of an HTML element's style properties, you have to tell your web browser which element you want to style (using a selector). The videos and code samples below describe how selectors work, as well as the various types of selectors.
 
 ### LinkedIn Learning Videos
 

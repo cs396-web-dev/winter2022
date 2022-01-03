@@ -128,7 +128,7 @@ As defined in Rule #2, selectors indicate which parts of the HTML you would want
 
 ### 8. Understand the Cascade
 
-#### Linked Learning References
+** LinkedIn Learning Videos**
 
 {:.medium}
 | <a href="https://www.linkedin.com/learning/css-essential-training-3/inheritance-and-specificity" target="_blank">Inheritance and specificity</a> | 4:33 |

@@ -5,6 +5,7 @@ nav_order: 2
 show_outline: true
 parent: HTML Resources
 permalink: /html-reference/text-tags/
+linkedin_learning: 1
 ---
 
 This page covers how to mark-up text using several basic HTML tags. See the [Formatting Content](https://www.linkedin.com/learning/html-essential-training/formatting-content-with-html?u=75814418) (6:58) video from LinkedIn Learning to get an overview, and then review the HTML tags below:

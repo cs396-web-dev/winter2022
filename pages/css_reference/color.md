@@ -4,6 +4,7 @@ title: Color
 parent: CSS Resources
 nav_order: 3
 permalink: /css-reference/color/
+linkedin_learning: 1
 ---
 
 ## Color resources

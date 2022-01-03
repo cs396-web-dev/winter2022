@@ -16,19 +16,33 @@ due_date: 2022-01-07
     }
 </style>
 
+## 1. Introduction
+The goal of today's lab is to help you get you started using GitHub (if you're new to using it), and to give you a little exposure to HTML and CSS. We will be covering HTML and CSS in much more detail next week, so this lab precedes the lecture. As we will discuss on Monday:
+
+* **HTML files** are for presenting **content** using various build-in interface elements (e.g., paragraphs, lists, tables, images, sections, etc.).
+* **CSS files** are for styling HTML elements (e.g., fonts, colors, positioning, etc.) by (a) *targeting* them using ***selectors***, and (b) setting a various style *properties*.
+
+
 {:.blockquote-no-margin}
-> ## Background Readings
+> ## 2. Background Readings
+> Please read / watch the following references ***before*** coming to lab.
 >
 > ### GitHub
 > If you have not used GitHub before, please complete the GitHub tutorial before coming to lab this week:
 > * <a href="https://guides.github.com/activities/hello-world/">GitHub Tutorial</a> and <a href="https://www.git-tower.com/blog/git-cheat-sheet/" target="_blank">Git Cheat Sheet</a>
 >
 > ### HTML & CSS
-> Please read the following articles
+> Please read (or at least skim) the following:
+> 1. [HTML Reference](/winter2022/html-reference/)
+> 2. [CSS Reference](/winter2022/css-reference/), and particularly:
+>    * [Rules of thumb](/winter2022/css-reference/rules-of-thumb/)
+>    * [Selectors](/winter2022/css-reference/selectors/)
+>    * [The Box Model](/winter2022/css-reference/box-model/)
+>    * [Media Queries](/winter2022/css-reference/media-queries/)
+> 3. <a href="https://flexboxfroggy.com/" target="blank">Flexbox Froggy</a> (recommended)
 
 
-## Part 1: Set Up Git and GitHub
-
+## 3. Set Up Git and GitHub
 We will be using git to manage versions of your code and to interact with GitHub (and later Heroku).
 
 ### Install / Register
@@ -40,7 +54,7 @@ If you haven't already:
 Many of you already have a process for doing this, so feel free to do your own thing here. That said, if you're relatively new to this, here are some instructions:
 
 #### On GitHub
-In your web browser, navigate to GitHub and create a new repository called `webdev-labs` (see tutorial above if you don't know how). Please make sure that you mark your repo "public." 
+In your web browser, navigate to GitHub and create a new **public** repository called `webdev-labs` (see tutorial above if you don't know how). Please make sure that you mark your repo "public." 
 
 #### On your laptop
 On your computer, create a folder called `webdev-labs` (create it somewhere that you can find it later). Next, download `lab01.zip` (below), unzip it, and move your `lab01` folder inside of your `webdev-labs` folder. 
@@ -50,7 +64,7 @@ On your computer, create a folder called `webdev-labs` (create it somewhere that
 When you're done, pen your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (in order):
 
 {:.git}
-| | Command | What it does | When you issue it |
+| | Command | What it does | When to you use it |
 |--|--|--|--|
 | 1. | `git init` | Initializes a brand new git repo on your local machine. | **Just once** (when you're first setting up your repo) |
 | 2. | `git remote add origin ???` | Connects the local repo you just created (on your computer) to your GitHub repo (in the cloud). Replace `???` with the address of the GitHub repo you just made. | **Just once** (when you're first setting up your repo) |
@@ -62,17 +76,8 @@ When you're done, pen your command line (on your local computer), navigate to yo
 
 To continue saving and tracking your changes using git / GitHub, repeat steps 3, 4, 5, and 7 as needed.
 
-## Part 2: HTML & CSS Introduction
-
-* HTML -> various components that display content
-* CSS -> a way of applying visual effects to content
-
-### Assigned Readings:
-1. Intro to HTML Components
-2. Selectors
-3. Box Model
-4. Flexbox Froggy
-5. Media Queries and Units that are percentages
+## 4. HTML & CSS Introduction
+Some intro sentence..
 
 ### Exercise 1: Box Model Practice
 1. Change out the photo to another photo that you find on the Internet.
@@ -92,17 +97,44 @@ Using any layout technique you can think of, please create the following screens
     * Read more about the viewport meta tag on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag" target="_blank">MDN</a>. In the context of mobile web design, this tag tells the browser to honor the dimensions of the device (versus assuming that the website was designed for a desktop screen).
 
 #### Desktop
+
 <img class="large" src="/winter2022/assets/images/labs/lab01/desktop.png" />
 
 #### Tablet
+
 <img class="medium" align="top" src="/winter2022/assets/images/labs/lab01/tablet1.png" />
 <img class="medium" align="top" src="/winter2022/assets/images/labs/lab01/tablet2.png" />
 
 #### Mobile
+
 <img class="small" src="/winter2022/assets/images/labs/lab01/mobile.png" />
+
 
 ### Exercise 3: Jazz it Up
 If you have time, please experiment with one or more of the following enhancements:
 1. Try changing the font of the Card header (H2 tag) to use a Google Font.
     * Hint: Give <a href="https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/" target="_blank">this tutorial</a> a shot (or find one you like better)
 2. Change out one of the images for an embedded video (from YouTube of Vimeo).
+
+## 5. What to Turn In
+Note: if you weren't able to complete all three of the exercises in the time alotted, that's fine. This was just a warm-up and you are being assessed on evidence of a good-faith effort. The most important thing is that you set up your GitHub
+
+To submit Lab 1:
+
+### 1. Push all of your files to GitHub
+Please copy the latest version of your files to GitHub by issuing the following commands:
+
+```shell
+git add .    # in case you created any new files
+git commit -am 'Committing all of my files'
+git status   # to make sure that all of your files are being tracked
+git push     # sends your files to GitHub
+```
+
+### 2. Paste a link to your repo on Canvas
+Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox. 
+
+### 3. Answer the following question
+Below the link to your repo, please answer the following question:
+
+YYY (ask Victoria)
