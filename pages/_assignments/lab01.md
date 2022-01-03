@@ -148,7 +148,7 @@ git push     # sends your files to GitHub
 ### 2. Paste a link to your repo on Canvas
 Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox. 
 
-### 3. Answer the following question
-Below the link to your repo, please answer the following question:
-
-*Something about accessibility* (ask Victoria)
+### 3. Answer the following question on Canvas
+**Below the link to your repo**, in a brief reflective response (about 4-8 sentences total), please consider the following questions:
+- Why, and to whom, is accessibility important?
+- How might you make a site (or app) like Instagram more accessible?
