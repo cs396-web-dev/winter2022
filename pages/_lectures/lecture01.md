@@ -6,11 +6,11 @@ draft: 0
 show_schedule: 1
 num: 1
 due_date: 2022-01-03
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos: 
+   - url: https://northwestern.zoom.us/rec/share/oNZUObLDYVb1sc2qRyUKIgE4G9zlqgSo1osDSPZeqHLFNCuZCwYEG_cbAWryiXgn.U877UIX-Dj4cmL8z?startTime=1641234644000
+     title: Recorded Lecture Video
+     live: 1
+     duration: "1:08:43"
 slides:
    - url: https://docs.google.com/presentation/d/1MUskB2uWN9_Z3hVIyK_PqyUq4Pi070n9s8VOiZu8M4U/edit?usp=sharing
      title: Intro to the Course
