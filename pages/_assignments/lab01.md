@@ -61,7 +61,17 @@ On your computer, create a folder called `webdev-labs` (create it somewhere that
 
 <a class="nu-button" href="/winter2022/course-files/labs/lab01.zip">lab01.zip<i class="fas fa-download" aria-hidden="true"></i></a>
 
-When you're done, pen your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (in order):
+When you're done, pen your command line (on your local computer), navigate to your `webdev-labs` directory, and issue the following commands (one at a time, in the order shown):
+
+```shell
+git init
+git remote add origin ???         # replace ??? w/your repo address
+git add .
+git status
+git commit -am 'My first commit'  # any message you want
+git branch -M main
+git push origin main
+```
 
 {:.git}
 | | Command | What it does | When to you use it |
