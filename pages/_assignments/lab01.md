@@ -42,15 +42,20 @@ The goal of today's lab is to help you get you started using GitHub (if you're n
 > 3. <a href="https://flexboxfroggy.com/" target="blank">Flexbox Froggy</a> (recommended)
 
 
-## 3. Set Up Git and GitHub
-We will be using git to manage versions of your code and to interact with GitHub (and later Heroku).
+## 3. Set Up your IDE, Git, and GitHub
+We recommend that you use Visual Studio Code as your code editor. We will also be using git to manage versions of your code and to interact with GitHub (and later Heroku).
 
-### Install / Register
+### 1. Install Visual Studio Code
+Download and install Visual Studio Code: <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com/</a>
+* Recommended: We also recommend that you install the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server" extension</a> (click the green "Install" button).
+
+
+### 2. Install Git / Register for GitHub
 If you haven't already:
 1. Install git on your computer: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>
 2. Register for GitHub: <a href="https://github.com/join" target="_blank">https://github.com/join</a>
 
-### Configure Your GitHub Repository
+### 3. Configure Your GitHub Repository
 Many of you already have a process for doing this, so feel free to do your own thing here. That said, if you're relatively new to this, here are some instructions:
 
 #### On GitHub
@@ -89,7 +94,7 @@ To continue saving and tracking your changes using git / GitHub, repeat steps 3,
 ## 4. HTML & CSS Introduction
 Once you've set up your git repository, try the following three HTML / CSS Exercises.
 
-### Exercise 1: Box Model Practice
+### 1. Box Model Practice
 1. Open the `lab01/exercise01` folder.
 1. Open `index.html` and uncomment the stylesheet link. 
     * Note that in order for a stylesheet to be applied to an HTML file, you have to explicitly link to it in the `<head></head>` section.
@@ -100,9 +105,10 @@ Once you've set up your git repository, try the following three HTML / CSS Exerc
 
 <img class="small" src="/winter2022/assets/images/labs/lab01/card.png" />
 
-### Exercise 2: Layout Practice
+### 2. Layout Practice
 Using any approach you want, please create the following screens for desktop, tablet, and mobile (pictured below). To do this:
 
+1. Open the `lab01/exercise02` folder.
 1. You will need to use media queries, which have been set up for you in the `exercise02/style.css` file.
     * Hint: [media queries reference](/winter2022/css-reference/media-queries/)
 1. You will also need to uncomment the viewport meta tag in the `<head></head>` section of your HTML file.
@@ -122,7 +128,7 @@ Using any approach you want, please create the following screens for desktop, ta
 <img class="small" src="/winter2022/assets/images/labs/lab01/mobile.png" />
 
 
-### Exercise 3: Jazz it Up
+### 3. Jazz it Up
 If you have time, please experiment with one or more of the following enhancements:
 1. Try changing the font of the Card header (H2 tag) to use a Google Font.
     * Hint: Give <a href="https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/" target="_blank">this tutorial</a> a shot (or find one you like better)
@@ -146,7 +152,7 @@ git push     # sends your files to GitHub
 ```
 
 ### 2. Paste a link to your repo on Canvas
-Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox. 
+Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for <a href="https://canvas.northwestern.edu/courses/157233/assignments/1007942" target="_blank">Lab 1</a>.
 
 ### 3. Answer the following question on Canvas
 **Below the link to your repo**, in a brief reflective response (about 4-8 sentences total), please consider the following questions:
