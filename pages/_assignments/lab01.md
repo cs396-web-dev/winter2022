@@ -27,11 +27,11 @@ The goal of today's lab is to help you get you started using GitHub (if you're n
 > ## 2. Background Readings
 > Please read / watch the following references ***before*** coming to lab.
 >
-> ### GitHub
+> ### 1. GitHub
 > If you have not used GitHub before, please complete the GitHub tutorial before coming to lab this week:
 > * <a href="https://guides.github.com/activities/hello-world/">GitHub Tutorial</a> and <a href="https://www.git-tower.com/blog/git-cheat-sheet/" target="_blank">Git Cheat Sheet</a>
 >
-> ### HTML & CSS
+> ### 2. HTML & CSS
 > Please read (or at least skim) the following:
 > 1. [HTML Reference](/winter2022/html-reference/)
 > 2. [CSS Reference](/winter2022/css-reference/), and particularly:
@@ -47,7 +47,7 @@ We recommend that you use Visual Studio Code as your code editor. We will also b
 
 ### 1. Install Visual Studio Code
 Download and install Visual Studio Code: <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com/</a>
-* Recommended: We also recommend that you install the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server" extension</a> (click the green "Install" button).
+* We also recommend that you install the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server" extension</a> (click the green "Install" button).
 
 
 ### 2. Install Git / Register for GitHub
