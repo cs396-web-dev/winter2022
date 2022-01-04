@@ -29,13 +29,7 @@ Lectures, which are dedicated to introducing new topics, will take place every M
 You will work on 8 individual homework assignments throughout the quarter. These assignments will all involve coding in a variety of different languages (e.g. HTML, CSS, JavaScript, Python, SQL, etc.) across the web stack.
 
 ### 3. Weekly Labs
-On Thursdays and Fridays, you will be completing labs. Some of the labs will help you install, configure, and build a ‘full stack web application.’ Other labs will involve designing, building, and testing versions of your final project. 
-
-You will sign up for a lab slot during the first week of classes.
-
-### 4. Project
-The quarter will culminate in an open-ended project that demonstrates your knowledge of course concepts. You will develop a ‘full stack’ web application in the domain of your choosing, This will involve identifying an appropriate system architecture, setting up required databases and servers, designing and building your own interface, and deploying to the cloud.
-
+On Wednesdays, Thursdays, and Fridays, you will be completing labs -- which are designed to help you install, configure, and explore various ideas around building a ‘full stack web application.’ You will sign up for a lab slot during the first week of classes.
 
 ## Course Staff
 
@@ -46,9 +40,9 @@ The quarter will culminate in an open-ended project that demonstrates your knowl
 | Richard Lam | richardlam2024@u.northwestern.edu | |  
 | Linus Okoth | linusokoth2023@u.northwestern.edu | |
 | Carina Ramos | carinaramos2022@u.northwestern.edu | | 
-| Khalil Samoud | khalilsamoud2022@u.northwestern.edu | |
+| Khalil Samoud | khalilsamoud2022@u.northwestern.edu | @khalil-sam |
 | Jaewon Shin | jaewonshin2022@u.northwestern.edu | |    
-| Riya Singh | riyasingh@u.northwestern.edu | | 
+| Riya Singh | riyasingh@u.northwestern.edu | @riya-s | 
 | Max Tokman | maximetokman2022@u.northwestern.edu | | 
 | Sarah Van Wart | vanwars@northwestern.edu | @vanwars | 	
 
