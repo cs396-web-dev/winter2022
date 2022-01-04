@@ -6,18 +6,44 @@ has_children: true
 permalink: /accessibility-reference/
 ---
 
-## Why Consider Accessibility?
+## Importance of Accessibility
 * <a href="http://www.nixdell.com/classes/HCI-and-Design-Spring-2017/p24-ladner.pdf" target="_blank">Design for User
 Empowerment</a>
 * <a href="https://www.toptal.com/designers/ui/importance-web-accessibility" target="_blank">UX and the Importance of Web Accessibility</a>
 * <a href="https://www.latimes.com/politics/story/2019-10-07/blind-person-dominos-ada-supreme-court-disabled" target="_blank">Supreme Court allows blind people to sue retailers if their websites are not accessible</a>
 * <a href="https://onezero.medium.com/researchers-are-making-memes-accessible-to-the-blind-46b9ef0550da" target="_blank">Researchers Are Making Memes Accessible to the Blind</a>
 
-## Accessible Web Programming
-* <a href="https://www.youtube.com/watch?v=20SHvU2PKsM" target="_blank">Introduction to Web Accessibility and W3C Standards</a>
+## Accessible Web Programming 
+### What
+* <a href="https://www.youtube.com/watch?v=20SHvU2PKsM" target="_blank">Introduction to Web Accessibility and W3C Standards</a> (video)
+* <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank">Introduction to Web Accessibility</a>
+* <a href="https://www.w3.org/WAI/design-develop/" target="_blank">Design and Develop Accessibly - Overview</a>
+* <a href="https://www.w3.org/WAI/standards-guidelines/" target="_blank">W3C Accessibility Standards Overview</a>
+
+### How to
+* <A HREF="https://www.w3.org/WAI/tips/developing/" target="_blank">Developing for Web Accessibility – Tips for Getting Started</A>
+* <A HREF="https://ukhomeoffice.github.io/accessibility-posters/" target="_blank">Accessibility posters</A>
+* <A HREF="https://guide.inclusivedesign.ca/" target="_blank">Welcome to The Inclusive Design Guide</A>
+* <A HREF="https://handbook.floeproject.org/" target="_blank">Inclusive Learning Design Handbook</A>
+* <A HREF="https://www.accessiblemetrics.com/wp-content/uploads/2018/10/Accessible-Metrics-Campaign-Content-Offer.pdf" target="_blank">The Ultimate Web Accessibility Checklist</A>
+* <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">How to Meet WCAG (Quick Reference)</a>
+* <A HREF="https://www.w3.org/WAI/fundamentals/foundations-course/" target="_blank">Digital Accessibility Foundations - Free Online Course</A>
+* <A HREF="https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/" target="_blank">Adding A Dyslexia-Friendly Mode To A Website</A>
 * <a href="https://css-irl.info/how-to-accessibly-split-text/" target="_blank">How to Accessibly Split Text</a>
 
-## Testing Accessibility
+## Manual Accessibility Testing
 * <a href="https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do" target="_blank">The 6 Simplest Web Accessibility Tests Anyone Can Do</a>
-* <a href="https://www.youtube.com/watch?v=cOmehxAU_4s" target="_blank">How I do an accessibility check -- A11ycasts #11</a>
+* <a href="https://www.youtube.com/watch?v=cOmehxAU_4s" target="_blank">How I do an accessibility check</a> (video)
+* <A HREF="https://www.accessiblemetrics.com/blog/7-web-accessibility-testing-tools-for-every-need/" target="_blank">The 25 Best Free Accessibility Tools to Test Your Site - Accessible Metrics</A>
+
+## Automatic Accessibility Testing
 * <a href="http://validator.w3.org/" target="_blank">W3C's Markup Validation Service</a>
+* <A HREF="https://jigsaw.w3.org/css-validator/" target="_blank">The W3C CSS Validation Service</A>
+* <A HREF="https://validator.w3.org/nu/" target="_blank">Ready to check - Nu Html Checker</A>
+* <A HREF="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</A>
+* <A HREF="https://achecker.us/checker/index.php" target="_blank">Web Accessibility Checker : Web Accessibility Checker</A>
+* <A HREF="https://www.accessiblemetrics.com/blog/7-web-accessibility-testing-tools-for-every-need/" target="_blank">The 25 Best Free Accessibility Tools to Test Your Site - Accessible Metrics</A>
+
+## Other resources
+* <A HREF="https://www.smashingmagazine.com/printed-books/inclusive-front-end-design-patterns/" target="_blank">Inclusive Design Patterns</A> (book available for purchase)
+* <A HREF="https://www.smashingmagazine.com/printed-books/inclusive-components/" target="_blank">Inclusive Components</A> (book available for purchase)
