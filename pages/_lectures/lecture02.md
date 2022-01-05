@@ -6,6 +6,9 @@ draft: 0
 show_schedule: 1
 num: 2
 due_date: 2022-01-05
+slides:
+   - url: https://docs.google.com/presentation/d/16pDtno-c8xzLO28OZxkFYkbhhkgLG8uknNUxDKieemQ/edit#slide=id.g10b431dafbb_0_50
+     title: Design with Accessibility in Mind
 readings:
    - url: https://www.toptal.com/designers/ui/importance-web-accessibility
      title: UX and the Importance of Web Accessibility
@@ -38,6 +41,10 @@ readings:
      optional: 1
 ---
 
-Guest lecture by Victoria Chávez. Slides to be posted after lecture.
+Guest lecture by Victoria Chávez.
+
+## Announcements
+1. Please sign up for a Lab Section <a href="https://docs.google.com/spreadsheets/d/1DgpiIHp3aYkCyB6Luz79anEfIjxVJj_JND9z05iM5N4/edit#gid=0" target="_blank">here</a>. Sarah will make this spreadsheet editable during class today so that people can sign up for a lab section.
+2. Labs start this week! Please note that there are assigned readings for Lab 1 that you should do ahead of time.
 
 
