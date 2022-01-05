@@ -12,6 +12,7 @@ Empowerment</a>
 * <a href="https://www.toptal.com/designers/ui/importance-web-accessibility" target="_blank">UX and the Importance of Web Accessibility</a>
 * <a href="https://www.latimes.com/politics/story/2019-10-07/blind-person-dominos-ada-supreme-court-disabled" target="_blank">Supreme Court allows blind people to sue retailers if their websites are not accessible</a>
 * <a href="https://onezero.medium.com/researchers-are-making-memes-accessible-to-the-blind-46b9ef0550da" target="_blank">Researchers Are Making Memes Accessible to the Blind</a>
+* <a href="https://www.ted.com/playlists/372/designing_for_disability" target="_blank">Designing for disability</a>(TED Talk Playlist)
 
 ## Accessible Web Programming 
 ### What
