@@ -19,6 +19,8 @@ Empowerment</a>
 * <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank">Introduction to Web Accessibility</a>
 * <a href="https://www.w3.org/WAI/design-develop/" target="_blank">Design and Develop Accessibly - Overview</a>
 * <a href="https://www.w3.org/WAI/standards-guidelines/" target="_blank">W3C Accessibility Standards Overview</a>
+* <a href="https://www.dataquest.io/blog/what-to-consider-when-choosing-colors-for-data-visualization/" target="_blank">What to Consider When Choosing Colors for Data Visualization
+</a>
 
 ### How to
 * <A HREF="https://www.w3.org/WAI/tips/developing/" target="_blank">Developing for Web Accessibility – Tips for Getting Started</A>
@@ -35,8 +37,10 @@ Empowerment</a>
 * <a href="https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do" target="_blank">The 6 Simplest Web Accessibility Tests Anyone Can Do</a>
 * <a href="https://www.youtube.com/watch?v=cOmehxAU_4s" target="_blank">How I do an accessibility check</a> (video)
 * <A HREF="https://www.accessiblemetrics.com/blog/7-web-accessibility-testing-tools-for-every-need/" target="_blank">The 25 Best Free Accessibility Tools to Test Your Site - Accessible Metrics</A>
+* <a href="https://paletton.com/" target="_blank">Paletton (Color Scheme Designer)</a> (has a vision simulation on the bottom right corner of the color box palette)
 
 ## Automatic Accessibility Testing
+* <a href="https://www.tpgi.com/color-contrast-checker/" target="_blank">Colour Contrast Analyser</a>
 * <a href="http://validator.w3.org/" target="_blank">W3C's Markup Validation Service</a>
 * <A HREF="https://jigsaw.w3.org/css-validator/" target="_blank">The W3C CSS Validation Service</A>
 * <A HREF="https://validator.w3.org/nu/" target="_blank">Ready to check - Nu Html Checker</A>
