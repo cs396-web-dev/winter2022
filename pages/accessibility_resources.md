@@ -42,6 +42,7 @@ Empowerment</a>
 
 ## Automatic Accessibility Testing
 * <a href="https://www.tpgi.com/color-contrast-checker/" target="_blank">Colour Contrast Analyser</a>
+* <a href="https://karlgroves.com/2013/09/07/diagnostic-css-super-quick-web-accessibility-testing" target="_blank">Diagnostic.css – Super quick web accessibility testing</a>
 * <a href="http://validator.w3.org/" target="_blank">W3C's Markup Validation Service</a>
 * <A HREF="https://jigsaw.w3.org/css-validator/" target="_blank">The W3C CSS Validation Service</A>
 * <A HREF="https://validator.w3.org/nu/" target="_blank">Ready to check - Nu Html Checker</A>
