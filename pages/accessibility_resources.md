@@ -7,12 +7,16 @@ permalink: /accessibility-reference/
 ---
 
 ## Importance of Accessibility
+* <a href="https://abilitynet.org.uk/news-blogs/inaccessible-websites-keep-disabled-people-out-work-abilitynet-tells-government-taskforce" target="_blank">Inaccessible websites keep disabled people out of work</a>
 * <a href="http://www.nixdell.com/classes/HCI-and-Design-Spring-2017/p24-ladner.pdf" target="_blank">Design for User
 Empowerment</a>
 * <a href="https://www.toptal.com/designers/ui/importance-web-accessibility" target="_blank">UX and the Importance of Web Accessibility</a>
 * <a href="https://www.latimes.com/politics/story/2019-10-07/blind-person-dominos-ada-supreme-court-disabled" target="_blank">Supreme Court allows blind people to sue retailers if their websites are not accessible</a>
+	* 2021 update: <a href="https://www.lflegal.com/2021/06/dominos-june-2021/" target="_blank">Another Big Win in the Domino’s Pizza Accessibility Saga</a>
+	* TLDR: <a href="https://twitter.com/Kevmarmol_CT/status/1461383995653083140" target="_blank">Twitter Thread</a>
+* <a href="https://webaim.org/projects/million/" target="_blank">The WebAIM Million: Annual accessibility analysis of the top 1,000,000 home pages</a>
 * <a href="https://onezero.medium.com/researchers-are-making-memes-accessible-to-the-blind-46b9ef0550da" target="_blank">Researchers Are Making Memes Accessible to the Blind</a>
-* <a href="https://www.ted.com/playlists/372/designing_for_disability" target="_blank">Designing for disability</a>(TED Talk Playlist)
+* <a href="https://www.ted.com/playlists/372/designing_for_disability" target="_blank">Designing for disability</a> (TED Talk Playlist)
 
 ## Accessible Web Programming 
 ### What
