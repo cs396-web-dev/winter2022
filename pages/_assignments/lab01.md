@@ -79,7 +79,7 @@ When you're done, open your command line (on your local computer), navigate to y
 
 ```shell
 git init
-git remote add origin ???         # replace ??? w/your repo address
+git remote add origin ???         # replace ??? w/your repo address, using either in HTTPS or SSH protocol 
 git add .
 git status
 git commit -am 'My first commit'  # any message you want
@@ -91,7 +91,7 @@ git push origin main
 | | Command | What it does | When to you use it |
 |--|--|--|--|
 | 1. | `git init` | Initializes a brand new git repo on your local machine. | **Just once** (when you're first setting up your repo) |
-| 2. | `git remote add origin ???` | Connects the local repo you just created (on your computer) to your GitHub repo (in the cloud). Replace `???` with the address of the GitHub repo you just made. | **Just once** (when you're first setting up your repo) |
+| 2. | `git remote add origin ???` | Connects the local repo you just created (on your computer) to your GitHub repo (in the cloud). Replace `???` with the address of the GitHub repo you just made, using either in HTTPS or SSH protocol. For more information, see <a href="https://docs.google.com/document/d/197WNBtEZ36qUztPAEp8uz_R6NdGvNbMjqVLmzBE2H_Y/edit#" target="_blank">this post</a> | **Just once** (when you're first setting up your repo) |
 | 3. | `git add .` | Tells your local repo to watch all of the files in the folder. The dot (.) indicates that you want to add "all" your files. | **Often:** Anytime you create a new file and want to ensure that file is under version control. |
 | 4. | `git status` | Shows you all of the files that have changed since you last committed. Also tells you which files are tracked and which are not. | **Often:** Anytime you want to check the status of your files. |
 | 5. | `git commit -am 'My first commit'` | Committing is like "saving" a version of all of your tracked files (if you ever needed to later revert to a previous version of your code). | **Often:** Anytime you want to save a version of your work. |
