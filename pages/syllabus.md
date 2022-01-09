@@ -33,7 +33,7 @@ On Wednesdays, Thursdays, and Fridays, you will be completing labs -- which are 
 
 ## Course Staff
 
-| Name | Email | Github Handle | 
+<!-- | Name | Email | Github Handle | 
 |--|--|--| 
 | Jenny (Jayhyun) Chang | JayhyunChang2022@u.northwestern.edu | jennychang0 |
 | Mohini Gupta | mohinigupta2022@u.northwestern.edu | mohinigupta30 | 
@@ -46,7 +46,22 @@ On Wednesdays, Thursdays, and Fridays, you will be completing labs -- which are 
 | Riya Singh | riyasingh@u.northwestern.edu | riya-s | 
 | Max Tokman | maximetokman2022@u.northwestern.edu | maximetokman | 
 | Lucah Ueno | lucahueno2022@u.northwestern.edu | lucahueno | 
-| Sarah Van Wart | vanwars@northwestern.edu | vanwars | 	
+| Sarah Van Wart | vanwars@northwestern.edu | vanwars | 	 -->
+
+| Name | Email |
+|--|--|--| 
+| Jenny (Jayhyun) Chang | JayhyunChang2022@u.northwestern.edu |
+| Mohini Gupta | mohinigupta2022@u.northwestern.edu |
+| Rohith Jayaraman | rohithjayaraman2021@u.northwestern.edu | 
+| Richard Lam | richardlam2024@u.northwestern.edu |  
+| Linus Okoth | linusokoth2023@u.northwestern.edu |
+| Carina Ramos | carinaramos2022@u.northwestern.edu |
+| Khalil Samoud | khalilsamoud2022@u.northwestern.edu |
+| Jaewon Shin | jaewonshin2022@u.northwestern.edu | 
+| Riya Singh | riyasingh@u.northwestern.edu |
+| Max Tokman | maximetokman2022@u.northwestern.edu |
+| Lucah Ueno | lucahueno2022@u.northwestern.edu |
+| Sarah Van Wart | vanwars@northwestern.edu |
 
 ### Office Hours
 Consider office hours as an extension of the class, and we want you to rely on them to get the help you need for assignments. We expect that everyone will need to attend office hours from time to time throughout the quarter. Many students opt to go every week. Office hours will be posted on the course's [Google Calendar](https://calendar.google.com/calendar/u/0?cid=aDg5bnY4ZjlpZ3ZtcmNyb25wdGV0ZG51dGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
