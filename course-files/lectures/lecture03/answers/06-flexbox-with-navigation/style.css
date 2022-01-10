@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#home, #bio, #portfolio, #contact {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 60px;
+}
+
+#home, #portfolio {
+    background: #f2f2f2;
+}
+a, a:link, a:hover, a:visited {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(101, 36, 145);
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    background-color: #DDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+ul, li, h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
