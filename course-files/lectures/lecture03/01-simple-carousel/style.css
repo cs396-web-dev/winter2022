@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body * {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #f0c771;
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.carousel {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel > section {
+    padding: 10vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel > section img {
+    max-height: 300px;
+}
