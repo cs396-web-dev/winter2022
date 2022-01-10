@@ -17,6 +17,9 @@ In today's lesson, we will go over HTML & CSS. Both are declarative languages th
 ## Slides
 * <a href="https://docs.google.com/presentation/d/15fe9NmLRbORQNitruuuigvOpyCpOI4H-zIYEglGCdhM/edit?usp=sharing" target="_blank">Intro to HTML & CSS</a>
 
+## Lecture Video(s)
+* <a href="https://northwestern.zoom.us/rec/share/IfHcTEJqk5c_83zZnrwTjLr5dsOT6e5G6W4VSehHlJlaXnl4mhoWz49fC0_w4Ycx.CdphdDGTfRXYOBij?startTime=1641839423000" target="_blank">Recorded Lecture Video</a> (1:20:54)
+
 ## Readings
 
 ### 1. Review
