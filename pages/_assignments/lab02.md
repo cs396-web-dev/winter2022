@@ -17,7 +17,16 @@ Flask is a framework, built with Python, for helping people build dynamic, scala
 * A way to listen for and parse HTTP requests over a specified port
 * A way to create valid HTTP responses (sent out over said port)
 
-Most frameworks have abstractions similar to those offered by Flask, so once you learn Flask, learning new server-side web frameworks will be easier. 
+Most frameworks have abstractions similar to those offered by Flask, so once you learn Flask, learning new server-side web frameworks will be easier. Some other web frameworks that are analagous to Flask include:
+
+{:.small}
+| Python | Flask, Django, Web2Py, Pyramid, etc.| 
+| Node.js | Express, etc. |
+| PHP | Larvel, Symfony, etc. |
+| Ruby | Rails, etc. |
+| Java | Spring, Struts, etc. |
+| C# | ASP.NET, etc. |
+
 
 ## 2. Background Readings
 * Please review the readings from [Lecture 4](../lectures/lecture04).
@@ -25,7 +34,29 @@ Most frameworks have abstractions similar to those offered by Flask, so once you
 ## 3. Set Up
 If you haven't used Python before, please download and install it: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>.
 
-Once Python is installed, use Terminal (Mac),  GitBash (Windows), or the Command Prompt (Windows) to navigate to your lab02 folder. Then, install the python dependencies:
+Once Python is installed, download lab02.zip (below), unzip it, and move your lab02 folder inside of your webdev-labs folder. 
+
+<a class="nu-button" href="/winter2022/course-files/labs/lab02.zip">lab02.zip<i class="fas fa-download" aria-hidden="true"></i></a>
+
+Your directory structure should look like this. Note that your git repository should be in the root of your webdev-labs directory:
+
+```bash
+webdev-labs
+├── .git
+├── lab01
+│   ├── exercise01
+│   └── exercise02
+└── lab02
+    ├── .gitignore
+    ├── Procfile
+    ├── app.py
+    ├── helpers
+    ├── requirements.txt
+    ├── static
+    └── templates
+```
+
+Using Terminal (Mac),  GitBash (Windows), or the Command Prompt (Windows) to navigate to your lab02 folder. Then, install the Python dependencies:
 
 ```bash
 pip3 install -r requirements.txt    # install dependencies
@@ -65,6 +96,8 @@ You should see the following output:
 
  Navigate to <a href="http://127.0.0.1:5000/" target="_blank">http://127.0.0.1:5000/</a>, and you should see a screen that says "Hello World!"
 
+<img class="medium frame" src="/winter2022/assets/images/labs/lab02/hello-world.png" />
+
 
 ## 4. Required Flask Exercises
 Please complete the following exercises to get a sense of the kinds of things you can do with Flask:
@@ -73,6 +106,7 @@ Please complete the following exercises to get a sense of the kinds of things yo
 Update the `exercise1` function so that it returns a personalized greeting to the user. In other words, replace "Hello World!" with something like, "Hi Erick!"
 * Assume that the `current_user` variable, defined at the top of `app.py` represents the user who is currently logged in. 
 
+<img class="medium frame" src="/winter2022/assets/images/labs/lab02/hello-erick.png" />
 
 ### 2. Merge with a template
 The `exercise2` function uses a template to generate its response. Specifically, python reads in the `templates/quote-of-the-day.html` file, finds any python expressions (represented by curly braces), evaluates them, and finally sends a "plain" HTML file back to the client:
@@ -90,6 +124,8 @@ Open the `templates/quote-of-the-day.html` file and examine how the Jinja templa
 Please make the following modifications:
 1. In `app.py`, add another context variable, called `quote` that holds a randomly selected quote from the `quotes` list (see line 16). Consider using the built-in <a href="https://www.w3schools.com/python/ref_random_choice.asp" target="_blank">random.choice</a> function.
 1. In `templates/quote-of-the-day.html`, update the template so that the quote of the day is displayed.
+
+<img class="medium frame" src="/winter2022/assets/images/labs/lab02/erick-quote.png" />
 
 ### 3. Accessing data from other servers
 Servers can also be clients of other servers. In other words, your Flask server can query data from other servers (using HTTP) and then make use of that data in their own way. The `exercise3` function queries a Yelp proxy server that Sarah made for restaurants that match a particular location and set of keywords:
@@ -130,6 +166,9 @@ Then test your routes by experimenting with the following URLs:
 
 Basic takeaway: you can allow your user to pass data into your functions via the URL. Pretty cool!
 
+<img class="large frame" src="/winter2022/assets/images/labs/lab02/data-feed-miami-cuban.png" />
+
+
 ### 4. Create a data-driven template
 Now, you're going to create a data-driven template to display information about the "Top Restaurant" (according to Yelp) that matches your search criteria. Consider the following code:
 
@@ -161,17 +200,43 @@ It works very similarly to the code in exercise 3, except for it merges with the
 
 Note that this template also uses a new construct -- the "include" -- as a way to modularize your code.
 
+<img class="large frame" src="/winter2022/assets/images/labs/lab02/template-before.png" />
+
+### Your Task
+Modify the HTML in this template so that it displays the Yelp data in a more visual format. For instance, Sarah made her's look like this:
+
+<img class="medium frame" src="/winter2022/assets/images/labs/lab02/template-after.png" />
 
 ## 5. Optional Flask Exercises (recommended if time)
 If you have more time, please also try the optional flask exercises. It will give you more practice to ensure that you feel comfortable with HW2!
 
 ### 1. Looping using Jinja
-In exercise 4, you only showed a single restaurant. Look at the <a href="https://jinja.palletsprojects.com/en/3.0.x/templates/" target="_blank">Jinja documentation</a> and see if you can figure out how to output all of the matching restaurants for the search (not just the first one).
+In exercise 4, you only showed a single restaurant. Look at the <a href="https://jinja.palletsprojects.com/en/3.0.x/templates/" target="_blank">Jinja documentation</a> and see if you can figure out how to output all of the matching restaurants for the search (not just the first one). See if you can make your template look like this one:
+
+<img class="large frame" src="/winter2022/assets/images/labs/lab02/restaurants.png" />
 
 ### 2. Includes
-YYY
-```python
-return 'Hello World!'
+See if you can convert the HTML that shows a single restaurant card into an include file (similar to `includes/header.html`)
+
+## 6. What to turn in
+Note: if you weren't able to complete all three of the exercises in the time alotted, that's fine. This was just a warm-up and you are being assessed on evidence of a good-faith effort. The most important thing is that you set up your GitHub
+
+To submit Lab 1:
+
+### 1. Push all of your files to GitHub
+Please copy the latest version of your files to GitHub by issuing the following commands:
+
+```shell
+git add .    # in case you created any new files
+git commit -am 'Commiting my completed lab02 files'
+git status   # to make sure that all of your files are being tracked
+git push     # sends your files to GitHub
 ```
+
+### 2. Paste a link to your repo on Canvas
+Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for Lab 2.
+
+### 3. Answer the following question on Canvas
+TBD
 
 
