@@ -11,10 +11,6 @@ readings:
       title: "Server Side Templates vs REST API and Javascript Front-End"
       date: Oct., 2017
       author: Janetakis, Nick
-    - url: https://realpython.com/python-virtual-environments-a-primer/
-      title: What is a virtual environment?
-    - url: https://flask.palletsprojects.com/en/2.0.x/installation/
-      title: Install Flask (with a Virtual Environment)
     - url: https://flask.palletsprojects.com/en/2.0.x/quickstart/
       title: Flask Quickstart Guide
       notes: "We'll be processing this in class together and in lab"
