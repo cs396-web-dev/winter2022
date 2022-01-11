@@ -15,7 +15,9 @@ due_date: 2022-01-14
 * Templating, using the <a href="https://jinja.palletsprojects.com/en/3.0.x/" target="_blank">Jinja template engine</a>
 * A simple way to define <a href="https://flask.palletsprojects.com/en/2.0.x/api/#url-route-registrations" target="_blank">routes</a> (which bind URL addresses to functions), and to specify which methods are valid for a particular route (HEAD, OPTIONS, GET, POST, PUT, PATCH, DELETE)
 * A way to listen for and parse HTTP requests over a specified port
-* A way to create valid HTTP responses (sent out over said port)
+* A way to create and send HTTP responses
+
+In addition, since Flask is written in Python, you have access to any and all Python libraries (e.g., for connecting to various databases, taking advantage of pretrained models, and so forth).
 
 Most frameworks have abstractions similar to those offered by Flask, so once you learn Flask, learning new server-side web frameworks will be easier. Some other web frameworks that are analagous to Flask (that you may have heard of) include:
 
