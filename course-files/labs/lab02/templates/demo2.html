@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Demo 2</title>
+</head>
+<body>
+    <h1>
+        {% if icon %}
+            <img height="80" style="width: 80px;vertical-align: middle;" src="{{ icon }}" />
+        {% endif %}
+        {{ city }}
+    </h1>
+    <p>Weather for {{ city }}: <strong>{{ description }}</strong>.</p>
+    
+    {% if temp %}
+        <p>Temp: {{ temp }}&deg; F</p>
+    {% endif %}
+    {% if feels_like %}
+        <p>Feels Like: {{ feels_like }}&deg; F</p>
+    {% endif %}
+</body>
+</html>
