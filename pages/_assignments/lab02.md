@@ -238,7 +238,7 @@ git push     # sends your files to GitHub
 ```
 
 ### 2. Paste a link to your repo on Canvas
-Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for Lab 2.
+Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for <a href="https://canvas.northwestern.edu/courses/157233/assignments/1016081" target="_blank">Lab 2</a>.
 
 ### 3. Answer the following question on Canvas
 **Below the link to your repo**, in a brief reflective response (about 4-8 sentences total), please consider the following questions:
