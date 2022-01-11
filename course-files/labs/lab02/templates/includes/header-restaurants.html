@@ -1,0 +1,11 @@
+<header>
+    <h1>Welcome, {{ user.get_full_name() }}</h1>
+    <nav>
+        <ul>
+            <li><a href="/restaurants/{{city}}/pizza">Pizza</a></li>
+            <li><a href="/restaurants/{{city}}/chinese">Chinese</a></li>
+            <li><a href="/restaurants/{{city}}/thai">Thai</a></li>
+            <li><a href="/restaurants/{{city}}/indian">Indian</a></li>
+        </ul>
+    </nav>
+</header>

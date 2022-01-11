@@ -2,59 +2,76 @@ from flask import Flask
 from flask import render_template
 import random
 import requests
+from helpers import CurrentUser
 from pprint import pprint
 
-
+# initializes flask app:
 app = Flask(__name__)
 
+#########################
+# some global variables #
+#########################
+current_user = CurrentUser(first_name='Erick', last_name='Rubi', email='erub03@gmail.com', username='erub03')
 
+quotes = (
+    '“We May Encounter Many Defeats But We Must Not Be Defeated.” – Maya Angelou',
+    '“The Way Get Started Is To Quit Talking And Begin Doing.” – Walt Disney',
+    '“Security Is Mostly A Superstition. Life Is Either A Daring Adventure Or Nothing.” – Life Quote By Helen Keller',
+    '“The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill',
+    '“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers',
+    '“You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.” – Unknown',
+    '“If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.” – Steve Jobs',
+)
+
+##############
+# Exercise 1 #
+##############
 @app.route('/')
-def homepage():
-    return render_template('index.html')
+def exercise1():
+    return 'Hello World!'
 
 
-# Demo 1: Sends a dynamically generated paragraph to the client.
-@app.route('/demo1')
-def demo1():
-    weather_options = [
-        'sunny', 'cloudy', 'windy', 'rainy', 'snowy',
-        'icy', 'hot', 'humid', 'muggy'
-    ]
-    prediction = random.choice(weather_options)
-    return '<p>Today, the weather will be <strong>' + \
-        prediction + '</strong></p>.'
-
-# Demo 2: Merges with the demo2.html template;
-# merges the template with the "prediction" variable.
-@app.route('/demo2')
-def demo2():
-    response = requests.get('https://fcc-weather-api.glitch.me/api/current?lon=-87.698&lat=42.063')
-    data = response.json()
-    pprint(data)
-    city = data.get('name')
-    description = data.get('weather')[0].get('description')
-    icon = data.get('weather')[0].get('icon')
-    try:
-        feels_like = data.get('main').get('feels_like')
-        feels_like = to_fahrenheit(feels_like)
-    except:
-        feels_like = None
-    try:
-        temp = data.get('main').get('temp')
-        temp = to_fahrenheit(temp)
-    except:
-        temp = None
-    
-    return render_template('demo2.html', 
-        city=city,
-        description=description,
-        icon=icon,
-        feels_like=feels_like,
-        temp=temp
+##############
+# Exercise 2 #
+##############
+@app.route('/quote')
+def exercise2():
+    return render_template(
+        'quote-of-the-day.html',
+        user=current_user
     )
 
-def to_fahrenheit(temp):
-    return '{0:.1f}'.format(temp * 1.8 + 32)
+##############
+# Exercise 3 #
+##############
+@app.route('/restaurant-data')
+def exercise3():
+    import json
+    search_term = 'pizza'
+    city = 'Evanston, Il'
+    url = 'https://www.apitutor.org/yelp/simple/v3/businesses/search?location={0}&term={1}'.format(city, search_term)
+    response = requests.get(url)
+    data = response.json()
+    return json.dumps(data)
+
+##############
+# Exercise 4 #
+##############
+@app.route('/restaurant/<city>/<search_term>')
+@app.route('/restaurant/<city>')
+@app.route('/restaurant')
+def exercise4(city='Evanston, IL', search_term=''):
+    url = 'https://www.apitutor.org/yelp/simple/v3/businesses/search?location={0}&term={1}'.format(city, search_term)
+    response = requests.get(url)
+    restaurants = response.json()
+    pprint(restaurants[0]) # for debugging
+    return render_template(
+        'restaurant.html',
+        user=current_user,
+        search_term=search_term,
+        city=city,
+        restaurant=restaurants[0]
+    )
 
 @app.route('/cards')
 def photos_static():
