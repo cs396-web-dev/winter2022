@@ -241,6 +241,8 @@ git push     # sends your files to GitHub
 Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for <a href="https://canvas.northwestern.edu/courses/157233/assignments/1016081" target="_blank">Lab 2</a>.
 
 ### 3. Answer the following question on Canvas
-**Below the link to your repo**, in a brief reflective response (about 4-8 sentences total), please consider the following questions:
+**Below the link to your repo**, in a brief reflective response (about 2-3 sentences per question), please consider the following questions:
 
-- Did you consider accessibility when completing Exercise 4.4.? Please elaborate. 
+- Did you consider conducting accessibility testing on your lab assignment? Why or why not?
+- If you tested your site for accessibility and found issues, were you able to solve them? What did you do to try to solve them? What stopped you from successfully resolving or trying to resolve the issues?
+- How might you change the JSON data response from the Yelp API to enhance accessibility?
