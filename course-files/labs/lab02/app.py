@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import render_template
 import random
+import json
 import requests
 from helpers import CurrentUser
 from pprint import pprint

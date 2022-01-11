@@ -3,21 +3,21 @@ layout: assignment-two-column
 title: Setting Up Python & Flask
 type: lab
 abbreviation: Lab 2
-draft: 1
+draft: 0
 num: 2
 points: 5
 due_date: 2022-01-14
 ---
 
 ## 1. Intro to Flask
-Flask is a framework, built with Python, for helping people build dynamic, scalable web applications. Sarah has selected Flask as our web server engine for this quarter because it has a relatively simple set of common abstractions, and is therefore easier to learn than some other frameworks. At the same time, it is also very powerful, and has features such as:
+<a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank">Flask</a> is a framework, built with Python, for helping people build dynamic, scalable web applications. We have selected Flask as our web server engine for this quarter because it has a relatively simple set of common abstractions, and is therefore easier to learn than some other frameworks. At the same time, it is also very powerful, and has features such as:
 
 * Templating, using the <a href="https://jinja.palletsprojects.com/en/3.0.x/" target="_blank">Jinja template engine</a>
 * A simple way to define <a href="https://flask.palletsprojects.com/en/2.0.x/api/#url-route-registrations" target="_blank">routes</a> (which bind URL addresses to functions), and to specify which methods are valid for a particular route (HEAD, OPTIONS, GET, POST, PUT, PATCH, DELETE)
 * A way to listen for and parse HTTP requests over a specified port
 * A way to create valid HTTP responses (sent out over said port)
 
-Most frameworks have abstractions similar to those offered by Flask, so once you learn Flask, learning new server-side web frameworks will be easier. Some other web frameworks that are analagous to Flask include:
+Most frameworks have abstractions similar to those offered by Flask, so once you learn Flask, learning new server-side web frameworks will be easier. Some other web frameworks that are analagous to Flask (that you may have heard of) include:
 
 {:.small}
 | Python | Flask, Django, Web2Py, Pyramid, etc.| 
@@ -25,7 +25,7 @@ Most frameworks have abstractions similar to those offered by Flask, so once you
 | PHP | Larvel, Symfony, etc. |
 | Ruby | Rails, etc. |
 | Java | Spring, Struts, etc. |
-| C# | ASP.NET, etc. |
+| C# | ASP.NET |
 
 
 ## 2. Background Readings
@@ -121,14 +121,15 @@ def exercise2():
 ```
 Open the `templates/quote-of-the-day.html` file and examine how the Jinja template allows python logic to be inject data into the HTML file (using double curly brace notation). Note that in order to give your template access to data, it must be passed into the `render_template` function as a keyword argument (from `app.py`). You may pass in as many keyword arguments (i.e. pieces of data) as you like into the template. These pieces of data are often referred to as the template's "context."
 
+#### Your Task
 Please make the following modifications:
-1. In `app.py`, add another context variable, called `quote` that holds a randomly selected quote from the `quotes` list (see line 16). Consider using the built-in <a href="https://www.w3schools.com/python/ref_random_choice.asp" target="_blank">random.choice</a> function.
+1. In `app.py`, add another context variable, called `quote` that holds a randomly selected quote from the `quotes` list (see ~line 17). Consider using the built-in <a href="https://www.w3schools.com/python/ref_random_choice.asp" target="_blank">random.choice</a> function.
 1. In `templates/quote-of-the-day.html`, update the template so that the quote of the day is displayed.
 
 <img class="medium frame" src="/winter2022/assets/images/labs/lab02/erick-quote.png" />
 
 ### 3. Accessing data from other servers
-Servers can also be clients of other servers. In other words, your Flask server can query data from other servers (using HTTP) and then make use of that data in their own way. The `exercise3` function queries a Yelp proxy server that Sarah made for restaurants that match a particular location and set of keywords:
+Servers can also be clients that issue requests to other servers (the thing doing the "asking" is usually referred to as the client). In other words, your Flask server can query data from other servers (using HTTP or other protocols) and then make use of that data in their own way. The `exercise3` function queries a proxy server that Sarah made (<a href="https://www.apitutor.org" target="_blank">https://www.apitutor.org</a>) for accessing Yelp (and other providers). In this example, we are querying Yelp for restaurants that match a ***location*** and ***search term***:
 
 ```python
 @app.route('/restaurant-data')
@@ -142,7 +143,10 @@ def exercise3():
     return json.dumps(data)
 ```
 
-Note that this route returns a JSON file (instead of HTML). You are going to make this route more customizable by replacing the code shown above with this code:
+Note that the `/restaurant-data` route returns a JSON string (instead of an HTML string). 
+
+#### Your Task
+You are going to make this route more customizable by replacing the code shown above with this code:
 
 ```python
 @app.route('/restaurant-data/<city>/<search_term>')
@@ -156,7 +160,7 @@ def exercise3(city='Evanston, IL', search_term=''):
     return json.dumps(data)
 ```
 
-Then test your routes by experimenting with the following URLs:
+The code above allows function arguments to be passed into the Yelp query based on the route. After making the changes above, test your new routes by experimenting with the following URLs:
 
 * <a href="http://127.0.0.1:5000/restaurant-data" target="_blank">http://127.0.0.1:5000/restaurant-data</a> (All restaurants in Evanston -- defaults to Evanston)
 * <a href="http://127.0.0.1:5000/restaurant-data/Evanston,%20IL" target="_blank">http://127.0.0.1:5000/restaurant-data/Evanston,%20IL</a> (All restaurants in Evanston)
@@ -164,13 +168,13 @@ Then test your routes by experimenting with the following URLs:
 * <a href="http://127.0.0.1:5000/restaurant-data/San Diego,%20CA" target="_blank">http://127.0.0.1:5000/restaurant-data/San Diego,%20CA</a> (All restaurants in San Diego)
 * <a href="http://127.0.0.1:5000/restaurant-data/San Diego,%20CA/thai" target="_blank">http://127.0.0.1:5000/restaurant-data/San Diego,%20CA/thai</a> (Thai restaurants in San Diego)
 
-Basic takeaway: you can allow your user to pass data into your functions via the URL. Pretty cool!
+Feel free to replace the cities and search terms with your own! Basic takeaway: you can allow your user to pass data into your functions via the URL.
 
 <img class="large frame" src="/winter2022/assets/images/labs/lab02/data-feed-miami-cuban.png" />
 
 
 ### 4. Create a data-driven template
-Now, you're going to create a data-driven template to display information about the "Top Restaurant" (according to Yelp) that matches your search criteria. Consider the following code:
+Now, you're going to create a data-driven **template** to display information about the "Top Restaurant" (according to Yelp) that matches your search criteria. Consider the following code:
 
 ```python
 @app.route('/restaurant/<city>/<search_term>')
@@ -190,7 +194,7 @@ def exercise4(city='Evanston, IL', search_term=''):
     )
 ```
 
-It works very similarly to the code in exercise 3, except for it merges with the `restaurant.html` template (instead of dumping raw JSO data). Please try testing this routes by experimenting with the following URLs:
+It works very similarly to the code in exercise 3, except for it merges with the `restaurant.html` template (instead of dumping raw JSON data). Please try testing these routes by experimenting with the following URLs:
 
 * <a href="http://127.0.0.1:5000/restaurant" target="_blank">http://127.0.0.1:5000/restaurant</a> (All restaurants in Evanston -- defaults to Evanston)
 * <a href="http://127.0.0.1:5000/restaurant/Evanston,%20IL" target="_blank">http://127.0.0.1:5000/restaurant/Evanston,%20IL</a> (All restaurants in Evanston)
@@ -198,14 +202,16 @@ It works very similarly to the code in exercise 3, except for it merges with the
 * <a href="http://127.0.0.1:5000/restaurant/San Diego,%20CA" target="_blank">http://127.0.0.1:5000/restaurant/San Diego,%20CA</a> (All restaurants in San Diego)
 * <a href="http://127.0.0.1:5000/restaurant/San Diego,%20CA/thai" target="_blank">http://127.0.0.1:5000/restaurant/San Diego,%20CA/thai</a> (Thai restaurants in San Diego)
 
-Note that this template also uses a new construct -- the "include" -- as a way to modularize your code.
+Note that the `restaurant.html` template uses a new construct -- the "include" -- as a way to modularize code.
 
 <img class="large frame" src="/winter2022/assets/images/labs/lab02/template-before.png" />
 
-### Your Task
+#### Your Task
 Modify the HTML in this template so that it displays the Yelp data in a more visual format. For instance, Sarah made her's look like this:
 
 <img class="medium frame" src="/winter2022/assets/images/labs/lab02/template-after.png" />
+
+Feel free to jazz up your template any way you like!
 
 ## 5. Optional Flask Exercises (recommended if time)
 If you have more time, please also try the optional flask exercises. It will give you more practice to ensure that you feel comfortable with HW2!
@@ -218,10 +224,8 @@ In exercise 4, you only showed a single restaurant. Look at the <a href="https:/
 ### 2. Includes
 See if you can convert the HTML that shows a single restaurant card into an include file (similar to `includes/header.html`)
 
-## 6. What to turn in
-Note: if you weren't able to complete all three of the exercises in the time alotted, that's fine. This was just a warm-up and you are being assessed on evidence of a good-faith effort. The most important thing is that you set up your GitHub
-
-To submit Lab 1:
+## 6. What to Turn In
+To submit Lab 2:
 
 ### 1. Push all of your files to GitHub
 Please copy the latest version of your files to GitHub by issuing the following commands:
@@ -237,6 +241,6 @@ git push     # sends your files to GitHub
 Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for Lab 2.
 
 ### 3. Answer the following question on Canvas
-TBD
+**Below the link to your repo**, in a brief reflective response (about 4-8 sentences total), please consider the following questions:
 
-
+- Did you consider accessibility when completing Exercise 4.4.? Please elaborate. 
