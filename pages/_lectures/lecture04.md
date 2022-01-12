@@ -7,6 +7,12 @@ show_schedule: 1
 num: 4
 due_date: 2022-01-12
 exercise_url: lecture04.zip
+videos:
+    - url: https://northwestern.zoom.us/rec/share/qRxOz3xVHfXdpVax1ICTZrsROR4Vp-JDqZF--4siWyXxlXozqu6Io0yI41AAZYjt.xJEcmN57S6r-SzP2
+      title: Recorded Lecture Video
+      duration: "1:22:25"
+      live: 1
+
 slides: 
     - url: https://docs.google.com/presentation/d/1_IsP2aeB8qL-RZSh5SofrxMYXIwtZuEhxH0p3hTAG0Y/edit?usp=sharing
       title: "Intro to Flask"
