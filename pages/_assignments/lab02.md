@@ -104,6 +104,11 @@ You should see the following output:
 
 <img class="medium frame" src="/winter2022/assets/images/labs/lab02/hello-world.png" />
 
+### FAQs / Troubleshooting
+Sarah will keep adding FAQs to this section. Some known issues:
+1. As mentioned above, Sarah forgot to include the `requests` module in the original `requirements.txt` installation file. If you downloaded the code before 6:30PM on Wednesday you'll have to install it manually (or else you can re-download the starter files): `pip3 install requests`
+1. If you are using windows and you can't start flask using the `flask run` command, try: `python -m flask run` 
+
 
 ## 4. Required Flask Exercises
 Please complete the following exercises to get a sense of the kinds of things you can do with Flask:
