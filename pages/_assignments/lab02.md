@@ -130,7 +130,7 @@ def exercise2():
         user=current_user
     )
 ```
-Open the `templates/quote-of-the-day.html` file and examine how the Jinja template allows python logic to be injected into the HTML file (using double curly brace notation). Note that in order to give your template access to data, it must be passed into the `render_template` function as a keyword argument (from `app.py`). You may pass in as many keyword arguments (i.e. pieces of data) as you like into the template. These pieces of data are often referred to as the template's "context."
+Open the `templates/quote-of-the-day.html` file and examine how the Jinja template allows python logic to be evaluated from within the HTML template (using double curly brace notation). Note that in order to give your template access to data, it must be passed into the `render_template` function as a keyword argument (from `app.py`). You may pass in as many keyword arguments (i.e. pieces of data) as you like into the template. These pieces of data are often referred to as the template's "context."
 
 #### Your Task
 Please make the following modifications:
