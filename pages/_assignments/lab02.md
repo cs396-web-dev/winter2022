@@ -63,11 +63,15 @@ Using Terminal (Mac),  GitBash (Windows), or the Command Prompt (Windows) to nav
 ```bash
 pip3 install -r requirements.txt    # install dependencies
 ```
+If that doesn't work (usually on Windows), try:
+```bash
+py -m pip install -r requirements.txt
+```
 
 ### If you downloaded lab02.zip **before 6:30PM Wednesday**
 Sarah forgot to add the `requests` module to requirements.txt, so you'll have to install it manually from the command line: `pip3 install requests`
 
-When you're done, try running your flask app:
+When you're done, try running your flask app from your command line:
 
 ### Mac or GitBash
 ```bash
@@ -87,6 +91,10 @@ set FLASK_ENV=development
 
 # then run flask (type Ctrl+C to quit)
 flask run
+# alternative commands to try if "flask run" doesn't work:
+# py -m flask run
+# python3 -m flask run
+# python -m flask run
 ```
 
 You should see the following output:
