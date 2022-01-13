@@ -13,7 +13,7 @@ due_date: 2022-01-14
 <a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank">Flask</a> is a framework, built with Python, for helping people build dynamic, scalable web applications. We have selected Flask as our web server engine for this quarter because it has a relatively simple set of common abstractions, and is therefore easier to learn than some other frameworks. At the same time, it is also very powerful, and has features such as:
 
 * Templating, using the <a href="https://jinja.palletsprojects.com/en/3.0.x/" target="_blank">Jinja template engine</a>
-* A simple way to define <a href="https://flask.palletsprojects.com/en/2.0.x/api/#url-route-registrations" target="_blank">routes</a> (which bind URL addresses to functions), and to specify which methods are valid for a particular route (HEAD, OPTIONS, GET, POST, PUT, PATCH, DELETE)
+* A simple way to define <a href="https://flask.palletsprojects.com/en/2.0.x/api/#url-route-registrations" target="_blank">routes</a> (which bind URL addresses to functions), and to specify which HTTP methods are valid for a particular route (HEAD, OPTIONS, GET, POST, PUT, PATCH, DELETE)
 * A way to listen for and parse HTTP requests over a specified port
 * A way to create and send HTTP responses
 
@@ -130,7 +130,7 @@ def exercise2():
         user=current_user
     )
 ```
-Open the `templates/quote-of-the-day.html` file and examine how the Jinja template allows python logic to be inject data into the HTML file (using double curly brace notation). Note that in order to give your template access to data, it must be passed into the `render_template` function as a keyword argument (from `app.py`). You may pass in as many keyword arguments (i.e. pieces of data) as you like into the template. These pieces of data are often referred to as the template's "context."
+Open the `templates/quote-of-the-day.html` file and examine how the Jinja template allows python logic to be injected into the HTML file (using double curly brace notation). Note that in order to give your template access to data, it must be passed into the `render_template` function as a keyword argument (from `app.py`). You may pass in as many keyword arguments (i.e. pieces of data) as you like into the template. These pieces of data are often referred to as the template's "context."
 
 #### Your Task
 Please make the following modifications:
