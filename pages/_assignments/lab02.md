@@ -63,6 +63,10 @@ Using Terminal (Mac),  GitBash (Windows), or the Command Prompt (Windows) to nav
 ```bash
 pip3 install -r requirements.txt    # install dependencies
 ```
+
+### If you downloaded lab02.zip **before 6:30PM Wednesday**
+Sarah forgot to add the `requests` module to requirements.txt, so you'll have to install it manually from the command line: `pip3 install requests`
+
 When you're done, try running your flask app:
 
 ### Mac or GitBash
