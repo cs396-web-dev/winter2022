@@ -66,6 +66,9 @@ pip3 install -r requirements.txt    # install dependencies
 If that doesn't work (usually on Windows), try:
 ```bash
 py -m pip install -r requirements.txt
+# or one of these:
+# python3 -m pip install -r requirements.txt
+# python -m pip install -r requirements.txt
 ```
 
 ### If you downloaded lab02.zip **before 6:30PM Wednesday**
