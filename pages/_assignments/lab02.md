@@ -76,7 +76,7 @@ Sarah forgot to add the `requests` module to requirements.txt, so you'll have to
 
 When you're done, try running your flask app from your command line:
 
-### Mac or GitBash
+### Mac or Linux
 ```bash
 # set environment variables (you just have to do this once per session)
 export FLASK_APP=app.py     
