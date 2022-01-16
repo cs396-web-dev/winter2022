@@ -8,3 +8,12 @@ num: 4
 points: 5
 due_date: 2022-01-28
 ---
+
+SQLAlchemy + Flask + Postgres
+
+Possible tutorials:
+
+* https://medium.com/@dushan14/create-a-web-application-with-python-flask-postgresql-and-deploy-on-heroku-243d548335cc
+* https://www.youtube.com/watch?v=XZ_gAWdGzZk
+* https://blog.theodo.com/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/ 
+
