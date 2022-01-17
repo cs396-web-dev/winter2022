@@ -178,18 +178,18 @@ ol.readings, ul.readings {
     margin-top: 0px;
     margin-bottom: 0px;
 
-    li {
-        margin-top: 0px;
-    }
+    // li {
+    //     margin-top: 0px;
+    // }
 }
 
 .lectures, .schedule, .readings {
     ul {
         margin: 0px;
     }
-    p, li {
-        margin-top: 0px;
-    }
+    // p, li {
+    //     margin-top: 0px;
+    // }
     ol {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -290,7 +290,7 @@ blockquote.quote {
         ul {
             // second-level:
             li::before {
-                content: "\25AA";
+                // content: "\25AA";
                 color: #CCC;
             }
         }

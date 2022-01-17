@@ -46,13 +46,15 @@ section, article {
         font-size: 16px;
         color: #595959;
         line-height: 1.7em;
-        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-top: 0px;
     }
     li {
-        margin-top: 0px;
-        // margin-bottom: 15px;
         &:last-child {
             margin-bottom: 0px;
+        }
+        ul li {
+            margin-bottom: 0px !important;
         }
     }
 }
