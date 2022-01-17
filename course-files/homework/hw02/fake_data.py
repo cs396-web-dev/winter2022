@@ -1,5 +1,6 @@
 import random
 from faker import Faker
+from datetime import datetime, timedelta
 
 fake = Faker()
 
@@ -15,6 +16,22 @@ def generate_image(id:int=None, width:int=300, height:int=200):
     return 'https://picsum.photos/{w}/{h}?id={id}'.format(
         id=image_id, w=width, h=height
     )
+
+def format_display_time(the_date):
+    diff = datetime.now() - the_date
+    days = diff.days
+    hours = diff.seconds // 3600
+    if days == 0:
+        if hours < 0:
+            return 'Just now'
+        elif hours == 1:
+            return '1 hour ago'
+        else:
+            return '{0} hours ago'.format(hours)
+    elif days == 1:
+        return '1 day ago'
+    else:
+        return '{0} days ago'.format(days)
 
 def generate_user():
     '''
@@ -42,6 +59,7 @@ def generate_user():
         'thumb_url': thumb_url 
     }
 
+
 def generate_posts(n=10, width=300, height=200):
     '''
     Generates fake post data for prototyping:
@@ -53,14 +71,20 @@ def generate_posts(n=10, width=300, height=200):
     '''
     posts = []
     for _ in range(n):
+        # random post time:
+        time_of_post = datetime.now() - timedelta(hours=random.randint(1, 40))
         post = {
             'title': fake.sentence(nb_words=random.randint(10, 40)),
             'image_url': generate_image(width=width, height=height),
             'likes': random.randint(1, 100),
             'user': generate_user(),
+            'time_posted': time_of_post.isoformat(),
+            'display_time': format_display_time(time_of_post),
             'comments': []
         }
-        for _ in range(0, random.randint(1, 6)):
+        
+        # each post can have up to 8 comments:
+        for _ in range(0, random.randint(0, 8)):
             post['comments'].append({
                 'text': fake.sentence(nb_words=10),
                 'user': generate_user()

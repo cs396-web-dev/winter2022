@@ -4,7 +4,7 @@ Faker==4.0.3
 gunicorn==20.0.4
 
 
-# Libraries we'll need for later:
+# Libraries we'll need for HW3:
 # dnspython==2.0.0 
 # python-dotenv==0.15.0
 # Flask-Cors==3.0.8
