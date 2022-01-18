@@ -30,9 +30,11 @@ The following installation instructions are based on the  <a href="https://www.p
     * You don't need to install the "Stack Builder"
 
 ## 3. Configuration
-* Load the sample database by following <a href="https://www.postgresqltutorial.com/load-postgresql-sample-database/" target="_blank">these instructions</a>. However, instead of loading the dvd rental database:
-1. Create a database called `photo_app_lab3`
-2. Load the `photo_app_lab03.tar` tables and data into the `photo_app_lab3` database.
+<a class="nu-button" href="/winter2022/course-files/labs/lab03.zip">lab03.zip<i class="fas fa-download" aria-hidden="true"></i></a>
+
+* Download lab03.zip (above) and unzip it
+* Create a database called `photo_app_lab3` (following the procedure outlined in <a href="https://www.postgresqltutorial.com/load-postgresql-sample-database/" target="_blank">these instructions</a>. 
+* Load the `photo_app_lab03.tar` into the empty `photo_app_lab3` database (to create the table structure and table data).
 
 <!-- pg_dump -U postgres -p 5432 -Ft photo-app > ~/Desktop/photo_app_lab03.tar
 postgres=# CREATE DATABASE photo_app_lab03;
