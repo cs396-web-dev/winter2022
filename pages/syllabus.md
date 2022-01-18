@@ -88,7 +88,7 @@ Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 8
 * Regarding homework: we have created a "late credits" policy (see below)
 
 ### Late Credits
-Over the course of the quarter, you have **7 "late credits"** that you can allocate across HW1-HW7, no questions asked. The purpose of these late credits is to give you some flexibility if you get sick or have a personal emergency, as Sarah and the course staff are having difficulty keeping track of all of the extension requests. 
+Because this has already been a chaotic quarter with Omicron, etc., we have decided to instill a system of "Late Credits" Over the course of the quarter, you have **7 "late credits"** that you can allocate across HW1-HW7, no questions asked. The purpose of these late credits is to give you some flexibility if you get sick or have a personal emergency, as Sarah and the course staff are having difficulty keeping track of all of the extension requests. 
 
 * Note that HW8 MUST be submitted on time (3/16) because of the Ceasar grading deadline.
 
@@ -104,7 +104,10 @@ Over the course of the quarter, you have **7 "late credits"** that you can alloc
     * No work will be accepted 48 hours after the deadline (unless you work with the Dean of Students).
 
 To apply your "late credits" to an assignment, please fill out <a href="https://forms.gle/W5BeMPimUDMUgDqw9" target="_blank">this form</a>
-* If you don't fill out the form, we will apply a late penalty to your HW submission.
+* You must fill out the form in order for your grader to apply your late credits.
+
+#### A Caveat
+In this course, each assignment builds on the previous one, so turning things in late can make the next assignment more stressful. We strongly encourage you to only use the late credits when you absolutely need to use them, so that you can avoid falling behind.
 
 #### What if I need more support?
 If you need more leniency beyond the 7 credit system because of extraordinary circumstances, please reach out to the Dean of Students and work with them to come up with a plan. Sarah cannot grant further accommodations without involvement from the student affairs people, to be fair to other students.
