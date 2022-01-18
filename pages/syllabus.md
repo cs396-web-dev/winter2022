@@ -76,18 +76,38 @@ You will have 8 homework assignments that will each be worth roughly 10% of your
 ### 20% – Labs
 Your lab grade will be based on your engagement during labs, which includes the quality of your lab submissions and your lab attendance. You may miss two labs without a grade penalty.
 
-### Other Grading Logistics
-
-#### Late Work & Extension Policy
-* You may request a one-time, no questions askedLate work will be accepted (within 48 hours of the deadline) with a 20% penalty.
-* No work will be accepted 48 hours after the deadline (unless you work with the Dean of Students).
-
-#### Final Grade Calculations
+### Final Grade Calculations
 Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 
 * Final course grades will not be rounded or curved.
 * We will not be using the final exam time allocated for this class.
 
+
+## Late Policy
+* No late labs will be accepted (because we post solutions right away). 
+* Regarding homework: we have created a "late credits" policy (see below)
+
+### Late Credits
+Over the course of the quarter, you have **7 "late credits"** that you can allocate across HW1-HW7, no questions asked. The purpose of these late credits is to give you some flexibility if you get sick or have a personal emergency, as Sarah and the course staff are having difficulty keeping track of all of the extension requests. 
+
+* Note that HW8 MUST be submitted on time (3/16) because of the Ceasar grading deadline.
+
+#### How do credits work?
+* 1 credit = 1 day
+* Credits cannot be split / partially allocated. For instance:
+    * If you submit a HW assignment 18 hours late, you will spend 1 credit towards that HW (with 6 left over to use for future homeworks). 
+    * If you submit a homework 27 hours late, you will spend 2 credits towards that HW (with 5 left over to use for future homeworks). 
+* HW submissions have a 2-hour, no-penalty grace period: if you turn in your assignment 1 hour and 59 minutes late, you don't need to use any of your credits.
+* Credits can only be applied to homework, not labs.
+* If you use up your 7 credits, the original late submission policy for homework kicks in:
+    * Late work will be accepted (within 48 hours of the deadline) with a 20% penalty.
+    * No work will be accepted 48 hours after the deadline (unless you work with the Dean of Students).
+
+To apply your "late credits" to an assignment, please fill out <a href="https://forms.gle/W5BeMPimUDMUgDqw9" target="_blank">this form</a>
+* If you don't fill out the form, we will apply a late penalty to your HW submission.
+
+#### What if I need more support?
+If you need more leniency beyond the 7 credit system because of extraordinary circumstances, please reach out to the Dean of Students and work with them to come up with a plan. Sarah cannot grant further accommodations without involvement from the student affairs people, to be fair to other students.
 
 ## Policy on Academic Honesty
 In the past, there have been a few unfortunate instances in which students have presented work other than their own. For the programming assignments: You are allowed (encouraged, even!) to discuss general approaches to solving problems, but all work you submit must be your own. Here are some specific guidelines to make sure you don’t cross the line:
