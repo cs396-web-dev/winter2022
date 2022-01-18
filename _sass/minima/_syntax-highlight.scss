@@ -13,6 +13,21 @@
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
+
+.overflow {
+    .highlight, .highlight pre, .highlight table { 
+        overflow-x: auto;
+        overflow-y: auto;
+        white-space: pre;
+        white-space: pre;
+        white-space: pre;
+        white-space: pre;
+        word-wrap: normal;
+        max-height: 300px;
+    }
+}
+
+
 .highlight .hll { background-color: #ffffcc !important; }
 .highlight .c { color: #99968b !important; font-style: italic !important; } /* Comment */
 .highlight .err { color: #f6f3e8 !important; } /* Error */

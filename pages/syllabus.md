@@ -78,8 +78,8 @@ Your lab grade will be based on your engagement during labs, which includes the 
 
 ### Other Grading Logistics
 
-#### Late Work Policy
-* Late work will be accepted (within 48 hours of the deadline) with a 20% penalty.
+#### Late Work & Extension Policy
+* You may request a one-time, no questions askedLate work will be accepted (within 48 hours of the deadline) with a 20% penalty.
 * No work will be accepted 48 hours after the deadline (unless you work with the Dean of Students).
 
 #### Final Grade Calculations
