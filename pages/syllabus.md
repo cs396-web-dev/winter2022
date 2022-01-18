@@ -88,7 +88,7 @@ Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 8
 * Regarding homework: we have created a "late credits" policy (see below)
 
 ### Late Credits
-Because this has already been a chaotic quarter with Omicron, etc., we have decided to instill a system of "Late Credits" Over the course of the quarter, you have **7 "late credits"** that you can allocate across HW1-HW7, no questions asked. The purpose of these late credits is to give you some flexibility if you get sick or have a personal emergency, as Sarah and the course staff are having difficulty keeping track of all of the extension requests. 
+Because this has already been a chaotic quarter with Omicron, etc., we have decided to instill a system of "Late Credits." Over the course of the quarter, you have **7 "late credits"** that you can allocate across HW1-HW7, no questions asked. The purpose of these late credits is to give you some flexibility if you get sick or have a personal emergency, as Sarah and the course staff are having difficulty keeping track of all of the extension requests. 
 
 * Note that HW8 MUST be submitted on time (3/16) because of the Ceasar grading deadline.
 
