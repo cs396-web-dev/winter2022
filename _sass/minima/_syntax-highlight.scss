@@ -15,15 +15,18 @@
 }
 
 .overflow {
-    .highlight, .highlight pre, .highlight table { 
-        overflow-x: auto;
+    div.highlight {
+        max-height: 250px;
         overflow-y: auto;
+        overflow-x: auto;
+    }
+    .highlight, .highlight pre, .highlight table { 
+        overflow-x: initial;
         white-space: pre;
         white-space: pre;
         white-space: pre;
         white-space: pre;
         word-wrap: normal;
-        max-height: 300px;
     }
 }
 
