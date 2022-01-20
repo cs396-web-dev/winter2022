@@ -119,7 +119,7 @@ Note: you only have to do this if the `psql -U postgres` command was NOT recogni
         * `~/.zshrc`
         * `~/.zprofile`
 
-Open the appropriate file in a text editor by adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin'` (but use ***your*** bin/psql path)
+Open the appropriate file in a text editor by adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin` (but use ***your*** bin/psql path)
 1. Source the file you just edited by typing `source ~/.bashrc` (or whatever file you just edited). This will load your updated path variable and make it accessible to your shell.
 1. When you're done, type `psql -U postgres` on your command line and it should work.
 
