@@ -104,16 +104,30 @@ You have a few options for interacting with your database:
 PGAdmin is a GUI tool for managing PostgreSQL databases. 
 
 ### 2. psql
-psql is the command line interface for interacting with PostgreSQL databases. Open your Terminal or command prompt and type `psql`. 
-* If the `psql` command was recognized, jump to section 4 (overview of commands). * Otherwise, you'll have to add it to your path by following the instructions below.
+psql is the command line interface for interacting with PostgreSQL databases. Open your Terminal or command prompt and type `psql -U postgres`. 
+* If the `psql -U postgres` command was recognized, jump to section 4 (overview of commands). Otherwise, you'll have to add it to your path by following the instructions below.
 
 #### Adding psql to your path: Mac instructions
-Note: you only have to do this if the `psql` command was NOT recognized on your Terminal.
+Note: you only have to do this if the `psql -U postgres` command was NOT recognized on your Terminal.
 1. Find the location of your `psql` executable on your computer by typing the following into the terminal: `locate psql | grep /bin`
 1. Copy the path (for Sarah, it's located at `/Library/PostgreSQL/14/bin/psql`)
-1. Add the path to your PATH variable in your `~/.bashrc` (located in your home directory) by editing the file in a text editor and then adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin'` (but use ***your*** bin/psql path)
-1. Type `source ~/.bashrc` to load your changes
-1. When you're done, type `psql` on your command line and it should work.
+1. Add the path to your PATH variable to your profile. Depending on the shell version you're using (typically OS >= Catalina uses the zsh shell, and OS < Catalina uses the bash shell), this involves editing *one* of the files below (in your home directory):
+    * for bash, edit one of these:
+        * `~/.bashrc`
+        * `~/.bash_profile` 
+    * for zsh edit one of these:
+        * `~/.zshrc`
+        * `~/.zprofile`
+
+Open the appropriate file in a text editor by adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin'` (but use ***your*** bin/psql path)
+1. Source the file you just edited by typing `source ~/.bashrc` (or whatever file you just edited). This will load your updated path variable and make it accessible to your shell.
+1. When you're done, type `psql -U postgres` on your command line and it should work.
+
+
+You can read more about each shell here:
+* <a href="https://www.baeldung.com/linux/bashrc-vs-bash-profile-vs-profile" target="_blank">bash</a>
+* <a href="https://apple.stackexchange.com/questions/388622/zsh-zprofile-zshrc-zlogin-what-goes-where" target="_blank">zsh</a>
+
 
 #### Adding psql to your path: Windows instructions
 Note: you only have to do this if the `psql` command was NOT recognized on your command prompt.
