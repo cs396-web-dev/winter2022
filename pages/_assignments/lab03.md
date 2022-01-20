@@ -111,7 +111,8 @@ psql is the command line interface for interacting with PostgreSQL databases. Op
 Note: you only have to do this if the `psql -U postgres` command was NOT recognized on your Terminal.
 1. Find the location of your `psql` executable on your computer by typing the following into the terminal: `locate psql | grep /bin`
 1. Copy the path (for Sarah, it's located at `/Library/PostgreSQL/14/bin/psql`)
-1. Add the path to your PATH variable to your profile. Depending on the shell version you're using (typically OS >= Catalina uses the zsh shell, and OS < Catalina uses the bash shell), this involves editing *one* of the files below (in your home directory):
+1. Figure out which shell you're using by typing: `echo $SHELL`.
+1. Depending on the shell version you're using, edit *one* of the files below (in your home directory):
     * for bash, edit one of these:
         * `~/.bashrc`
         * `~/.bash_profile` 
@@ -119,7 +120,7 @@ Note: you only have to do this if the `psql -U postgres` command was NOT recogni
         * `~/.zshrc`
         * `~/.zprofile`
 
-Open the appropriate file in a text editor by adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin` (but use ***your*** bin/psql path)
+1. Open the appropriate file in a text editor by adding the following line:<br>`PATH=$PATH:/Library/PostgreSQL/14/bin` (but use ***your*** bin/psql path)
 1. Source the file you just edited by typing `source ~/.bashrc` (or whatever file you just edited). This will load your updated path variable and make it accessible to your shell.
 1. When you're done, type `psql -U postgres` on your command line and it should work.
 
