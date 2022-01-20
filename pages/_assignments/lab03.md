@@ -130,12 +130,12 @@ You can read more about each shell here:
 
 
 #### Adding psql to your path: Windows instructions
-Note: you only have to do this if the `psql` command was NOT recognized on your command prompt.
+Note: you only have to do this if the `psql -U postgres` command was NOT recognized on your command prompt.
 Follow <a href="https://sqlbackupandftp.com/blog/setting-windows-path-for-postgres-tools" target="_blank">this tutorial</a>. Notes:
 1. You will first need to find where your PostgreSQL bin has been installed on your computer. Should be something like: `C:\Program Files\PostgreSQL\14\bin`
 1. Once you do, you will append the path to your PostgreSQL bin to your PATH environment variable.
 1. Once you save your changes, be sure to restart your command prompt.
-1. Finally, type `psql` on your command line and it should work.
+1. Finally, type `psql -U postgres` on your command line and it should work.
 
 ## 4. Overview of Commands
 
