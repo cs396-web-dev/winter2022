@@ -6,6 +6,10 @@ draft: 0
 show_schedule: 1
 num: 7
 due_date: 2022-01-24
+exercise_url: lecture07.zip
+slides:
+    - url: https://docs.google.com/presentation/d/1kkX3CBDVEp9lWQw2Mb7o1_JFCcrmI_6bBXQYX6Rutcg/edit?usp=sharing
+      title: Intro to REST
 readings:
   - url: https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f
     title: "What is REST — A Simple Explanation for Beginners"
