@@ -7,6 +7,11 @@ show_schedule: 1
 num: 7
 due_date: 2022-01-24
 exercise_url: lecture07.zip
+videos: 
+    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a320376-af06-4ced-b817-ae27013301bc
+      title: "Recorded Lecture Video"
+      live: 1
+      duration: "59:08"
 slides:
     - url: https://docs.google.com/presentation/d/1kkX3CBDVEp9lWQw2Mb7o1_JFCcrmI_6bBXQYX6Rutcg/edit?usp=sharing
       title: Intro to REST
