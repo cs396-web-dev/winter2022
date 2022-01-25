@@ -11,6 +11,8 @@ due_date: 2022-01-28
 
 SQLAlchemy + Flask + Postgres
 
+* "As you noticed...not a way to add alt text to rest. So let's do that today!"
+
 Possible tutorials:
 
 * https://medium.com/@dushan14/create-a-web-application-with-python-flask-postgresql-and-deploy-on-heroku-243d548335cc
