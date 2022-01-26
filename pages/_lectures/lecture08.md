@@ -6,6 +6,9 @@ draft: 0
 show_schedule: 1
 num: 8
 due_date: 2022-01-26
+slides: 
+    - url: https://docs.google.com/presentation/d/1P4ytIPER9oPicynW_HCVTdwTJreLz-L5Qz9mJry4fp0/edit?usp=sharing
+      title: Building Your Own API
 readings:
     - url: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
       title: Flask and SQLAlchemy Documentation
