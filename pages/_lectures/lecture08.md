@@ -6,6 +6,11 @@ draft: 0
 show_schedule: 1
 num: 8
 due_date: 2022-01-26
+videos: 
+    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea1e4856-41bf-4edb-ae20-ae2901318517
+      title: "Recorded Lecture Video"
+      live: 1
+      duration: "1:15:56"
 slides: 
     - url: https://docs.google.com/presentation/d/1P4ytIPER9oPicynW_HCVTdwTJreLz-L5Qz9mJry4fp0/edit?usp=sharing
       title: Building Your Own API
