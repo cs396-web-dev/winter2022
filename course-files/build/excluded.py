@@ -23,5 +23,5 @@ EXCLUDED = [
     # 'images',
     '_site',
     '.vscode',
-    '.env'
+    # '.env'
 ]
