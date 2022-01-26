@@ -30,8 +30,7 @@ When you've finished parts 1-3, you will modify the /api/posts route for the GET
 1. Ensure that only the posts that the user has access to are returned. A user may have read access to a post if:
     * Theycreated the post themselves.
     * They are following a user who created the post.
-2. Ensure that the username filter (from the query parameter) is being honored.
-3. Ensure that if the query parameters are invalid, an appropriate message is returned to the user.
+1. Ensure that if the limit parameter is invalid, an appropriate message is returned to the user.
 
 ### Hints
 There are a few helper functions in `views/__init__.py` that may help you with security. But feel free to do it your own way!

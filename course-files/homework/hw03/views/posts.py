@@ -1,8 +1,9 @@
 from flask import Response, request
 from flask_restful import Resource
-from models import Post, db
-from . import can_view_post
+from models import Post, User, db
+from . import can_view_post, get_authorized_user_ids
 import json
+from sqlalchemy import and_
 
 def get_path():
     return request.host_url + 'api/posts/'
@@ -15,15 +16,16 @@ class PostListEndpoint(Resource):
     def get(self):
         # TODO: 
         # 1. No security implemented; 
-        # 2. username filter is not currently being honored
+        # 2. limit is hard coded (versus coming from the query parameter)
         # 3. No error checking
-        limit = request.args.get('limit') or 20
-        data = Post.query.limit(limit).all()
+        data = Post.query.limit(20).all()
 
         data = [
             item.to_dict() for item in data
         ]
         return Response(json.dumps(data), mimetype="application/json", status=200)
+
+
 
     def post(self):
         body = request.get_json()
