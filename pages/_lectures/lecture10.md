@@ -26,3 +26,8 @@ readings:
 Today we will be finishing up our discussion of REST API Endpoints, and will be transitioning back to the front end, with an introduction to JavaScript. 
 
 In the next few assignments, we'll be interacting with our REST API via JavaScript (more on that next week)!
+
+<a class="nu-button" style="margin-top:20px;display:inline-block;" href="https://www.linkedin.com/checkpoint/enterprise/login/75814418?application=learning" target="_blank">
+    Login to LinkedIn Learning via Northwestern
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+</a>
