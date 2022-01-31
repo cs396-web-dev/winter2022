@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Amatic+SC|Dokdo|Covered+By+Your+Grace);
+
+document, body {
+   margin: 0px;
+   font-family: 'Montserrat';
+   height: 100vh;
+}
+
+.container, header, nav, .content {
+   box-sizing: border-box;
+}
+
+.container {
+   min-height: 100vh;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 100px 42px auto;
+   grid-template-areas:
+      "top"
+      "menu"
+      "bottom";
+}
+
+header, nav {
+   display: flex;
+   justify-content: center;
+   height: 100%;
+}
+header, .nav. .content {
+   transition-duration: 1.4s;
+}
+header {
+   font-family: 'Covered By Your Grace', cursive;
+   font-size: 1.8em;
+   transition-duration: 1.4s;
+   grid-area: top;
+   background: black;
+   color: white;
+   align-items: center;
+}
+nav {
+   grid-area: menu;
+   border-bottom: solid 1px #000;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+
+nav a {
+   width: 80px;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+/*    align-self: baseline; */
+   
+}
+nav .a1 {
+   font-size: 2em;
+}
+nav .a2 {
+   font-size: 1em;
+}
+
+.content {
+   transition-duration: 1.4s;
+   grid-area: bottom;
+   background: white;
+   padding: 40px;
+   font-size: 1.4em;
+}
+
+/* Themes */
+.ocean header {
+   background: #434a6c;
+   font-family: 'Amatic SC', cursive;
+   font-size: 1.8em;
+}
+.ocean .content {
+   background: #99cccc;
+}
+
+.desert header {
+   background: #A8651E;
+   font-family: 'Dokdo', cursive;
+}
+.desert .content {
+   background: #EFDEC2;
+}

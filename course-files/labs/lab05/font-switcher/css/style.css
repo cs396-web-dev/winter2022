@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+document, body {
+   margin: 0px;
+   font-family: 'Montserrat';
+   height: 100vh;
+}
+
+.container, header, nav, .content {
+   box-sizing: border-box;
+}
+
+.container {
+   min-height: 100vh;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 100px 42px auto;
+   grid-template-areas:
+      "top"
+      "menu"
+      "bottom";
+}
+
+header, nav, .content {
+   display: flex;
+/*    align-items: center; */
+   justify-content: center;
+   height: 100%;
+}
+
+header {
+   grid-area: top;
+   background: black;
+   color: white;
+}
+nav {
+   grid-area: menu;
+   border-bottom: solid 1px #000;
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+nav a {
+   width: 30px;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   align-self: baseline;
+   
+}
+nav .a1 {
+   font-size: 2em;
+}
+nav .a2 {
+   font-size: 1em;
+}
+
+.content {
+   grid-area: bottom;
+   background: white;
+   padding: 40px;
+   font-size: 1.4em;
+}
+
+.ocean header {
+   background: #434a6c;
+   color: white;
+   font-family: 'Montserrat';
+}
+.ocean .content {
+   background: #99cccc;
+   line-height: 1.6em;
+}
+
+.desert header {
+   background: #A8651E;
+   color: white;
+}
+.desert .content {
+   background: #EFDEC2;
+}

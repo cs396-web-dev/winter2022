@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Intro to JavaScript (Language Rules)
+title: Building REST API Endpoints (Continued)
 type: lecture
 draft: 1
 show_schedule: 1
