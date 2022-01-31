@@ -2,7 +2,7 @@
 layout: module
 title: Introduction to JavaScript
 type: lecture
-draft: 1
+draft: 0
 show_schedule: 1
 num: 10
 due_date: 2022-02-02
@@ -23,4 +23,6 @@ readings:
       optional: 1
 ---
 
-TBD
+Today we will be finishing up our discussion of REST API Endpoints, and will be transitioning back to the front end, with an introduction to JavaScript. 
+
+In the next few assignments, we'll be interacting with our REST API via JavaScript (more on that next week)!
