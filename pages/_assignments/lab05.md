@@ -50,7 +50,7 @@ We have created a cheatsheet (below) with examples of different selector methods
 
 ## Your Tasks
 
-<a href="/spring2021/course-files/labs/lab05.zip" class="nu-button">Download Lab 5 <i class="fas fa-download"></i></a> 
+<a href="/winter2022/course-files/labs/lab05.zip" class="nu-button">Download Lab 5 <i class="fas fa-download"></i></a> 
 
 Please download the lab05.zip file, unzip it, and move the lab05 folder inside of your webdev-labs folder. Then complete the tasks below.
 
