@@ -3,68 +3,20 @@ layout: assignment-two-column
 title: JavaScript Practice
 type: lab
 abbreviation: Lab 5
-draft: 1
+draft: 0
 points: 5
 num: 5
 due_date: 2022-02-04
 ---
 
-> Font size & DOM manipulation:
-> * Buttons to increase font size
-> * Button to put things into high-contrast mode
-> * Dyslexia-friendly mode: 
->     * https://codepen.io/smashingmag/pen/dyzwqXm. 
->     * https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/
+## Introduction 
+The goal of today's lab is to:
+1. Help you practice using JavaScript to target and modify HTML elements in your DOM Tree.
+2. Continue practicing your CSS skills.
+2. Encourage you to keep thinking about improving the accessibility of your website.
 
+We have created a cheatsheet (below) with examples of different selector methods and approaches to updating the DOM.
 
-<a href="/spring2021/course-files/tutorials/tutorial05.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a> 
-
-
-Please download the tutorial05 files and save them to your repo folder. Then, open the entire tutorial05 folder in Atom. To view how each of the projects should work upon completion, please see this screencast.
-
-## Part 1: Font Switcher
-Open font-switcher/index.html in Atom, and note the HTML tags. Also note, right before the close of the body tag, the script tag that links to your JavaScript file:
-
-```html
-<script src="js/index.js"></script>
-```
-
-
-Open `font-switcher/js/index.js` in Atom, and uncomment the section at the bottom by deleting the /* and */ symbols:
-
-```js
-/*
-document.querySelector(???).onclick = makeBigger;
-document.querySelector(???).onclick = makeSmaller;
-*/
-```
-
-Replace the ??? with the correct selector, so that your makeBigger function and makeSmaller function get attached to the correct DOM elements.
-
-
-Finally, modify both the body of the makeBigger and makeSmaller functions so that they modify the font size of the div that is assigned the class of “content”.
-
-
-## Part 2: Theme Switcher
-Repeat the same general process with theme-switcher, by:
-1. Opening `theme-switcher/js/index.js`, uncommenting the event handler code at the bottom, and replacing the ??? with the correct selectors, and
-2. Modifying the bodies of the defaultTheme, oceanTheme, and desertTheme functions so that the theme of the div tag with the class of “container” gets updated with the correct class. To see the themes, open the `theme-switcher/css/style.css` file and scroll to the bottom.
-
-## Part 3: Page Turner
-Repeat the same general process with page-turner, by:
-1. Opening `page-turner/js/index.js`, uncommenting the event handler code at the bottom, and replacing the ??? with the correct selectors, and
-2. Modifying the bodies of the chapter1, chapter2, and chapter3 functions so that they modify the contents of the div that is assigned the class of “content.”
-
-## Turn in your files via GitHub
-1. Move your `tutorial05` folder into your repo folder (if it's not there already).
-2. Check the status of your repo:<br>`$ git status`<br>It should say that your tutorial05 files are “untracked”
-3. Add all of your tutorial05 files to the list of files that are tracked by the repo:<br>`$ git add tutorial05`
-4. Check the status of your repo again:<br>`$ git status`<br>It should now say that you tutorial05 files are being tracked.
-5. Now, commit your new tutorial05 files to the repo:<br>`$ git commit -m "Adding my tutorial05 to the repo"`
-6. Finally, “push” your files to GitHub:<br>`$ git push`
-7. Paste a link to your GitHub repo and to your GitHub pages 
-
-## Cheat Sheet
 ### Selector Methods 
 
 | Method | Example |
@@ -80,9 +32,9 @@ Repeat the same general process with page-turner, by:
 | Attribute | Example |
 |--|--|
 | className | document.querySelector("div").className = "panel"; |
-| innerHTML | document.querySelector("div").innerHTML = "hi"; |
-| src (for images) | document.getElementsByTagName("div") |
-| href (for links) | document.getElementsByClassName(".panel") |
+| innerHTML | document.querySelector("div").innerHTML = "&lt;p&gt;hi&lt;/p&gt;"; |
+| src (for images) | document.querySelector(".my_image").src = "sponge_bob.png"; |
+| href (for links) | document.querySelector(".my_link").href = 'https://www.wikipedia.org'; |
 
 
 ### Some examples of style properties you can modify
@@ -95,3 +47,84 @@ Repeat the same general process with page-turner, by:
 | border-width | document.querySelector("div").style.borderWidth = "5px"; |
 | padding | document.querySelector("div").style.padding = "10px"; |
 | display | document.querySelector("div").style.display = "none"; |
+
+## Your Tasks
+
+<a href="/spring2021/course-files/tutorials/tutorial05.zip" class="nu-button">Download Lab 5 <i class="fas fa-download"></i></a> 
+
+Please download the lab05.zip file, unzip it, and move the lab05 folder inside of your webdev-labs folder. Then complete the tasks below.
+
+### 1. Font Size Adjuster
+Open font-switcher/index.html in VS Code, and note the HTML tags. Also note that within the header tag there is a script tag that links to your JavaScript file:
+
+```html
+<script src="index.js" defer></script>
+```
+
+The keyword `defer` means that the script won't run until your entire web page is loaded.
+
+
+Open `01-font-switcher/index.js` in Atom, and uncomment the section at the bottom by deleting the /* and */ symbols:
+
+```js
+/*
+document.querySelector(???).addEventListener('click', makeBigger);
+document.querySelector(???).addEventListener('click', makeSmaller);
+*/
+```
+
+Replace the `???` with the correct selector, so that your makeBigger function and makeSmaller function get attached to the correct DOM elements.
+
+Finally, modify the makeBigger and makeSmaller functions so that they modify the font size of the `div.content` element and the `h1` element. When you're done, your web page should look like this:
+
+<img class="large frame" src="/winter2022/assets/images/labs/lab05/font-switcher.gif" />
+
+
+### 2. Theme Switcher
+Another way to make your site more accessible is to create a "high-contrast" stylesheet or CSS class. For this exercise, please do the following:
+
+1. Open `02-theme-switcher/index.js` and attach a click event handler to each of the four of the buttons in the nav bar. 
+2. Each event handler should modify the class of the `body` tag to match the theme of the button that was clicked. 
+    * The available theme classes are: `ocean`, `desert` and `high-contrast`. To see the themes, open the `style.css` file and scroll to the bottom.
+3. If the `default` button is clicked, just unset the class on the body tag.
+
+When you're done, your web page should look like this:
+
+<img class="large frame" src="/winter2022/assets/images/labs/lab05/theme-switcher.gif" />
+
+### 3. Dyslexia Mode
+In part 3, you will use JavaScript to create a method for people with dyslexia to more easily read your web page. This technique is based on this artice: <a href="https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/" target="_blank">Adding A Dyslexia-Friendly Mode To A Website</a>. Please complete the following tasks:
+
+1. In `style.css`, create a new class called `.dyslexia-mode`. 
+2. Following the recommendations from the Smashing Magazine article above, ensure that your class does the following:
+    * Adjust the letter and word spacing to the recommended settings
+    * Disables ligatures
+    * Modify the line spacing
+    * Modify either the font weight (to be bolder) or the color (to be darker)
+    * Make the font-size bigger
+    * Narrow the line width (lines that are too long in the horizontal direction are hard to read)
+3. When you're done, create a button and add the needed functionality to enabled the user to toggle the "Dyslexia Mode" on and off.
+4. Note that the Smashing Magazine also makes use of localStorage so that the site "remembers" the users' preferences for the next time.
+
+When you're done, your web page should look like this:
+
+<img class="large frame" src="/winter2022/assets/images/labs/lab05/dyslexia.gif" />
+
+## What to Turn In
+To submit Lab 5:
+
+### 1. Push all of your files to GitHub
+Please copy the latest version of your files to GitHub by issuing the following commands:
+Please commit and push the latest version of your files to GitHub by issuing the following commands:
+
+```shell
+git add .    # in case you created any new files
+git commit -m 'Commiting my completed lab05 files'
+git status   # to make sure that all of your files are being tracked
+git push     # sends your files to GitHub
+```
+
+### 2. Paste a link to your repo on Canvas
+Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for Lab 5.
+
+### 3. Answer the following question on Canvas
