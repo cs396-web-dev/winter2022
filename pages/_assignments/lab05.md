@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: JavaScript Practice
 type: lab
 abbreviation: Lab 5
-draft: 1
+draft: 0
 points: 5
 num: 5
 due_date: 2022-02-04
@@ -126,5 +126,3 @@ git push     # sends your files to GitHub
 
 ### 2. Paste a link to your repo on Canvas
 Paste a link to your `webdev-labs` GitHub repository into the Canvas textbox for Lab 5.
-
-### 3. Answer the following question on Canvas
