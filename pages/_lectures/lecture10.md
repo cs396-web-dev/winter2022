@@ -6,6 +6,10 @@ draft: 0
 show_schedule: 1
 num: 10
 due_date: 2022-02-02
+exercise_url: lecture10.zip
+slides: 
+    - url: https://docs.google.com/presentation/d/1QnUHpSJC_nXh4JSRC5Wq4_SzPyiYSi8M1CYXSurZIIg/edit?usp=sharing
+      title: Intro to DOM Manipulation via JavaScript
 readings:
     - url: https://www.linkedin.com/learning-login/share?account=75814418&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6893810278556135425%3Ftrk%3Dshare_collection_url%26shareId%3DEHJm2ZttTJOxS6ju3Qlamg%253D%253D
       title: "Playlist 1: Introduction to Javascript"
