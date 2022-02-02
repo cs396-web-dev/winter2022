@@ -7,6 +7,11 @@ show_schedule: 1
 num: 10
 due_date: 2022-02-02
 exercise_url: lecture10.zip
+videos:
+    - url: https://northwestern.zoom.us/rec/share/Jz_MxbO16Jh01vduS0RrWrgxCHwSxzyR9TmN6U9kOSwHF5WdzW5JWyeC7cMuYKKJ.Zg_fcOcHTsxQM3Os
+      title: "Recorded Lecture Video"
+      live: 1
+      duration: "1:20:33"
 slides: 
     - url: https://docs.google.com/presentation/d/1QnUHpSJC_nXh4JSRC5Wq4_SzPyiYSi8M1CYXSurZIIg/edit?usp=sharing
       title: Intro to DOM Manipulation via JavaScript
