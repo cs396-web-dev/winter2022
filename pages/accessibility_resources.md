@@ -37,6 +37,11 @@ Empowerment</a>
 * <A HREF="https://www.w3.org/WAI/fundamentals/foundations-course/" target="_blank">Digital Accessibility Foundations - Free Online Course</A>
 * <A HREF="https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/" target="_blank">Adding A Dyslexia-Friendly Mode To A Website</A>
 * <a href="https://css-irl.info/how-to-accessibly-split-text/" target="_blank">How to Accessibly Split Text</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets">An overview of accessible web applications and widgets widgets</a>
+* <a href="https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility">What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility </a>
+* <a href="https://thecodeboss.dev/2016/09/aria-roles-and-attributes-how-to-actually-use-them/">ARIA Roles and Attributes: How to Actually Use Them</a>
+* <a href="https://www.youtube.com/watch?v=CNoz0TXG-vk">What is WAI-ARIA? </a> (Video, 13 min)
+* <a href="https://www.youtube.com/watch?v=g9Qff0b-lHk">Intro to ARIA </a> (Video, 9 min)
 
 ## Manual Accessibility Testing
 * <a href="https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do" target="_blank">The 6 Simplest Web Accessibility Tests Anyone Can Do</a>
