@@ -26,8 +26,11 @@ Empowerment</a>
 * <a href="https://www.w3.org/WAI/standards-guidelines/" target="_blank">W3C Accessibility Standards Overview</a>
 * <a href="https://www.dataquest.io/blog/what-to-consider-when-choosing-colors-for-data-visualization/" target="_blank">What to Consider When Choosing Colors for Data Visualization
 </a>
+* <a href="https://webaim.org/techniques/javascript/">Accessible JavaScript</a>
 
 ### How to
+
+#### General Tips
 * <A HREF="https://www.w3.org/WAI/tips/developing/" target="_blank">Developing for Web Accessibility – Tips for Getting Started</A>
 * <A HREF="https://ukhomeoffice.github.io/accessibility-posters/" target="_blank">Accessibility posters</A>
 * <A HREF="https://guide.inclusivedesign.ca/" target="_blank">Welcome to The Inclusive Design Guide</A>
@@ -35,9 +38,12 @@ Empowerment</a>
 * <A HREF="https://www.accessiblemetrics.com/wp-content/uploads/2018/10/Accessible-Metrics-Campaign-Content-Offer.pdf" target="_blank">The Ultimate Web Accessibility Checklist</A>
 * <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">How to Meet WCAG (Quick Reference)</a>
 * <A HREF="https://www.w3.org/WAI/fundamentals/foundations-course/" target="_blank">Digital Accessibility Foundations - Free Online Course</A>
+
+#### Specific Features
 * <A HREF="https://www.smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/" target="_blank">Adding A Dyslexia-Friendly Mode To A Website</A>
 * <a href="https://css-irl.info/how-to-accessibly-split-text/" target="_blank">How to Accessibly Split Text</a>
-* <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets">An overview of accessible web applications and widgets widgets</a>
+
+#### ARIA
 * <a href="https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility">What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility </a>
 * <a href="https://thecodeboss.dev/2016/09/aria-roles-and-attributes-how-to-actually-use-them/">ARIA Roles and Attributes: How to Actually Use Them</a>
 * <a href="https://www.youtube.com/watch?v=CNoz0TXG-vk">What is WAI-ARIA? </a> (Video, 13 min)
@@ -59,6 +65,10 @@ Empowerment</a>
 * <A HREF="https://achecker.us/checker/index.php" target="_blank">Web Accessibility Checker : Web Accessibility Checker</A>
 * <A HREF="https://www.accessiblemetrics.com/blog/7-web-accessibility-testing-tools-for-every-need/" target="_blank">The 25 Best Free Accessibility Tools to Test Your Site - Accessible Metrics</A>
 
-## Other resources
+## Other Resources and Tools
+* <a href="https://hiredigitally.com/accessibility-toolkit/">Digital A11y Accessibility Toolkit</a>
+* <a href="https://github.com/collections/web-accessibility">Github Web Accessibility Collection</a>
+* <a href="https://allyjs.io">ally.js</a> - JavaScript library that simplfies certain accessibility features.
+* <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets">An overview of accessible web applications and widgets widgets</a>
 * <A HREF="https://www.smashingmagazine.com/printed-books/inclusive-front-end-design-patterns/" target="_blank">Inclusive Design Patterns</A> (book available for purchase)
 * <A HREF="https://www.smashingmagazine.com/printed-books/inclusive-components/" target="_blank">Inclusive Components</A> (book available for purchase)
