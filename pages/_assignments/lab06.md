@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Third-Party JavaScript Widgets
+title: Homework 4 Primer
 type: lab
 abbreviation: Lab 6
 draft: 1

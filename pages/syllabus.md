@@ -74,7 +74,7 @@ Your final grade will be assessed as follows:
 You will have 8 homework assignments that will each be worth roughly 10% of your grade (though some homework assigments are worth more than others).
 
 ### 20% – Labs
-Your lab grade will be based on your engagement during labs, which includes the quality of your lab submissions and your lab attendance. You may miss two labs without a grade penalty.
+Your lab grade will be based on the quality of your lab submissions. Your two lowest lab scores will be dropped, though we strongly encourage you to complete all of the labs.
 
 ### Final Grade Calculations
 Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
@@ -82,6 +82,8 @@ Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 8
 * Final course grades will not be rounded or curved.
 * We will not be using the final exam time allocated for this class.
 
+### What if I think the grader made a mistake?
+If you believe that your grader made a mistake, please fill out <a href="https://forms.gle/yXLvMnPG2w9bbgGM9" target="_blank">this regrade request form</a>. Keep in mind that your entire assignment will be regraded, meaning that your grade could go down as a result of submitting the form.
 
 ## Late Policy
 * No late labs will be accepted (because we post solutions right away). 
