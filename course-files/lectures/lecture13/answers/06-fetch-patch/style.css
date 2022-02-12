@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, header {
+    margin: 0px 15vw 0px 15vw;
+}
+
+
+
+/* Form Styles */
+label {
+    font-weight: 600;
+}
+.input-section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-section label {
+    display: block;
+    /* font-weight: 600; */
+    padding-bottom: 3px;
+    color: #444;
+}
+.input-section input, .input-section textarea {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    line-height: 1.8em;
+    border: solid 1px #999;
+}
+
+.input-section textarea {
+    min-height: 250px;
+}
+
+.btn-main {
+    background-color: #7952b3;
+    border-color: #7952b3;
+    color: #fff;
+}
+.btn {
+    font-weight: 600;
+    border-radius: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover, .btn:active {
+    background-color: #EEE;
+    border-color: #61428f;
+}
+
+.btn-main:hover, .btn-main:active, nav a:hover {
+    color: #fff;
+    background-color: #61428f;
+    border-color: #61428f;
+}
