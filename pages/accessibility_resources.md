@@ -44,16 +44,21 @@ Empowerment</a>
 * <a href="https://css-irl.info/how-to-accessibly-split-text/" target="_blank">How to Accessibly Split Text</a>
 
 #### ARIA
-* <a href="https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility">What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility </a>
-* <a href="https://thecodeboss.dev/2016/09/aria-roles-and-attributes-how-to-actually-use-them/">ARIA Roles and Attributes: How to Actually Use Them</a>
-* <a href="https://www.youtube.com/watch?v=CNoz0TXG-vk">What is WAI-ARIA? </a> (Video, 13 min)
-* <a href="https://www.youtube.com/watch?v=g9Qff0b-lHk">Intro to ARIA </a> (Video, 9 min)
+* <a href="https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility" target="_blank">What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility </a>
+* <a href="https://thecodeboss.dev/2016/09/aria-roles-and-attributes-how-to-actually-use-them/" target="_blank">ARIA Roles and Attributes: How to Actually Use Them</a>
+* <a href="https://www.youtube.com/watch?v=CNoz0TXG-vk" target="_blank">What is WAI-ARIA? </a> (Video, 13 min)
+* <a href="https://www.youtube.com/watch?v=g9Qff0b-lHk" target="_blank">Intro to ARIA </a> (Video, 9 min)
+
+#### Accessible JavaScript
+* WebAIM's <a href="https://webaim.org/techniques/javascript/" target="_blank">Accessible Javascript</a> and <a href="https://webaim.org/techniques/javascript/other" target="_blank">Accessible Dynamically Generated Content</a>
+* Mozilla <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility#javascript" target="_blank">Handling common accessibility problems: Javscript</a>
 
 ## Manual Accessibility Testing
 * <a href="https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do" target="_blank">The 6 Simplest Web Accessibility Tests Anyone Can Do</a>
 * <a href="https://www.youtube.com/watch?v=cOmehxAU_4s" target="_blank">How I do an accessibility check</a> (video)
 * <A HREF="https://www.accessiblemetrics.com/blog/7-web-accessibility-testing-tools-for-every-need/" target="_blank">The 25 Best Free Accessibility Tools to Test Your Site - Accessible Metrics</A>
 * <a href="https://paletton.com/" target="_blank">Paletton (Color Scheme Designer)</a> (has a vision simulation on the bottom right corner of the color box palette)
+* <a href="https://asada.website/cvsimulator/e/" target="_blank">Chromatic Vision Simulator</a> uses your camera phone to let you see how presentations, websites, graphs, and other visuals appear to someone who is colorblind.
 
 ## Automatic Accessibility Testing
 * <a href="https://www.tpgi.com/color-contrast-checker/" target="_blank">Colour Contrast Analyser</a>
