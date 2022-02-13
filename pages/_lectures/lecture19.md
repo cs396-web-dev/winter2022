@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: TBD
+title: React
 type: lecture
 draft: 1
 num: 19

@@ -1,6 +1,6 @@
 ---
 layout: module
-title: React (Continued)
+title: Web Sockets
 type: lecture
 draft: 1
 show_schedule: 1

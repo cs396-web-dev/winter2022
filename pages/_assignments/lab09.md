@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: TBD
+title: React
 type: lab
 abbreviation: Lab 9
 draft: 1

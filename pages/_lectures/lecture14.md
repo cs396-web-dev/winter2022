@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Authentication: JWTs"
+title: Various UI Topics
 type: lecture
 draft: 1
 show_schedule: 1
