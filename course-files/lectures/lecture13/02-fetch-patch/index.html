@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Update Existing Post</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Update Existing Post</h1>
+        </header>
+        <main>
+            <form>
+                <div class="input-section">
+                    <label for="post_id">Post ID</label>
+                    <input type="text" id="post_id" value="342" />                
+                </div>
+                <div class="input-section">
+                    <label for="image_url">Image URL</label>
+                    <input type="text" id="image_url" value="" placeholder="URL of Image">
+                </div>
+                <div class="input-section">
+                    <label for="caption">Text</label>
+                    <input type="text" id="caption" value="" placeholder="Text of Post">
+                </div>
+                <div class="input-section">
+                    <label for="alt_text">Alt Text</label>
+                    <input type="text" id="alt_text" value="" placeholder="Alt Text">
+                </div>
+                <button class="btn btn-main" id="save" onclick="updatePost(event)">Save</button>
+            </form>
+
+            <pre></pre>
+        </main>
+    </body>
+</html>

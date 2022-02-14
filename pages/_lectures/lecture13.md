@@ -2,10 +2,14 @@
 layout: module
 title: Fetch Continued
 type: lecture
-draft: 1
+draft: 0
 show_schedule: 1
 num: 13
 due_date: 2022-02-14
+exercise_url: lecture13.zip
+slides:
+    - url: https://docs.google.com/presentation/d/1XZ8S0quYA2JXuGje-_AJjWyb4eAfotIIA6w2m_AG7vI/edit?usp=sharing
+      title: "Intro to Homework 4"
 ---
 
-TBD
+Today we will be reviewing some of the other fetch methods, and then applying our new "fetch technique" to HW4.

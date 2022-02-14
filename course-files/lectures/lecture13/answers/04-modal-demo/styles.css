@@ -1,0 +1,33 @@
+body * {
+    box-sizing: border-box;
+}
+
+
+.modal-bg {
+    background: rgba(50, 50, 50, 0.8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
