@@ -22,8 +22,7 @@ due_date: 2022-02-18
     } 
 </style>
 
-In today's lab, your peer mentor will be walking you through how to implement the Follow / Unfollow functionality from [HW04](hw04) (including how to make it accessible).
-
+In today's lab, your peer mentor will be walking you through how to implement the Follow / Unfollow functionality from [HW04](hw04) (including how to make it accessible). Sarah has also made a <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4825eb60-c251-4263-894a-ae3d014ddac5" target="_blank">video walkthough of Lab 6</a>, if you would like to take a look at one approach to building the interactions. Feel free to code along with the video or do it your own way!
 
 ## Your Task
 Before beginning the lab, please complete sectins 1 & 2 (Introduction and Set Up) of [HW04](hw04). When you're done, please complete the following tasks:
