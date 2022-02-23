@@ -4,18 +4,18 @@ utils.modify_system_path()
 import unittest
 
 # import the tests you want to run:
-from tests.test_bookmarks import TestBookmarkListEndpoint
-from tests.test_comments import TestCommentListEndpoint, TestCommentDetailEndpoint
-from tests.test_followers import TestFollowerListEndpoint
-from tests.test_following import TestFollowingListEndpoint
-from tests.test_like_post import TestLikePostListEndpoint
-from tests.test_login import TestLoginEndpoint
-from tests.test_logout import TestLogoutEndpoint
-from tests.test_posts import TestPostListEndpoint, TestPostDetailEndpoint
-from tests.test_profile import TestProfileEndpoint
-from tests.test_stories import TestStoryListEndpoint
-from tests.test_suggestions import TestSuggestionsEndpoint
-from tests.test_token import TestTokenEndpoint, TestRefreshTokenEndpoint
+from tests_updated.test_bookmarks import TestBookmarkListEndpoint
+from tests_updated.test_comments import TestCommentListEndpoint, TestCommentDetailEndpoint
+from tests_updated.test_followers import TestFollowerListEndpoint
+from tests_updated.test_following import TestFollowingListEndpoint
+from tests_updated.test_like_post import TestLikePostListEndpoint
+from tests_updated.test_login import TestLoginEndpoint
+from tests_updated.test_logout import TestLogoutEndpoint
+from tests_updated.test_posts import TestPostListEndpoint, TestPostDetailEndpoint
+from tests_updated.test_profile import TestProfileEndpoint
+from tests_updated.test_stories import TestStoryListEndpoint
+from tests_updated.test_suggestions import TestSuggestionsEndpoint
+from tests_updated.test_token import TestTokenEndpoint, TestRefreshTokenEndpoint
 
 
 if __name__ == '__main__':

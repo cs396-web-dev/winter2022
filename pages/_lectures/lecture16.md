@@ -9,6 +9,11 @@ due_date: 2022-02-23
 readings:
     - url: https://www.youtube.com/watch?v=eHqbh0kyRYk
       title: "CSRF Explained | Understanding Cross Site Request Forgery | What is XSRF?"
+videos:
+    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81e8025c-1e03-4514-9c99-ae4501312083
+      title: "Recorded Lecture Video"
+      duration: "1:10:47"
+      live: 1
 slides:
     - url: https://docs.google.com/presentation/d/1Qctr1nMtISkSNUDFWj5j3Vd3i4lWd-Z7QYpti0cjZGE/edit?usp=sharing
       title: Authentication Continued
