@@ -31,11 +31,13 @@ class RefreshTokenEndpoint(Resource):
         decoded_token = flask_jwt_extended.decode_token(refresh_token)
         exp_timestamp = decoded_token.get("exp")
         current_timestamp = datetime.timestamp(datetime.now(timezone.utc))
-        if exp_timestamp > current_timestamp:
+        if  current_timestamp > exp_timestamp:
+            # token has expired:
             return Response(json.dumps({ 
                     "message": "refresh_token has expired"
                 }), mimetype="application/json", status=401)
         else:
+            # issue new token:
             return Response(json.dumps({ 
                     "access_token": "new access token goes here"
                 }), mimetype="application/json", status=200)

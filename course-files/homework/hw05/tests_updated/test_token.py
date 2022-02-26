@@ -119,13 +119,13 @@ class TestRefreshTokenEndpoint(unittest.TestCase):
         self.assertEqual(response.url, url)
         self.assertTrue(response.status_code, 200)
 
-    def test_bad_refresh_token_yields_400(self):
+    def test_bad_refresh_token_yields_error(self):
         url = '{0}/api/token/refresh'.format(root_url)
         data = {
             'refresh_token': 'abcde'
         }
         response = requests.post(url, json=data)
-        self.assertEqual(response.status_code, 400)
+        self.assertTrue(response.status_code in [400, 422])
 
     def test_expired_refresh_token_yields_401(self):
         url = '{0}/api/token/refresh'.format(root_url)
@@ -150,7 +150,7 @@ if __name__ == '__main__':
         TestTokenEndpoint('test_token_bad_password_yields_error'),
         TestRefreshTokenEndpoint('test_refresh_token_valid_refresh_yields_access_token'),
         TestRefreshTokenEndpoint('test_access_token_from_refresh_endpoint_is_valid'),
-        TestRefreshTokenEndpoint('test_bad_refresh_token_yields_400'),
+        TestRefreshTokenEndpoint('test_bad_refresh_token_yields_error'),
         TestRefreshTokenEndpoint('test_expired_refresh_token_yields_401')
     ])
 
