@@ -12,9 +12,9 @@ exercise_url: lecture18.zip
 #      title: Recorded Lecture Video
 #      live: 1
 #      duration: ""
-# slides:
-#    - url: https://docs.google.com/presentation/d/1fhs6JXXz2UoZUUqQF7YVQFpBIzat6-LOHFDgV_a0fMA/edit?usp=sharing
-#      title: Web Sockets
+slides:
+   - url: https://docs.google.com/presentation/d/1V8484YsM7V1I4fqKeGrMaq6e24GpraTiXYJSvMDk1Mc/edit?usp=sharing
+     title: Web Sockets
 readings:
    - url: https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/
      title: "Web Sockets for Fun and Profit"

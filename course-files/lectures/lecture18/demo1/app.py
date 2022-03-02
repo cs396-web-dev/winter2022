@@ -3,7 +3,7 @@ import asyncio
 import websockets
 
 PORT = 8081
-async def echo(websocket, path):
+async def echo(websocket):
     print('A client just connected.')
     try:
         # asynchronous loop
@@ -15,9 +15,15 @@ async def echo(websocket, path):
         print('A client just disconnected')
         print(e)
 
+async def echo(websocket):
+    print('A client just connected.')
+    # asynchronous loop
+    async for message in websocket:
+        print('received message from client:', message)
+        await websocket.send('Pong: ' + message)
+
 
 async def main():
-    websockets.serve(echo, "", PORT)
     async with websockets.serve(echo, "", PORT):
         await asyncio.Future()  # run forever
 
