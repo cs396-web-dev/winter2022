@@ -12,6 +12,9 @@ description: |
 ---
 **Credits & Kudos**: Cooper Barth wrote this lab, and Sarah adapted it to work with Python.
 
+> ## Updates
+> If you can't get your local chat server working, use the course chat server, which can be accessed here: <a href="wss://chat-server-cs396.herokuapp.com/">wss://chat-server-cs396.herokuapp.com</a>
+
 <a class="nu-button" style="margin-top:20px;display:inline-block;" href="/winter2022/course-files/labs/lab08.zip">lab08.zip<i class="fas fa-download" aria-hidden="true"></i></a>
 
 {:.blockquote-no-margin}
