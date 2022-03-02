@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 80px calc(100vh - 80px);
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+        "top right"
+        "left right";
+}
+section {
+    border: solid 1px #000;
+    display: flex;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.metadata {
+    grid-area: top;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.metadata > div { 
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.users {
+    grid-area: right;
+    flex-direction: column;
+    padding: 20px;
+}
+#status {
+    display: flex;
+    flex-direction: column;
+}
+#status > div {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+#status span, #status strong {
+    padding: 2px 6px;
+}
+
+.messages {
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+/* #send-container {
+    display: none;
+} */
+#message {
+    width: 100%;
+    margin-left: 5px;
+    padding: 10px 6px;
+}
+span, label, input, strong {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 6px;
+}
+
+
+
+.messages #message {
+    align-self: flex-end;
+}
+
+.messages .right {
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.messages .left {
+    padding: 10px 0px;
+}
+
+#send-container {
+    display: flex;
+    background: #EEE;
+    padding: 20px;
+}
+#chat-container {
+    height: 100%;
+    overflow: auto;
+}
+#chat {
+    min-height: min-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

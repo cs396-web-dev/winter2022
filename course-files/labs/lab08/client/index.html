@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lab 7</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <!-- You won't interact with the "metadata" section -->
+        <section class="metadata">
+            <div id="step1">
+                <label>WSS Server:</label>
+                <input type="text" id="server" value="ws://localhost:8081">
+                <button id="connect">Connect</button>
+            </div>
+            <div id="step2" class="hidden">
+                <label>Screen Name:</label>
+                <input id="name" type="text" />
+                <button id="set-name">Set Name</button>
+            </div>
+            <div id="status" class="hidden">
+                <div>
+                    <strong>Status:</strong> <span id="ws-status">Disconnected</span>
+                </div>
+                <div>
+                    <strong>Username:</strong> <span id="name-display"></span>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="messages">
+            <div id="chat-container" class="hidden">
+                <!-- 2. Append new chat messages to the #chat container -->
+                <div id="chat"></div>
+            </div>
+            <div id="send-container">
+                <input id="message" type="text" placeholder="message">
+                <button id="send">Send</button>
+            </div>
+        </section>
+
+        <section class="users">
+            <strong id="users-header">Users logged in:</strong>
+            <!-- 1. Update the #users-list with the list of connected users -->
+            <div id="users-list"></div>
+        </section>
+    </body>
+
+    <script src="client.js"></script>
+</html>
