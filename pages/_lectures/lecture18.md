@@ -7,11 +7,11 @@ show_schedule: 1
 num: 18
 due_date: 2022-03-02
 exercise_url: lecture18.zip
-# videos: 
-#    - url: ""
-#      title: Recorded Lecture Video
-#      live: 1
-#      duration: ""
+videos: 
+   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ad10f399-6056-49b2-af7e-ae4c013096cf
+     title: Recorded Lecture Video
+     live: 1
+     duration: "01:13:05"
 slides:
    - url: https://docs.google.com/presentation/d/1V8484YsM7V1I4fqKeGrMaq6e24GpraTiXYJSvMDk1Mc/edit?usp=sharing
      title: Web Sockets
