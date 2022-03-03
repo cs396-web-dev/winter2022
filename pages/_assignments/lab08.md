@@ -149,6 +149,8 @@ If data.type is "chat", append the chat message to the #chat div (main panel) wi
 
 If your client and server are both working, you should be able to open `index.html` in two separate browser tabs, log in to the same server on each, and send messages between them (se video below)!
 
+<img class="large frame" style="width:100%;" src="/winter2022/assets/images/labs/lab08/lab-8-demo.gif" />
+
 ## 3. (Optional) Deploy with ngrok
 
 Ngrok is a command line tool for creating a secure URL that points to server that is running on your local computer. Using this url, others can access your server securely without you having to host it online.
