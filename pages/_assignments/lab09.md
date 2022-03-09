@@ -248,8 +248,11 @@ Following the same strategy you used in Step 4, create a `BookmarkButton` compon
 
 {:#step6}
 ### Step 6. Fill Out the Accessibility Questionnaire
-* **Required:** This quarter, we assigned a few accessibility activities -- to encourage you to think about how people might interact with your applications without mouse or using a screen reader. To reflect on this process, please fill out the <a href="https://t.ly/SK2i" target="_blank">Accessibility Questionnaire</a>.
-* **Optional:** We also wanted to invite you to participate in a research study -- to examine and reflect on how to better teach students about accessibility within the software development process. Participation in research is **totally optional** and will not impact your grade either way. If you consent, we will anonymize and analyze some of your homework submissions. If you are willing participate in this study, please fill out this <a href="https://t.ly/x5M7" target="_blank">Consent to participate in research form</a>.
+#### A. Accessibility Questionnaire 
+This quarter, we assigned a few accessibility activities -- to encourage you to think about how people might interact with your applications without mouse or using a screen reader. To reflect on this process, please fill out the <a href="https://t.ly/SK2i" target="_blank">Accessibility Questionnaire</a>.
+
+#### B. Accessibility Research Study
+We also wanted to invite you to participate in a research study -- to examine and reflect on how to better teach students about accessibility within the software development process. Participation in research is **totally optional** and will not impact your grade either way. Please fill out this <a href="https://t.ly/x5M7" target="_blank">Consent to participate in research form</a> to let us know whether or not you are willing participate in this study.
 
 ## What to Turn In
 When you're done, zip your `lab09` directory and submit your zip file to Canvas. Please **DO NOT** include your `node_modules` in the zip file (which will add hundreds of megabytes to your zip file).
