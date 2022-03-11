@@ -52,9 +52,24 @@ Download `lab09.zip`, unzip it, and open the folder in VSCode.
 
 From your command line, navigate to the `lab09` directory and install the required packages with `npm install`. Then, run the server locally using `npm start`. 
 
-> **Note:** Although we are using Node to build and run our React app, we will ultimately be compiling our React app to HTML, CSS, and JavaScript so that the browser can download these files from our website and run them client-side. It's confusing, but the final output of our React App is client-side code that our browser will run.
->
-> * Try building your React App by issuing `npm run build` on the command line. The resulting build folder will have "vanilla" HTML, CSS, and JavaScript that your browser understands.
+> ### Tips
+> * If you're running into any errors with fetch requests, you may have a few minor bugs in your REST API Endpoint. To verify (*Is the bug in my React code or in my API?*), try running your code using the course API by updating your React app's `proxy` url address in `package.json` to: <a href="https://photo-app-secured.herokuapp.com/" target="_blank">https://photo-app-secured.herokuapp.com/</a>.
+> * If you're switching between the course API and your API to debug, note that you'll either have to clear out your `access_token_cookie` manually (by physically deleting it using the Application panel of your browswer's developer tools) or else use the same JWT_SECRET as the course application (set in your `.env` file), which is **MY_SECRET** (e.g., `JWT_SECRET=MY_SECRET`).
+> * By default, your JWT token will time out every 15 minutes. To make your life easier, consider extending the life of your JWT token by adding the code below to your `app.py` file: 
+
+```python
+# Import timedelta at the top:
+from datetime import timedelta
+
+# Put this setting with all of your other JWT settings:
+app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=30)
+```
+
+
+### Deployment Notes
+Although we are using Node to build and run our React app, we will ultimately be compiling our React app to HTML, CSS, and JavaScript so that the browser can download these files from our website and run them client-side. It's confusing, but the final output of our React App is client-side code that our browser will run.
+
+Try building your React App by issuing `npm run build` on the command line. The resulting build folder will have "vanilla" HTML, CSS, and JavaScript that your browser understands.
 
 
 ## Your Tasks
@@ -121,13 +136,16 @@ One potential strategy (though there could certainly be others) might involve sp
 | 4. | **Stories component** | Responsible for displaying recent stories of people you're following. | 
 | 5. | **Posts component** | Responsible for displaying the posts in your news feed. | 
 
-Note that each of these top-level components may also have sub-components. For instance, `Posts` will probably be comprised of `Post` components, and each `Post` component will be comprised of, say, `Comments`, a `LikeButton`, a `BookmarkButton`, and potentially others.
+Note that each of these top-level components may also have sub-components. For instance, `Posts` will probably be comprised of `Post` components, and each `Post` component will be comprised of, say, `Comments`, a `LikeButton`, a `BookmarkButton`, and potentially others. Here's one way of visualizing this heirarchy:
+
+<img style="width:100%;margin:20px 0px;" src="/winter2022/assets/images/homework/hw06/react-diagram.svg" />
+
 
 Think about what your `render()` function might look like for each component, and which of your components might issue fetch requests.
 
 {:#step2}
 ### Step 2: Create stubs for each component
-Once you've decided on your components, create a JavaScript file for each of the 5 components listed above -- `NavBar`, `Profile`, `Suggestions`, `Stories`, `Posts` -- in your `src` directory. In each JavaScript file, create a react component and a simple render function that renders only the JSX elements associated with it. So, for instance, the PostList would render a `div` element (and eventually the list of posts):
+Once you've decided on your components, create a JavaScript file for each of the 5 components listed above -- `NavBar`, `Profile`, `Suggestions`, `Stories`, `Posts` -- in your `src` directory. In each JavaScript file, create a react component and a simple render function that renders only the JSX elements associated with it. So, for instance, the `Posts` component would render a `div` element (and eventually the list of posts):
 
 ```jsx
 import React from 'react';
