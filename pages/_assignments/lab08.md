@@ -168,5 +168,3 @@ If you want, feel free to send the link to any open tunnels to your app in the Z
 ## What to Turn In
 
 When you're done, zip the completed folder and submit it to Canvas.
-
-

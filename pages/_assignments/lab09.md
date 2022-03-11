@@ -256,3 +256,8 @@ We also wanted to invite you to participate in a research study -- to examine an
 
 ## What to Turn In
 When you're done, zip your `lab09` directory and submit your zip file to Canvas. Please **DO NOT** include your `node_modules` in the zip file (which will add hundreds of megabytes to your zip file).
+
+> ### Appreciations
+> And while you're at it, please take a moment to thank  / write a note to a peer mentor who helped you in some way (even if you just take 30 seconds to do it). Peer mentors are students too, and most of them do waaaay more than what is officially asked of them in order to support you. This form is completely anonymous.
+> 
+> <a href="https://forms.gle/39oWerrVYaasgNd28" target="_blank">https://forms.gle/39oWerrVYaasgNd28</a>
