@@ -6,7 +6,7 @@ abbreviation: Lab 9
 draft: 0
 num: 9
 points: 5
-due_date: 2022-03-11
+due_date: 2022-03-14
 ---
 
 <style>
@@ -24,6 +24,10 @@ due_date: 2022-03-11
 </style>
 
 <a class="nu-button" href="/winter2022/course-files/labs/lab09.zip">lab09.zip<i class="fas fa-download" aria-hidden="true"></i></a>
+
+> ## Update
+> Sarah has created a video walkthrough if it's helpful!
+> * <a href="https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2a57e77b-7baa-49b1-97bb-ae550144a73a" target="_blank">Lab 09 Video Walkthrough</a>
 
 > ## Required Readings
 > Before beginning this week's lab, please complete the <a href="https://reactjs.org/docs/hello-world.html" target="_blank">React Step-by-Step Guide</a>. It will take you and hour, but if you're new to React it's an hour well spent. It will be impossible for you to work effectively in React without understanding the core conventions and workflow, including:
