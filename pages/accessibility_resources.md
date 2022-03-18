@@ -35,6 +35,7 @@ Empowerment</a>
 * <A HREF="https://ukhomeoffice.github.io/accessibility-posters/" target="_blank">Accessibility posters</A>
 * <A HREF="https://guide.inclusivedesign.ca/" target="_blank">Welcome to The Inclusive Design Guide</A>
 * <A HREF="https://handbook.floeproject.org/" target="_blank">Inclusive Learning Design Handbook</A>
+* <a href="https://nightingaledvs.com/designing-for-neurodivergent-audiences/" target="_blank">Designing for Neurodivergent Audiences</a>
 * <A HREF="https://www.accessiblemetrics.com/wp-content/uploads/2018/10/Accessible-Metrics-Campaign-Content-Offer.pdf" target="_blank">The Ultimate Web Accessibility Checklist</A>
 * <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">How to Meet WCAG (Quick Reference)</a>
 * <A HREF="https://www.w3.org/WAI/fundamentals/foundations-course/" target="_blank">Digital Accessibility Foundations - Free Online Course</A>
